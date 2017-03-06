@@ -12,4 +12,13 @@ And that what this project is for: to take you out of your day to day role as a 
 
 Lets begin!
 
+How to follow this Course
+------------------------
+
+Nothing in the course is designed as a trap. If you follow through you should end the day with a working Minimum Viable Product website that can be deployed for the rest of the world to see! There are only two rules:
+
+ - **Type every line of code yourself.** While it can seem faster to copy and paster it stops your from learning what is going on. 
+ - **Your don't need to understand everything.** Understanding is vital but so is managing how much you need to know - there is only so much time in the day and we want to have a working website at the end of this particular day. It isn't possible to understand everything.
+
+ This leads us nicely only [Section 0](./courseSections/section0.md)
 
