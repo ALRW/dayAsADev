@@ -1,19 +1,37 @@
-Section 0
-========
+Section 0 - Pair Programming
+===========================
 
-What do I do if I get stuck
----------------------------
+Throughout this course you will be working in pairs to try and build a prototype website for a new business. Working in pairs is not just something to help us learn on this course its also a fundamental skill used by many developers to improve their code quality, pace of learning and make a few friends along the way.
 
-One of the first problems to overcome as a developer is getting stuck. It's a tricky one because getting stuck sucks especially when you have no idea how to get unstuck. The good news is that all developers have been there so the following guidelines provide a handrail to follow throughout the day when you face a problem and can't seem to find a way out.
+![Pair Programming](../images/pairProgramming.png)
 
-1. Try to work out what is actually going on. It sounds patronising but if you can describe the problem you at least know what is blocking you. Even if it is in vague terms if you then need to seek help you can at the very least describe the problem accurately.
-2. Talk everything through with your pair partner, bounce ideas off each other. Take a quick break and then approach the problem again as though it is the first time you have encountered it.
-3. Throughout the proceeding steps try to gather keywords that relate to the problem like, 'Array' or 'Terminal'.
-4. Isolate error keywords. If you have an error message, identify and add these keywords to your results from (3).
-5. Google! Research the problem using your keywords. Also use the keywords to indentify relevant results (i.e. not just the first one).
-6. Other pairs of Developers. Take your well-described, well formatted question to another developer or pair of developers; they may have encountered the same problem and know how to solve it.
-7. Coach/Senior Developer. If all else fails take your question all the way to the top. Don't be disappointed though if the answer comes as more questions.
+Pair programming is the process whereby two people actively collaborate on developing code. Used as part of a general teamwork approach it leads to improved code quality, team communication, knowledge share and huge learning gains. [Large scale studies of computer science students](http://www.cs.pomona.edu/classes/cs121/supp/williams_prpgm.pdf) have shown greatly improbed outcomes when students pair program on coding problems.
 
-One question that often gets asked in this situation is: "How long should I wait before asking for help?" As a general rule when you hit a problem try your utmost to struggle with it for 15 minutes. Any less time and you're not really trying, much longer and you start to waste your own time and slow down development.
+The key component of pair programming is regular driver/navigator switching :twisted_rightwards_arrows:. When pair programming, at any one time, one person should be the driver, i.e. the person actually typing, while the other pair shhould be the navigator. The navigator's role is to try and think moe broadly about where the code is going; to act as a sounding board to the driver and to offer suggestions of architectural design or to be looking up documentation related to the task at hand. The navigator should avoid constantly mentioning spelling mistakes and other typos unless the driver is really stuck.
 
-[Continue to Section 1](./section1.md)
+It's absolutely critical that you swap driver and navigator roles frequently - probably at least once every 15 minutes. If one person carries on driving for the whole session both parties learning and code quality will be impaired. Whether you are extrovert or introvert, driver navigator it is the responsibility of both of you to rotate roles. Don't be a keyboard hog!
+
+Pair programming can be very exhausting as it will often lead to a state of very highly focused concentration. Make sure you take occasional breaks (at least every 90 minutes), and remember that learning how to effectively pair with individuals from all backgrounds and personality types is at least as important as any individual coding skills. 
+
+General Pair Programming Do's and Don'ts
+--------------------------------------
+
+**Do's:**
+ - Before you begin, check in with each other about your energy levels, moods and working styles.
+ - Talk
+ - Listen
+ - Rotate roles
+ - Be patient
+ - Respect each other
+ - Take breaks
+ - Prepare for the session
+ - Take care of personal hygiene
+ - Have fun
+
+**Don'ts:**
+ - Be bossy
+ - Be intimidated
+ - Be quiet
+ - Suffer in silence
+
+[Previous page](../README.md) | [Continue to Section 1](./section1.md)
