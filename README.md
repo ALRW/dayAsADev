@@ -20,5 +20,5 @@ Nothing in the course is designed as a trap. If you follow through you should en
  - **Type every line of code yourself.** While it can seem faster to copy and paster it stops your from learning what is going on. 
  - **Your don't need to understand everything.** Understanding is vital but so is managing how much you need to know - there is only so much time in the day and we want to have a working website at the end of this particular day. It isn't possible to understand everything.
 
- This leads us nicely only [Section 0](./courseSections/section0.md)
+ This leads us nicely onto [Section 0](./courseSections/section0.md).
 
