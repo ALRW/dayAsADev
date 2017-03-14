@@ -47,4 +47,44 @@ Makre sure you save the file. Switch to the preview tab: has it been updated wit
 Introducing Ruby
 ---------------
 
+uby is a programming language. It comes pre-installed on your Cloud9 workspace. To test this, go to the command line and type (don't include the `$`)
+
+```
+$ ruby -v
+```
+(...then hit return to enter it.) and you should see something like this:
+
+```
+ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin15]
+```
+
+> We'll use the `$` sign to represent the command line prompt and to differentiate commands you should enter from output you should see.
+
+This tells us the currently installed version of Ruby (which we requested by passing the `-v` to the `ruby` command).
+
+Writing a Ruby Program
+----------------------
+
+Create a file in your workspace called `hello.rb`. By convention, Ruby files have the extension `.rb`. The benefit of this convention is that Cloud9 will provide Ruby **syntax highlighting** for all files with the `.rb` extension.
+
+Open the file in the editor and add the following content:
+
+```ruby
+puts 'Hello Ruby'
+```
+
+See how syntax highlighting works? The IDE recognises the Ruby language and uses colours to differentiate elements of the 'frammar'. You may see different colours depending on your chosen theme.
+
+Save the file. Now go to the command line and enter the following: 
+
+```
+$ ruby hello.rb
+```
+This tells the Ruby engine to run the code in the `hello.rb` file. You should see the following output:
+```
+Hello Ruby
+```
+You've just written a command-line program: you run from the command line and it outputs to the command line!
+
+[Previous section](./section0.md) | [Continue to Step 2](./section2.md)
 
