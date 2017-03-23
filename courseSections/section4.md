@@ -1,11 +1,13 @@
 Section 4 - Git and Version Control
 ==================================
 
-Version control is the process and technology used to **control** various **versions** of the code that you write. If, for example, you were building a house, you'd likely start with the foundation and make sure it's solid before you started building the walls. You'd want to stop after the walls were built to make sure everything lines up properly before adding the roof. You wouldn't want to build the entire thing and realise after the roof is built that there's a crack in the foundation. 
+So we have the beginnings of our website but before we jump into creating an all singing all dancing web application there is one other aspect of our workflow that needs to be covered: **version control**.
 
-Software version control helps us avoid these problems by allowing us to keep various version of what we're building. If we *realise* we've made a mistake, we can revert back to a previous version that we know is solid.
+Version control is the process and technology used to **control** various **versions** of the code that you write. If, for example, you were building a house, you'd likely start with the foundation and make sure it's solid before you started building the walls. You'd want to stop after the walls were built to make sure everything lines up properly before adding the roof. You wouldn't want to build the entire thing and realise, after the roof is built, that there's a crack in the foundation. 
 
-Additionally, version control allows multiple version to be built simultaneiusly and then brought together. It doesn't matter whether you're working in a team or writing code alone, version control is something you absolutely need to understand as a developer (as you'll see it's also very useful for pair programming).
+Software version control helps us avoid these problems by allowing us to keep various version's of what we're building. If we realise we've made a mistake, we can revert back to a previous version that we know is solid.
+
+Additionally, version control allows multiple version's to be built simultaneously and then brought together. It doesn't matter whether you're working in a team or writing code alone, version control is something you absolutely need to understand as a developer (as you'll see it's also very useful for pair programming).
 
 Using Git to version control your own code
 -----------------------------------------

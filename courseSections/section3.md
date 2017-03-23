@@ -3,9 +3,9 @@ Step 3 - Responding with HTML
 
 Admittedly, sending a single string 'Hello world!' to a browser window is not very useful. It is, however, worth it to see how much a web framework does for you. All we had to do in our `server.rb` file was define a **path** (`/`) and a response (`Hello world!`).
 
-The path forms part of the URL to which the browser make a request - it's the bit that comes after the domain (i.e. `https://prototype-website-[Your username].c9users.io/`). The single slash (`'/'`) denotes the **root path** - i.e. `https://prototype-website-[Your username].c9users.io/[Nothing Here]`
+The path forms part of the URL to which the browser makes a request - it's the bit that comes after the domain (i.e. `https://prototype-website-[Your username].c9users.io/`). The single slash (`'/'`) denotes the **root path** - i.e. `https://prototype-website-[Your username].c9users.io/[Nothing Here]`
 
-Rather than return a single string, let's respond with some HTML. HTML (Hyper Text Markup Language) is the language of the wev and it is used ot define the *structure* and *content* of a 'page'. Since HTML is just text, you might be tempted to do this:
+Rather than return a single string, let's respond with some HTML. HTML (Hyper Text Markup Language) is the language of the web and it is used to define the *structure* and *content* of a 'page'. Since HTML is just text, you might be tempted to do this:
 
 ```ruby
 require 'sinatra'
@@ -21,7 +21,7 @@ Try it. You will need to stop and restart your program after making the changes.
 
 Did it work? It should have. But it's not very pretty and HTML pages can get *very long*, so this approach is not going to scale very well. Ideally, we want to separate the HTML into its own file so it's easier to maintain. Again, this is so fundamental it's already built into Sinatra.
 
-Create a new folder in yoru workspace called `views`. Create a new file inside the `views` folder called `index.erb` with the following content:
+Create a new folder in your workspace called `views`. Create a new file inside the `views` folder called `index.erb` with the following content:
 
 ```html
 <!DOCTYPE html>
@@ -53,5 +53,7 @@ Without going too far into the technology of ERB (Embedded Ruby) and how Sinatra
 Hopefully, you should see something like this:
 
 ![This is what it should look like](../images/indexErb.png)
+
+:twisted_rightwards_arrows: You know what to do.
 
 [Previous page](./section2.md) | [Continue to Step 4](./section4.md)
