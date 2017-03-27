@@ -1,12 +1,10 @@
 Task 1 - Answers
 ================
 
-Hopefully you found that a relatively straightforward task to begin with.
-
-To create a new route that returned both of your names when accessed you need to add another route to the `server.rb` file like so:
+To create a new route that returned both of your names when accessed you need to add another method to the `server.rb` file like so:
 
 ```ruby
-get /names do
+get '/names' do
   '[first name here] and [second name here]'
 end
 ```
