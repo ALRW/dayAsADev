@@ -28,6 +28,6 @@ Once here click on `SSH and GPG keys` then `New SSH key` call the key "Cloud9" a
 
 ![github ssh](./images/githubSSH.png)
 
-Congratulations, we can now move on to pushing code securely between our repositories
+Congratulations yo now have everything need to complete the course!
 
 

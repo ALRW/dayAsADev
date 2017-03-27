@@ -1,4 +1,4 @@
-Step 2 - Welcome to the World Wide Web
+Section 2 - Welcome to the World Wide Web
 ======================================
 
 A website is a program that receives requests and sends responses over the Internet. But that's a lot easier said than done. Fortunately, it's also so utterly fundamental that the heavy lifting is already done for us by something else; something we call a **web framework**. Most programming languages have a number of web frameworks to choose from and Ruby is no exceptioin. Today we are going to use a framework called [Sinatra](http://www.sinatrarb.com/).
@@ -55,4 +55,10 @@ To stop the program running, press `Ctrl + C` in the command window.
 
 :twisted_rightwards_arrows: Now that we've completed another small step its time to switch over again!
 
-[Previous page](./section1.md) | [Continue to Step 3](./section3.md)
+Task 1
+------
+
+Now the gloves come off...a little. Expanding on what we've just done try to create a route called `/names` that when visited returns both of your names.
+
+
+[Previous page](./section1.md) | [Continue to the answers](../tasks/task1.md)

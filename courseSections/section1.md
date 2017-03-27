@@ -1,4 +1,4 @@
-Section 1 - Creating a Development Environment
+Section 1 - Development Environment
 =============================================
 
 Developers generally work closer to the bare bones of the computer than your average user. That means lots of time in the 'command line' and not relying on 'GUI' (Graphical User Interface) tools. However, to get your computer setup for web development is a art in and of itself- especially on Windows.
@@ -8,7 +8,7 @@ Fortunately, there are a number of cloud based development environments availabl
 Getting Started
 ---------------
 
-Choose who is going to be the driver and the navigator to begin with. You only need to work on one laptop for the moment.
+Choose who is going to be the driver and the navigator to begin with and follow the steps below on the drivers laptop.
 
 1. [Navigate to the Cloud9 account you created earlier](https://c9.io/)
 2. Choose `Create a new workspace`
@@ -37,7 +37,7 @@ You'll notice that a single file has been created for you already - `README.md`.
 
 If you double click the file in the tree view, it will open for editing in the main pane. The file has a `.md` extension, which means it is intended to be written in **Markdown** a popular syntax for lightly styling text files. Markdown is ubiquitous on **Github** [and here is a useful guide to it](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). For now though, let's just create a basic placeholder for our information.
 
-Delete the contents of the file and replace them with the following:
+Delete the contents of the file and replace them with the following (those are equal signs under the title):
 
 ```
 Prototype Website
@@ -46,12 +46,12 @@ Prototype Website
 Built by [Your names here]
 ```
 
-Makre sure you save the file. Switch to the preview tab: has it been updated with your new content?
+Make sure you save the file. Switch to the preview tab: has it been updated with your new content?
 
 Introducing Ruby
 ---------------
 
-Ruby is a programming language.That is to say that it is a formal computer language designed to communicate instructions to a machine, particularly a computer. It is also interpreted. As an aside: languages broadly fall into two catagories: interpreted and compiled. Interpreted languages are read by a program and converted into machine code when they are run whereas compiled langagues are converted into machine code by a compiler. This produces a file that can then be run. This may sound like an exercise in semantics but the point is that different languages have different properties that make them particularly suited to certain tasks.
+Ruby is a programming language. That is to say that it is a formal computer language designed to communicate instructions to a machine, particularly a computer. It is also interpreted. As an aside: languages broadly fall into two catagories: interpreted and compiled. Interpreted languages are read by a program and converted into machine code when they are run whereas compiled langagues are converted into machine code by a compiler. This produces a file that can then be run. This may sound like an exercise in semantics but the point is that different languages have different properties that make them particularly suited to certain tasks.
 
 Ruby as a language is perfect for our needs and importantly it comes pre-installed on your Cloud9 workspace. To test this, go to the command line and type (don't include the `$`)
 
@@ -92,7 +92,7 @@ Hello Ruby
 ```
 You've just written a command-line program: you run it from the command line and it outputs to the command line! 
 
-:twisted_rightwards_arrows: At this point lets do our first switchover and move onto the next section.
+:twisted_rightwards_arrows: At this point lets do our first switchover (staying on the same laptop) and move onto the next section.
 
 [Previous section](./section0.md) | [Continue to Step 2](./section2.md)
 
