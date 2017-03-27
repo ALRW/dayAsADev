@@ -18,15 +18,15 @@ During the course we will be using Cloud9 and Github in conjunctions with eachot
 
 On your Cloud9 home-page click on the settings icon and then onto SSH keys. Then copy the contents of the grey box.
 
-![Cloud 9 SSH](../images/cloud9SSH.png)
+![Cloud 9 SSH](./images/cloud9SSH.png)
 
 Then on Github go Click on your account in the top right hand corner and then settings:
 
-![github settings](../images/githubSettings.png)
+![github settings](./images/githubSettings.png)
 
 Once here click on `SSH and GPG keys` then `New SSH key` call the key "Cloud9" and then paste the key into the text area labelled "Key". Finally click `Add SSH key`. 
 
-![github ssh](../images/githubSSH.png)
+![github ssh](./images/githubSSH.png)
 
 Congratulations, we can now move on to pushing code securely between our repositories
 
