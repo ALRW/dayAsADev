@@ -58,25 +58,6 @@ What is origin? Honestly, you can replace origin with anything that you want it'
 
 Awesome! Now your local repository knows that it's *linked* to another respoitory somewhere on github.com. Note that no real connection is establishe yet. You could have added a remote while being offline. To actually move the code we have committed locally to the repo on Github (called origin) we need to use the `git push` command. 
 
-Security
---------
-
-Before we do this we need to ensure that we can move our code securely between github and Cloud9, unfortunately this required a little bit of configuration.
-
-On your Cloud9 home-page click on the settings icon and then onto SSH keys. Then copy the contents of the grey box.
-
-![Cloud 9 SSH](../images/cloud9SSH.png)
-
-Then on Github go Click on your account in the top right hand corner and then settings:
-
-![github settings](../images/githubSettings.png)
-
-Once here click on `SSH and GPG keys` then `New SSH key` call the key "Cloud9" and then paste the key into the text area labelled "Key". Finally click `Add SSH key`. 
-
-![github ssh](../images/githubSSH.png)
-
-Congratulations, we can now move on to pushing code securely between our repositories
-
 Pushing your code
 ---------------
 

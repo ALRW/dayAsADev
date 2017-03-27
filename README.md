@@ -4,11 +4,13 @@ A day as a Developer
 What is this all about?
 ----------------------
 
-As a agile team member working in tech you have the fortune/misfortune to work with developers. We try to work using agile methodologies and this includes the concept of the cross-funcitonal team. As [this succinct article](https://www.scrumalliance.org/community/articles/2014/june/success-story-cross-functional-scrum-teams) puts it this is about the big picture. A team has a goal that it needs to achieve, how it gets there should be the preserve of the team and this should not be hampered by job titles and/or narrow working silos. Having a common level of understanding and a common language across the team can help to break down these silos creating a more highly performing team. When it comes to obscure language and weird acronyms developers have to shoulder much of the blame but that is a problem that we want to redress and what better way than spending a day in the hot seat as a full stack web developer
+As a agile team member working in tech you have the fortune/misfortune to work with developers. We try to work using agile methodologies and this includes the concept of the cross-funcitonal team. As [this succinct article](https://www.scrumalliance.org/community/articles/2014/june/success-story-cross-functional-scrum-teams) puts it, this is about the big picture. A team has a goal that it needs to achieve, how it gets there should be the preserve of the team and this should not be hampered by job titles and/or narrow working silos. Having a common level of understanding and a common language across the team can help to break down these silos creating a highly performing team. 
 
-As a preface the truth is that being a developer requires a braod range of skills and the willingness to dive into something that you know almost nothing about, learn it, use that knowledge to fix your current problem and then find another problem and do it all again. It is about leveraging a large range of skills, technologies and languages putting them all together and making things that work, even when it is particularly bewildering. 
+Now when it comes to obscure language and weird acronyms, I have to admit, developers need to shoulder much of the blame. So think of this course as a tortuous apology and as the quickest way to learn something is to do it you will now get to spend the next day as a developer.
 
-This course is structured to mimic this process in a structured way. The first half will walk you through key concepts and provide some foundational knowledge. As we move on things will start to get a little harder, there will be fewer explicit answers and you will need to find and provide your own solutions. Hopefully, it will push you out of your comfort zone while teaching you a few new things along the way.
+So how do you "be a developer". The truth is that the job requires a braod range of skills and the willingness to dive into something that you know almost nothing about, learn it, use that knowledge to fix your current problem and then find another problem and do it all again. It is about leveraging a large range of skills, technologies and languages putting them all together and making things that work, even when it is particularly bewildering. That's the ideal anyway.
+
+This course is designed to mimic this process in a structured way. The first half will walk you through key concepts and provide some foundational knowledge. As we move on things will start to get a little harder, there will be fewer explicit answers and you will need to find and provide your own solutions. Hopefully, it will push you out of your comfort zone while teaching you a few new things along the way.
 
 Lets begin!
 
@@ -17,14 +19,14 @@ Precourse and Setup
 
 Prior to this course you should have completed everything in the [Precourse Setup Section](./precourse.md)
 
-Before moving forward please ensure that you have all the accounts required and that you are ready to go.
+Before moving forward please ensure that you have all the accounts required.
 
 How to follow this Course
 ------------------------
 
-Nothing in the course is designed as a trap. If you follow through you should end the day with a working Minimum Viable Product website that can be deployed for the rest of the world to see! There are only two rules:
+Nothing in the course is designed as a trap. If you follow the material you should end the day with a working Minimum Viable Product website that can be deployed for the rest of the world to see!. There are only two rules:
 
- - **Type every line of code yourself.** While it can seem faster to copy and paster it stops your from learning what is going on. 
+ - **Type every line of code yourself.** While it can seem faster to copy and paste it stops your from learning what is going on. 
  - **You don't need to understand everything.** Understanding is vital but so is managing how much you need to know - there is only so much time in the day and we want to have a working website at the end of this particular day. It isn't possible to understand everything.
 
 What do I do if I get stuck
@@ -40,6 +42,6 @@ One of the first problems to overcome as a developer is getting stuck. It's a tr
 6. Other pairs of Developers. Take your well-described, well formatted question to another developer or pair of developers; they may have encountered the same problem and know how to solve it.
 7. Coach/Senior Developer. If all else fails take your question all the way to the top. Don't be disappointed though if the answer comes as more questions.
 
-One question that often gets asked in this situation is: "How long should I wait before asking for help?" As a general rule when you hit a problem try your utmost to struggle with it for 15 minutes. Any less time and you're not really trying, much longer and you start to waste your own time and slow down development.
+One question that often gets asked in this situation is: "How long should I wait before asking for help?" As a general rule when you hit a problem try your utmost to struggle with it for 10 minutes. Any less time and you're not really trying, much longer and you start to waste your own time and slow down development.
 
  This leads us nicely onto [Section 0](./courseSections/section0.md).
