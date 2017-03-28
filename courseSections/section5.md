@@ -3,13 +3,13 @@ Github
 
 ![octocat](../images/octocat.png)
 
-Making all of these changes on your local computer is great, but we'll need osme additional funcitonality provided by [Github](https://github.com/) to collaborate with other developers.
+Making all of these changes on your local computer is great, but we'll need some additional funcitonality provided by [Github](https://github.com/) to collaborate with other developers.
 
-Github does three things. Firstly it displays git repos in a visual way, so you ccan look at them online. Seconldy, it serves as a common place for open source projects, so if you're using some open source library, the chagnes are you can find it on Github. Finally, Github provides a set of tools (forking, issues, etc) to help developers collaborate on projects. If you'd like to see an example Github project, checkout [Bootstrap](https://github.com/twbs/bootstrap). We'll be incorporating this into our project later.
+Github does three things. Firstly it displays git repos in a visual way, so you can look at them online. Seconldy, it serves as a common place for open source projects, so if you're using some open source library, the chances are you can find it on Github. Finally, Github provides a set of tools (forking, issues, etc) to help developers collaborate on projects. If you'd like to see an example Github project, checkout [Bootstrap](https://github.com/twbs/bootstrap). We'll be incorporating this into our project later.
 
 Github is Distributed 
 --------------------
-Github is really just another computer somehwere in the USA that you can create a repository on. When (as we will do in a minute) you got to Github and create a new repository, Github does `git init` on its local computer.
+Github is really just another computer somewhere in the USA that you can create a repository on. When (as we will do in a minute) you go to Github and create a new repository, Github does `git init` on its local computer.
 
 So Github's web interface is nothing more than a visual interface to git installed on Github's server.
 
@@ -24,19 +24,19 @@ Once you are signed up and signed in click on the green new repository button:
 
 ![New repo](../images/newRepo.png)
 
-Enter `prototype-website` into the *Respository name* field, add an optional description and make it public so that others can see it. Don't initialise it with a README. Then when you're happy create the repository:
+Enter `prototype-website` into the *Repository name* field, add an optional description and make it public so that others can see it. Don't initialise it with a README. Then when you're happy create the repository:
 
-![Create repository](../images/repoSetup)
+![Create repository](../images/repoSetup.png)
 
 You should see the following:
 
-![Empty repo](../images/emptyRepo)
+![Empty repo](../images/emptyRepo.png)
 
 This means that you have a remote repository but it's empty. Github also shows us the steps required for a new repository and for an existing one. Since we already have a reposiroty setup for our application in Cloud9 we only have two steps to do.
 
-The first one is to connect our two repositories together. Right now you have two git repostiories: one on Cloud9 and one on girhub but they don't know of each other. So, we need to connect them first.
+The first one is to connect our two repositories together. Right now you have two git repostiories: one on Cloud9 and one on github but they don't know of each other. So, we need to connect them first.
 
-Connecting two repositories is done by creating something called a *remote*. This is simply a record in a local repository that it's linked ot another one. Let's take a look at the current list of the remotes for your local git repo. Run the following in the command line:
+Connecting two repositories is done by creating something called a *remote*. This is simply a record in a local repository that it's linked to another one. Let's take a look at the current list of the remotes for your local git repo. Run the following in the command line:
 
 ```
 $ git remote -v
@@ -44,7 +44,7 @@ $ git remote -v
 
 > What did you get? What do you think this means?
 
-Hopefully, you were thinking that the lack of output means that your local git repo has no associated remotes. Now lets follow the advice that git gave us and set one up:
+Hopefully, you were thinking that the lack of output means that your local git repo has no associated remotes. Now lets follow the advice that git gave us and set one up (The remote we're adding is the SSH URL and can be copied directly from git or entered manually as follows):
 
 ```
 $ git remote add origin git@github.com:[Your username]/prototype-website.git
@@ -56,7 +56,7 @@ Now if you try `$ git remote -v` again you should see something similar to this:
 
 What is origin? Honestly, you can replace origin with anything that you want it's just a conventional name but if you're using one repository to store code remotely (i.e. on github) and you're coordinating the work of a team then it's convention among developers to call that repository origin.
 
-Awesome! Now your local repository knows that it's *linked* to another respoitory somewhere on github.com. Note that no real connection is establishe yet. You could have added a remote while being offline. To actually move the code we have committed locally to the repo on Github (called origin) we need to use the `git push` command. 
+Awesome! Now your local repository knows that it's *linked* to another repository somewhere on github.com. Note that no real connection is established yet. You could have added a remote while being offline. To actually move the code we have committed locally to the repo on Github (called origin) we need to use the `git push` command. 
 
 Pushing your code
 ---------------
@@ -80,7 +80,7 @@ To github.com:ALRW/prototype-website.git
  * [new branch]      master -> master
  ```
 
- This means that the push went well. Lets just quickly break down the command. It tells git to push code from your local repository (it's implied) to a repository called origin (that's the name of the remote we've just added). The last bit, "master", measn that we're pushing the branch called "master" (the only branch we have right now). We haven't discussed branches yet, so don't worry about it. The "-u" switch means that these parameters should be saved as default, so next time you won't have to type "origin master". You'll be able to simply do:
+ This means that the push went well. Lets just quickly break down the command. It tells git to push code from your local repository (it's implied) to a repository called origin (that's the name of the remote we've just added). The last bit, "master", means that we're pushing the branch called "master" (the only branch we have right now). We haven't discussed branches yet, so don't worry about it. The "-u" switch means that these parameters should be saved as default, so next time you won't have to type "origin master". You'll be able to simply do:
 
  ```
  $ git push
@@ -94,93 +94,6 @@ To github.com:ALRW/prototype-website.git
 
  So now you have two repositories, one locally and one on Github, that have the same commits. Now even if you do loose your laptop you'll at least be able to get your code from Github.
 
-Pulling the code from Github
----------------------------
-
-By now you know how to create a repo locally and push your local code to Github. You also need ot know how to get your code back from Github. Let's say you and one other develooper work on a website together. You both have local repos and a Github repository that you both have added as a remote called "origin". Your colleague made some changes to the website and pushed them to github. How do you get them? you need to "pull" them:
-
-```
-$ git pull origin master
-```
-
-Running this command tells git to get all the latest commits from origin and copy them into your local repository. Try pulling the changes in Cloud9 now. Nothing will happen because there are no remote changes.
-
-Let's make a remote change. We'll use github UI for this but normally this would happen because someone else pushed new code.
-
-Go to your git repo and click on your `README.md` file.
-
-There is an edit button :pencil2:. Click on this and add the following to the readme:
-
-```
-PROTOTYPE WEBSITE
-=================
-
-The Best Prototype Website Ever
-```
-
-![edit on git](../images/editOnGit.png)
-
-Add a commit message and then click on `Commit changes`
-
-Now if you go back to the command line and run 
-```
-$ git pull origin master
-```
-If you open up/refresh the `README.md you should now see the changes you made on Github. Neat!
-
-Time Travelling
---------------
-
-So far we have added our code, pushed, made some further changes and then pulled those changes back down from Github.
-
-What if we wanted to go back in time to the first time we made a commit? 
-
-To see all the commits that have been made in the past use the command `$ git log`. You should see something similar to the following:
-
-```
-commit 743d0c7b48698192a367892aeb67f947937e4e81
-Author: Andrew Werner <awerner1@googlemail.com>
-Date:   Tue Mar 21 17:22:27 2017 +0000
-
-    Updated the readme
-
-commit 094d3a55c05f25623d4f7d3db570e7070bf09d32
-Author: Andrew <awerner1@googlemail.com>
-Date:   Mon Mar 20 16:39:52 2017 +0000
-
-    My First Commit
-```
-
-Now for the exciting part. Copy the commit ID for your first commit and run the *checkout* command like so:
-
-```
-$ git checkout 094d3a55c05f25623d4f7d3db570e7070bf09d32
-```
-
-Look at your `README.md` now. You have just travelled back to the past. Now to get us back to the present:
-
-```
-$ git checkout master
-```
-
-You should now see that our changes to the `README.md` have been reinstated. We haven't lost any work and can continue to build our prototype website.
-
-When and how to commit
----------------------
-
-A good rule of thimb is **commit early, commit often**. Whenever you make a meaningful change, make a commit. You don't have to push it to Github straight away: you can make several commits and then push them in one go.
-
-Make a commit when you've done a meaningful piece of work. Ideally, your commit log should document the developement of the project. For example:
-
- - Intial commit (added Readme file)
- - Added an empty web page
- - Put a welcome message on the page
- - Added a header with a logo
- - Added a footer with a few links
- - Added /contact-us page
- 
-and so on and so forth (in reality it'll be more detailed and technical. Read [the commit messages of the jQuery project](https://github.com/jquery/jquery/commits/master) to get an idea of what they look like in real life.
-
-Now that we have all the basic of version control we can move ahead with building our prototype website.
+:twisted_rightwards_arrows: When switching pairs this time the new driver should now use their own laptop.
 
 [previous section](./section4.md) | [Continue to Section 6](./section6.md)

@@ -14,7 +14,7 @@ Using Git to version control your own code
 
 The most common version control system used by web developers is git. With git you get all of the benefits of controlling various versions of your code and the ability to handle distributed work among teams. While there are a number of other examples of version control software out there git is the largest and most popular and it's what we're going to use on this course.
 
-Luckily for us Cloud9 comes with git installed but just to check typing the following into the command line:
+Luckily for us Cloud9 comes with git installed but just to check, type the following into the command line:
 
 ```
 $ git --version
@@ -40,7 +40,7 @@ You should see the following:
 ```
 Initialized empty Git repository in /home/ubuntu/workspace/.git/
 ```
-We now have an initialised repository - something that only has to be done once for every repository. This repository is really just a folder that has all its file *under version control*. When you run `git init`, git created a hidden directory called `.git` (with a dot in front) that it uses to track all changes to the files in the directory. Now that we're setup we can actually start tracking the work we've done so far.
+We now have an initialised repository - something that only has to be done once for every repository. This repository is really just a folder that has all its files *under version control*. When you run `git init`, git created a hidden directory called `.git` (with a dot in front) that it uses to track all changes to the files in the directory. Now that we're setup we can actually start tracking the work we've done so far.
 
 Adding Committing and Status
 ---------------------------
@@ -59,13 +59,13 @@ Hopefully if you've kept up with things so far you should see something like thi
 
 While there is a potentially a lot of information here the important thing that git is telling us is that we have a number of untracked files.
 
-Git as a tool is meant to act like a time machine, allowing you to go back to where you've been in the past. However, allowing you to travel to an arbitrary moment in time wouldn't make sense. Thin about time trave. You may want to go back to yesterday, or yesteray morning, or that specific moment right before you try to rob the bank. However, you wouldn't want to go to any specific second of any of the past years, unless that second was somehow important for some reason.
+Git as a tool is meant to act like a time machine, allowing you to go back to where you've been in the past. However, allowing you to travel to an arbitrary moment in time wouldn't make sense. The thing about time travel is you may want to go back to yesterday, or yesteray morning, or that specific moment right before you try to rob the bank. However, you wouldn't want to go to any specific second of any of the past years, unless that second was somehow important for some reason.
 
-Tracking every single change you make while coding would be unnecessary and slow (imagine how much disk space it would take to record every single keystroke of every developer on a large project!). So instead of tracking every change, we must tell git when to create a *checkpoint* also know as a *commit* in git terminology that we'll be able to go back in time to.
+Tracking every single change you make while coding would be unnecessary and slow (imagine how much disk space it would take to record every single keystroke of every developer on a large project!). So instead of tracking every change, we must tell git when to create a *checkpoint* also known as a *commit* in git terminology that we'll be able to go back in time to.
 
-However, before creating this *commit*, we need to specifiy what is being committed. What if we have a temporary file that we on't want to be saved anywhere long-term? Imagine you're using git to track changes to a novel you're writing.You've finished chapter one and you want to commit it to git, so that you could always go backin time to the moment the first chapter is finished. However, you also have some random notes for chapter two that you don't want to save just yet (you'll commit them when chapter two starts taking some shape).
+However, before creating this *commit*, we need to specifiy what is being committed. What if we have a temporary file that we don't want to be saved anywhere long-term? Imagine you're using git to track changes to a novel you're writing.You've finished chapter one and you want to commit it to git, so that you could always go back in time to the moment the first chapter is finished. However, you also have some random notes for chapter two that you don't want to save just yet (you'll commit them when chapter two starts taking some shape).
 
-So, you'd tell git to only add chapter one to the staging area. The staging area is a special place that git uses to keep tack of all files that will be committed on the next step. So even if you have several files that have changes since the last commit (or since the repo was cretaed), you can choose which of them will get ommitted. So, we're telling git that we're happy with the file as it is now and we'd like to create a *checkpoint* (or *commit*) that we could go to in case we ever want to.
+So, you'd tell git to only add chapter one to the staging area. The staging area is a special place that git uses to keep tack of all files that will be committed on the next step. So even if you have several files that have changes since the last commit (or since the repo was cretaed), you can choose which of them will get committed. So, we're telling git that we're happy with the file as it is now and we'd like to create a *checkpoint* (or *commit*) that we could go to in case we ever want to.
 
 So lets go ahead and do that - adding everything that we've done so far:
 
@@ -87,7 +87,7 @@ This creates our snapshot in time and unlike when we added our files, git now gi
 
 ![git commit](../images/gitCommit.png)
 
-This is what a successful commit message looks like. Git is telling you that it created a commit called "My First Commit" with a number (or hash of SHA) 094d3a5 (your's will be different). 3 files were changed and 33 insertions made (the lines of ruby, HTML and text that we have already written). Now if we ever need to go back to the very beginning we'll be able to `git checkout 094d3a5` to get us back to this point in time.
+This is what a successful commit message looks like. Git is telling you that it created a commit called "My First Commit" with a number (or hash or SHA) 094d3a5 (your's will be different). 3 files were changed and 33 insertions made (the lines of ruby, HTML and text that we have already written). Now if we ever need to go back to the very beginning we'll be able to `git checkout 094d3a5` to get us back to this point in time.
 
 [Previous section](./section3.md) | [Continue to Section 5](./section5.md)
 

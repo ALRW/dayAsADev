@@ -1,7 +1,7 @@
 Task 1 - Answers
 ================
 
-To create a new route that returned both of your names when accessed you need to add another method to the `server.rb` file like so:
+To create a new route that returns both of your names you need to add another method to the `server.rb` file like so:
 
 ```ruby
 get '/names' do
@@ -9,7 +9,9 @@ get '/names' do
 end
 ```
 
-Putting in your own names as required. Then make sure you save the upated file. If you have your ruby process running stop in the command-line then stop it by pressing `Ctrl-c`. Startup the process again (or for the first time) with the newly updated ruby file by running:
+Putting in your own names as required.
+
+Make sure you save the upated file. If you have your ruby process running then stop it by pressing `Ctrl-c` in the command-line . Startup the process again (or for the first time) with the newly updated ruby file by running:
 
 ```
 $ ruby server.rb

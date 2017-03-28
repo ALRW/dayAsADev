@@ -42,7 +42,7 @@ Now change the `server.rb` to the following:
 require 'sinatra'
 
 get '/' do
-  erb ":index
+  erb :index
 end
 ```
 
