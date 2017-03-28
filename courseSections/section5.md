@@ -94,6 +94,13 @@ To github.com:ALRW/prototype-website.git
 
  So now you have two repositories, one locally and one on Github, that have the same commits. Now even if you do loose your laptop you'll at least be able to get your code from Github.
 
-:twisted_rightwards_arrows: When switching pairs this time the new driver should now use their own laptop.
+Adding a collaborator
+--------------------
+
+Our ultimate goal is for your pair partner to have access to the code you have created in order to do this we need to tell github to add a collaborator to the repo we have created. On the repository page navigate to `Settings` and then `Collaborators`.
+
+![navigate to collaborators](../images/navigateToCollaborators.png)
+
+Enter the username, name or email address of your pair partner's github account and *voila* they will have access to your repository.
 
 [previous section](./section4.md) | [Continue to Section 6](./section6.md)
