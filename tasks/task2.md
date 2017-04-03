@@ -1,7 +1,7 @@
 Task 2 - Answers
 ===============
 
-Once you have added something like `I want to learn how to be more like [insert name] awesome developer that I know` to your readme and saved it running 
+Once you have added something like `I want to learn how to be more like [insert name] awesome developer that I know` to your readme and saved it then running 
 
 ``` 
 $ git status
@@ -25,15 +25,19 @@ then push
 $ git push -u origin master
 ```
 
-should have your code up on github
+by following these steps your code should now be up on Github.
 
-Now on your pairs other laptop running
+:twisted_rightwards_arrows: You should now switch over and on the new driver's laptop pull down the changes by running:
 
 ```
 $ git pull origin master
 ``` 
 
-should pull down the chagnes that have been made to the `README.md` - very cool!
+Double check: if you open `README.md` do you see the changes that are held on github? 
+
+Congratulations you now have all the basics of version control.
+
+![Good job](../images/goodJob.png)
 
 Switching
 ---------
