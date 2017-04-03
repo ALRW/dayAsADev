@@ -42,7 +42,9 @@ Congratulations you now have all the basics of version control.
 Switching
 ---------
 
-For the rest of this course whenever you see the :twisted_rightwards_arrows: you should add, commit and push your code so that your pair partner can pull down your changes and work away on their own laptop. Consider bookmarking this page for quick reference.
+For the rest of this course whenever you see the :twisted_rightwards_arrows: you should add, commit and push your code so that your pair partner can pull down your changes and work away on their own laptop. 
+
+:blue_book: Consider bookmarking this page for quick reference.
 
 Otherwise if everything is good lets get building!
 
