@@ -123,3 +123,10 @@ Kindly our client has provided the following logo for us:
 
 ![fullLogo](../images/fullLogo.png)
 
+The icon you need add can be accessed using the following url:
+
+```
+https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png
+```
+
+[Return to previous section](../tasks/task2.md) | [Continue to answers](../tasks/task3.ms)
