@@ -21,7 +21,7 @@ In order to navigate around a prototype website
 
 ```
 As a logo obsessed prototypical business owner
-I **need** to see my prototype logo on the website navbar
+I need to see my prototype logo on the website navbar
 In order to be able to sleep at night
 ```
 
@@ -111,19 +111,21 @@ Task 3
 
 Another thing developers spend a large amount of their time on is reading documentation. We've pulled in the bootstrap framework which gives us access to a whole bag of tools, their documentation is how we learn how to use the toolkit.
 
- - [ ] For this task you will need to use the [bootstrap documentation](https://getbootstrap.com/components/#navbar) to work out how to complete our 3rd user story:
+ - [ ] work out how to complete our 3rd user story:
 
 ```
 As a logo obsessed prototypical business owner
-I **need** to see my prototype logo on the website navbar
+I need to see my prototype logo on the website navbar
 In order to be able to sleep at night
 ```
+
+For this task you will probaly need to do some research using the [bootstrap documentation for navbars](https://getbootstrap.com/components/#navbar). You may also want to look into how the [html <img> tag works](https://www.w3schools.com/tags/tag_img.asp).
 
 Kindly our client has provided the following logo for us:
 
 ![fullLogo](../images/fullLogo.png)
 
-The icon you need add can be accessed using the following url:
+The icon you need to add can be loaded from the following url:
 
 ```
 https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png
