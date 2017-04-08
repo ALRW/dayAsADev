@@ -131,4 +131,4 @@ The icon you need to add can be loaded from the following url:
 https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png
 ```
 
-[Return to previous section](../tasks/task2.md) | [Continue to answers](../tasks/task3.ms)
+[Return to previous section](../tasks/task2.md) | [Continue to answers](../tasks/task3.md)
