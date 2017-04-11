@@ -98,6 +98,8 @@ Task 4
 
 :twisted_rightwards_arrows:
 
- - [ ] Our work on the current user story is not complete. Our navbar is still looking distincly "off brand". Style the navbar to bring it inline with the rest of our site and the colour palette. Feel free to go rogue and change the colors and value we've used in our CSS so far. The goal is to have a nice colourful site by the end.
+ - [ ] Our work on the current user story is not complete. Our navbar is still looking distincly "off brand". Style the navbar to bring it inline with the rest of our site and the colour palette. Feel free to go rogue and change the colors and values we've used in our CSS so far. The goal is to have a nice colourful site by the end.
+
+ - [ ] *Bonus Task* - Add a custom font and update the `application.css` to ensure that all our text uses it. [Google fonts is a great source](https://fonts.google.com/)
 
 [Return to previous section](../courseSections/section8.md) | [Continue to the Answers](../tasks/task4.md)
