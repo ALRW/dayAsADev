@@ -52,21 +52,21 @@ Remove the inline style that we added in the last step so that you are left with
 
 ![file tree](../images/fileTree.png)
 
-Lets firstly change the background colour to be in line with the colour palette we've been given. Add the following:
+Lets firstly normalise the background colour to be in line with the colour palette we've been given. Add the following:
 
 ```css
 body {
-    background-color: #F0F8FF;
+    background-color: #FAF9F9;
 }
 ```
 
-You can interpret this Css code as being the following instruction to the browser: *render* any `<body>` *element* on the page using the background colour with the Hex value `#F0F8FF`. In the case of `body` there should only ever be one on the page. But if you were refering to paragraph elements: `<p>` there could be many spread across the page.
+You can interpret this CSS code as being the following instruction to the browser: *render* any `<body>` *element* on the page using the background colour with the Hex value `#FAF9F9`. In the case of `body` there should only ever be one on the page. But if you were refering to paragraph elements: `<p>` there could be many spread across the page.
 
-Refresh your preview. Did it work? Did you expect it to work? It doesn't matter whether you were right or wrong - what matters is how you use that outcome to progress. Take a few moments ot consider the changes we just made and how they might have effected the outcome.
+Refresh your preview. Did it work? Did you expect it to work? It doesn't matter whether you were right or wrong - what matters is how you use that outcome to progress. Take a few moments to consider the changes we just made and how they might have effected the outcome.
 
-The answer is that the browser doesn't know anything about `public/css/application.css`. Why would it? It's our responsiblity to tell the browser abut this external stylesheet. Fortuantely, that's another fundamental part of the way the web works. In fact you've already done it once before!
+The answer is that the browser doesn't know anything about `public/css/application.css`. Why would it? It's our responsiblity to tell the browser about this external stylesheet. Fortuantely, that's another fundamental part of the way the web works. In fact you've already done it once before!
 
-In the same way we had to tell our html in `index.erb` to use the bootstrap css framework we now need to tell it to also pull in our newly created `application.css`.
+In the same way we had to tell our html in `index.erb` to use the bootstrap CSS framework we now need to tell it to also pull in our newly created `application.css`.
 
 Update your `<head>...</head>` section to include the following:
 
@@ -76,29 +76,29 @@ Update your `<head>...</head>` section to include the following:
 
 Notice how our `href` is in this case pointing to our local file rather than a remote url and that we don't need to add the `public`. Make sure your `index.erb` file is saved and then switch over to your blank `application.css`.
 
-Now refresh your browser. The background should be *Alice Blue*.
+Now refresh your browser. The background should be *Snow* coloured.
 
-That's probably not the most exciting change you've ever seen so lets start fleshing things out with a bit of styling to our `jumbotron` element. Add the following to `application.css`.
+That's probably not the most exciting change you've ever seen (if you can even see the change) so lets start fleshing things out with a bit of styling to our `jumbotron` element. Add the following to `application.css`.
 
 ```css
 .jumbotron {
   margin-top: 5em;
-  background-color: #AFCBFF;
-  border: solid 2px #0E1C36;
-  color: #0E1C36;
+  background-color: #FAF9F9;
+  border: solid 2px #BEE3BD;
+  color: #555B6E;
 }
 ```
 
-> Why do you think we've described the jumbotron using `.jumbotron` in our css file? If you're struggling to understand it then maybe [this will help](https://www.w3schools.com/cssref/sel_class.asp).
+> Why do you think we've described the jumbotron using `.jumbotron` in our css file? If you're struggling then maybe [this will help](https://www.w3schools.com/cssref/sel_class.asp).
 
-Now if you refresh your browser you should see a nicely outlined and colourful jumbotron more centrally positioned on our homepage.
+Now if you refresh your browser you should see a nicely outlined jumbotron more centrally positioned on our homepage with text in *Black Coral*. Exciting stuff!!!
 
 Task 4
 ------
 
 :twisted_rightwards_arrows:
 
- - [ ] Our work on the current user story is not complete. Our navbar is still looking distincly "off brand". Style the navbar to bring it inline with the rest of our site and the colour palette. Feel free to go rogue and change the colors and values we've used in our CSS so far. The goal is to have a nice colourful site by the end.
+ - [ ] Our work on the current user story is not complete. Our navbar is still looking distincly "off brand". Style the navbar to bring it inline with the rest of our site and the colour palette. Feel free to go rogue and change the colors and values we've used in our CSS so far. The goal is consitency, so add a bit of your own flare if you'd like.
 
  - [ ] *Bonus Task* - Add a custom font and update the `application.css` to ensure that all our text uses it. [Google fonts is a great source](https://fonts.google.com/)
 

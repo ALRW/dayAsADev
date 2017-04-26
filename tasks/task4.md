@@ -7,8 +7,8 @@ Styling the `.navbar` element with following:
 
 ```css
 .navbar {
-  border: solid 2px #0E1C36;
-  background-color: #AFCBFF;
+  border: solid 2px #BEE3BD;
+  background-color: #FAF9F9;
 }
 ```
 
