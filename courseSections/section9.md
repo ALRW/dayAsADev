@@ -1,105 +1,126 @@
-Section 9 - Adding our own style
-================================
+Section 9 - Testing
+===================
 
-So what is Bootstrap providing for us under the scenes? So far we've written a little Ruby (telling our computer what to do), a little HTML (decribing the structure of the content we want for our page) and now we come to CSS.
+Testing is a whole topic in and of itself and there are various different tools, models and approaches. However in this case lets try and simplify things down to the bare bones.
 
-CSS (more formally Cascading Style Sheets) is the technology we use to define the *layout* and *design* of the HTML *structure* we have already written. Without CSS our webpages would just be a load of left-justified, black-text-on-white-backgorund monstrosities.
+If you look back through the journey we've come on we've already created the bare bones of a functioning website. At each stage we've made some changes and then crucially we've gone back to the webpage, refreshed and *tested* to see that our changes have taken effect. 
 
-Bootstrap will take us a long way, particularly when it comes to our page layout and scaling across different devices, but it still leaves a little to be desired in the looks department. So lets get under the hood and add our own styling to take our site to the next level.
+Now as developers you should be thinking, ok that's fine in this limited instance but what happens when this prototype website really takes of and we're adding mountains of functionality. I can manually check the whole website to make sure that my changes have come through and that they haven't broken anything else!
 
-Making our homepage pretty
+Luckily in the same way we can tell a computer to show us a webpage we can also get it to do our testing. Maybe that feels a little bit lazy but in this case laziness is good, embrace it!
+
+Setting up your test suite
 --------------------------
 
-Following a quick show-and-tell with our product owner they remarked that they would like the prototype to adhere to their prototype colour scheme and have provided us with an additional user story and a handy colour palette.
+Now in the same way that we have done previously there are certain things that we need to have setup in order for us to begin to create our tests. Don't worry too much about the exact details of what we are doing. At a high level it is essentially configuration telling our program to pull in a number of other programs and setting up the parts that we need.
+
+So without further ado, in the command line run the following:
 
 ```
-As a prototypical business owner
-I want my site to be decked out in prototypical colours
-So that my eyes are soothed every time I open my web-browser
+$ gem install bundle
 ```
 
-And the colour palette for us to use:
+This gives us access to a handy little program that can pull in all our dependencies.
 
-![Prototype colour palette](../images/colourPalette.png)
+Now the nice thing about this program is that we can create a `Gemfile` that lives with our project and specifies all of the other programs on which it depends. This means that if anyone else were to takeover building this website they would not have to install each of these programs themselves but can do it all in one go.
 
-Inline styling
---------------
+To do this add a new file to your `prototype-website` directory called `Gemfile` and add the following to it
 
-Before we get down into the weeds we'll start with soe of the basics.
+```ruby
+source "https://rubygems.org"
 
-To style our page we can add some CSS directly to our `index.erb` file by adding the `style` attribute to the HTML tag that you want to apply it to.
+gem "rack"
+gem "sinatra"
 
-So for example, try the following in `index.erb` 
-
-```html
-<body style="background-color: red !important">
-  ...
-</body>
+group :test do
+  gem "rspec"
+  gem "rack-test"
+end
 ```
 
-How red does your page look now?! 
+Notice as well as adding the new *gems* (programs) that we need we've also added the sinatra framework that we had installed previously.
 
-The CSS we just added tells the browser to render the body of our page - i.e everything that's visible on the screen - with the specified background colour. Once upon a time, all CSS was added directly inline with the HTML like this. However, as with our ruby code this is going to be difficult to read and maintain. We want to put all of our styles in a separate file (or files) and keep our code DRY. As an aside the DRY principle (Don't repeat yourself) is key to being a developer. Essentially Duplication is waste and is likely to lead to code and processes that are harder to understand and much more error prone. Duplication of logic (which we are dealing with here) should be eliminated by abstraction while duplication of processes should be eliminated by automation. 
+Now go to the command line and run:
 
-> Have a think about the many tasks that you do repetitively day in day out - could any of these be automated? If so how? If you can answer those questions maybe there's a startup in the making!
-
-If you would like to know more about DRY and other key principles that guide software development then have a read of this article on the aptly names [Giant Robots Smashing into Other Giant Robots Blog](https://robots.thoughtbot.com/back-to-basics-solid).
-
-Creating our own CSS
---------------------
-
-Remove the inline style that we added in the last step so that you are left with `<body> ... </body>`. Now create a `public` folder in your Cloud9 workspace and then add a `css` folder inside `public`. Finally create a file called `application.css` inside the `css` folder. At the end your file tree should look a little like this:
-
-![file tree](../images/fileTree.png)
-
-Lets firstly normalise the background colour to be in line with the colour palette we've been given. Add the following:
-
-```css
-body {
-    background-color: #FAF9F9;
-}
+```
+$ bundle install
 ```
 
-You can interpret this CSS code as being the following instruction to the browser: *render* any `<body>` *element* on the page using the background colour with the Hex value `#FAF9F9`. In the case of `body` there should only ever be one on the page. But if you were refering to paragraph elements: `<p>` there could be many spread across the page.
+If all goes well you should see the following output:
 
-Refresh your preview. Did it work? Did you expect it to work? It doesn't matter whether you were right or wrong - what matters is how you use that outcome to progress. Take a few moments to consider the changes we just made and how they might have effected the outcome.
+![bundle install](../images/bundleInstall.png)
 
-The answer is that the browser doesn't know anything about `public/css/application.css`. Why would it? It's our responsiblity to tell the browser about this external stylesheet. Fortuantely, that's another fundamental part of the way the web works. In fact you've already done it once before!
 
-In the same way we had to tell our html in `index.erb` to use the bootstrap CSS framework we now need to tell it to also pull in our newly created `application.css`.
+Writing Tests
+-------------
 
-Update your `<head>...</head>` section to include the following:
+Create a new folder called `spec` and create a new file within that called `app_spec.rb`.
 
-```html
-<link rel="sylesheet" href="/css/application.css" type="text/css">
+Your folder structure should look like this afterwards
+
+![spec folder structure](../images/specFolderStructure.png)
+
+Now lets add an initial test to check that our `server.rb` will respond to us when run
+
+In `app_spec.rb` add the following:
+
+```ruby
+require File.expand_path '../../server.rb', __FILE__
+require 'rspec'
+require 'rack/test'
+
+ENV['RACK_ENV'] = 'test'
+
+describe 'Prototype App' do
+  include Rack::Test::Methods
+
+  def app() Sinatra::Application end
+
+  it 'displays the homepage' do
+    get '/'
+    expect(last_response.status).to eq 200
+  end
+
+end
 ```
 
-Notice how our `href` is in this case pointing to our local file rather than a remote url and that we don't need to add the `public`. Make sure your `index.erb` file is saved and then switch over to your blank `application.css`.
+Save the file and in the command line run:
 
-Now refresh your browser. The background should be *Snow* coloured.
-
-That's probably not the most exciting change you've ever seen (if you can even see the change) so lets start fleshing things out with a bit of styling to our `jumbotron` element. Add the following to `application.css`.
-
-```css
-.jumbotron {
-  margin-top: 5em;
-  background-color: #FAF9F9;
-  border: solid 2px #BEE3BD;
-  color: #555B6E;
-}
+```
+$ rspec
 ```
 
-> Why do you think we've described the jumbotron using `.jumbotron` in our css file? If you're struggling then maybe [this will help](https://www.w3schools.com/cssref/sel_class.asp).
+What did you see? Is this what you expect?
 
-Now if you refresh your browser you should see a nicely outlined jumbotron more centrally positioned on our homepage with text in *Black Coral*. Exciting stuff!!!
+While there is some initial configuration in the test file we have just created the key to understanding it is seeing that we are *describing* our Prototype App and saying that *it* displays a homepage. The test is *expecting* to see that when we ask for that page we get a [HTTP 200 response](https://httpstatuses.com/200) Essentially telling us that the request has succeeded.
+
+Great but lets see if we can go a little bit further and actually test what is on the page we have created in `index.erb`. Add the following test after the `end` of the first `it` block and before the `end` of the `describe` block.
+
+```ruby
+it 'displays the company name: Prototype Inc' do
+  get '/'
+  expect(last_response.body).to include "Prototype Inc."
+end
+```
+
+Now save the file and run `$ rspec` again. 
+
+You should get a quick response telling you that the tests have been successful.
+
+Perfect. we now have the beginnings of a test suite that can be added to, saving us time manually checking everything whenever we make any further changes.
 
 Task 4
-------
+-----
 
-:twisted_rightwards_arrows:
+:twisted_rightwards_arrows: This time when you pull down the changes onto your computer remember that you will need to install the programs we have defined in our gemfile. To do this from the command line you should now only have to run:
 
- - [ ] Our work on the current user story is not complete. Our navbar is still looking distincly "off brand". Style the navbar to bring it inline with the rest of our site and the colour palette. Feel free to go rogue and change the colors and values we've used in our CSS so far. The goal is consitency, so add a bit of your own flare if you'd like.
+```
+$ gem install bundle
+$ bundle install
+```
 
- - [ ] *Bonus Task* - Add a custom font and update the `application.css` to ensure that all our text uses it. [Google fonts is a great source](https://fonts.google.com/)
+ - [ ] Add an *it* description to our current tests that sees if our pages *includes* the text within our jumbotron
 
-[Return to previous section](../courseSections/section8.md) | [Continue to the Answers](../tasks/task4.md)
+Everything you need should be on this page but if you're looking to do something fancy then feel free to look into the [Rspec testing framework documentation](http://www.rubydoc.info/gems/rspec-expectations/frames)
+
+[Previous Section](./section8.md) | [Continue to the Answers](../tasks/task4.md)

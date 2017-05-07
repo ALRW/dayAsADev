@@ -41,7 +41,7 @@ If you refresh your preview page it should now look like the following:
 
 ![base homepage](../images/baseHomepage.png)
 
-At this point you're probably wondering: how is bootstrap making all of our html look so pretty?!! Fear not all will soon be explained.
+At this point you're probably wondering: how is bootstrap making all of our html look so pretty?!! Fear not, after a brief detour, all will be explained.
 
 :twisted_rightwards_arrows:
 
