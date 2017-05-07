@@ -24,20 +24,30 @@ Lets take a minute to talk through a few of the attributes that we are adding he
  - When you include an `alt` attribute you give the browser some text that will display if for whatever reason the person viewing your site is unable to load the image itself.
  - Lastly the `src` attribute tells our `<img>` tag where it can find the image that it is meant to load for us.
 
-All being well if you now save your `index.erb` page and stop and restart your `server.rb` using:
-
-```
-Ctrl-C
-```
-then
-
-```
-$ ruby server.rb -p $PORT -o $IP
-```
-
-You should now see a slightly more colourful navbar like the one below:
+All being well if you now save your `index.erb` and refresh your preview you should see a slightly more colourfule navigation bar.
 
 ![navbar brand](../images/navbarBrand.png)
+
+Now finally to add the company name all that should be required is your `<h4></h4>` to added into the html as follows:
+
+```html
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="#">
+           <img alt="brand" src="https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png">
+         </a>
+       </div>
+       <h4 class="navbar-text">Prototype Inc.</h4>
+     </div>
+   </nav>
+</body>
+```
+
+Now when we refresh the page we should see that we have everything required by the user story.
+
+![navbar title](../images/navbarTitle.png)
 
 :twisted_rightwards_arrows: Good job. Lets switch over and get building the rest of our page.
 
