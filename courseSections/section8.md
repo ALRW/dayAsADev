@@ -21,15 +21,17 @@ Below your closing `</nav>` tag, add the following to your `index.erb`:
     <div class="col-md-3"></div>
       <div class="col-md-6">
         <div class="jumbotron">
-          <h2>Home of the World's Best Prototypes</h2>
-          <p>
-          A prototype is an early sample, model, or release of a product built to test a concept or process or to act as a thing to be replicated or learned from.
-          It is a term used in a variety of contexts, including semantics, design, electronics, and software programming.
-          A prototype is generally used to evaluate a new design to enhance precision by system analysts and users. 
-          Prototyping serves to provide specifications for a real, working system rather than a theoretical one. 
-          In some design workflow models, creating a prototype (a process sometimes called materialization) is the step between the formalization and the evaluation of an idea.
-          </p>
-          <p>This website showcases some of the most prototypical of prototypes.</p>
+          <div class="about">
+            <h2>Home of the World's Best Prototypes</h2>
+           <p>
+           A prototype is an early sample, model, or release of a product built to test a concept or process or to act as a thing to be replicated or learned from.
+           It is a term used in a variety of contexts, including semantics, design, electronics, and software programming.
+           A prototype is generally used to evaluate a new design to enhance precision by system analysts and users. 
+           Prototyping serves to provide specifications for a real, working system rather than a theoretical one. 
+           In some design workflow models, creating a prototype (a process sometimes called materialization) is the step between the formalization and the evaluation of an idea.
+           </p>
+           <p>This website showcases some of the most prototypical of prototypes.</p>
+         </div>
         </div>
       </div>
     <div class="col-md-3"></div>
