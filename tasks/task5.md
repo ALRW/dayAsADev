@@ -1,4 +1,4 @@
-Task 4 - Styling the page.
+Task 5 - Styling the page.
 ==========================
 
 The first part of this task should be a relatively simple one and we should just be able to re-use some of the styling we created for our `.jumbotron`.
@@ -42,4 +42,4 @@ Now when you save and refresh you should see your text wrapped in all the glory 
 
 :twisted_rightwards_arrows: Commit your code and switch back over. Now lets see what else our mysterious client would like us to do!
 
-[return to previous section](../courseSections/section9.md) | [Continue to next Section](../courseSections/section10.md)
+[return to previous section](../courseSections/section10.md) | [Continue to next Section](../courseSections/section11.md)
