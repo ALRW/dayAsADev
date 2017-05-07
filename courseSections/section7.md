@@ -21,7 +21,7 @@ In order to navigate around a prototype website
 
 ```
 As a logo obsessed prototypical business owner
-I need to see my prototype logo on the website navbar
+I need to see my prototype logo and company name on the website navigation bar
 In order to be able to sleep at night
 ```
 
@@ -38,9 +38,9 @@ And an initial wireframe of the page:
 Where do I start?!!
 -------------------
 
-Ok so we have our starting requirements, but maybe you're thinking "*how am I going to get from the simple page with a bit of text to a pristine looking webpage?*" :confused: that is to say, this looks like a rather large jump in task size. This is a common theme for developers so it is worth discussing now. A developer produces the best results when faced with a small narrowly defined piece of work. However, we live in the real world and as this task demonstrates we need to be able to deliver. So the first task when receiving stories or requirements like the above is to break them down into small tasks that you can easily reason about. 
+Ok so we have our starting requirements, but maybe you're thinking "*how am I going to get from the simple page with a bit of text to a pristine looking webpage?*" :confused: that is to say, this looks like a rather large jump in task size. This is a common theme for developers so it is worth discussing now. A developer produces the best results when faced with a small narrowly defined piece of work. However, we live in the real world and as this task demonstrates we need to be able to deliver. So mentally we need to break down the work into smaller bite-size chunks that we can easily reason about and therefore complete.
 
-You may have heard developers talk about **Front end** and **Back end** - the terminology may sound a little dodgy but this is an example of this kind of seperation that allows us to reason about seperate parts of the same task. Concretely, you have already done both front-end and back end development. When you created your ruby program:
+You may have heard developers talk about **Front end** and **Back end** - the terminology may sound a little dodgy but this is an example of this kind of *breaking down* that allows us to reason about seperate parts of the same task. Concretely, you have already done both front-end and back end development. When you created your ruby program:
 
 ```ruby
 get '/' do
@@ -49,14 +49,14 @@ end
 ```
 that was you programming the back-end server to perform the task of automatically getting you a particular resource when you asked for it.
 
-the `index.erb` that you created is your front end: the resource that will be returned to you and rendered in your web browser. A developer who works creates content for both the front end and back end is known as a full-stack developer.
+the `index.erb` that you created is your front end: the resource that will be returned to you and rendered in your web browser. Developers who work creating content for both the front end and back end are known as a full-stack developers.
 
-So onto the first user story. To get this prototype website off the ground we need to have a route setup to serve this page for us. Handily we've already done this with the above piece of code. Why reinvent the wheel when we can reuse the work we've already done!
+So onto the first user story. To get this prototype website off the ground we need to have a route setup to serve this page for us. Handily we've already done this with the above piece of code. Why reinvent the wheel when we can reuse the work we've already done. If that feels to easy, don't worry that will all change soon!
 
 Adding a front-end framework
 ----------------------------
 
-At this point we now want to move on to updating the content. You may remember that we've been using the framework **Sinatra** to help with our back-end code. Well now we are going to do the same with our front-end useing a framework called [Bootstrap](https://getbootstrap.com/) to help structure our page and make it look pretty.
+We now want to move on to updating the content. You may remember that we've been using the framework (just a fancy way of saying someone elses code) **Sinatra** to help with our back-end. Well now we are going to do the same with our front-end using a framework called [Bootstrap](https://getbootstrap.com/) to help structure our page and make it look pretty.
 
 As you may also remember the first thing we need to do is tell our program that it needs to incorporate this framework. 
 
@@ -94,7 +94,7 @@ Update the `<body> ... </body>` section of your `index.erb` file with the follow
 </body>
 ```
 
-Remember to save your file and then lets start up our server again
+Remember to save your file and then if you need to, start up your sever again using the commands below, or otherwise just refresh the page.
 
 ```
 $ ruby server.rb -p $PORT -o $IP
@@ -107,19 +107,19 @@ Hopefully when you preview your masterpiece you should see the following rather 
 Task 3
 ------
 
-:twisted_rightwards_arrows: Now's a good opportunity to switch using git to add, commit, push and pull your changes then we can get on with the task.
+:twisted_rightwards_arrows: Now's a good opportunity to switch using git to add, commit, push and pull your changes.
 
-Another thing developers spend a large amount of their time on is reading documentation. We've pulled in the bootstrap framework which gives us access to a whole bag of tools, their documentation is how we learn how to use the toolkit.
+Another thing developers spend a large amount of their time on is reading documentation. We've pulled in the bootstrap framework which gives us access to a whole bag of tools, their documentation is how we learn how to use the toolkit so lets do some research:
 
- - [ ] work out how to complete our 3rd user story:
+ - [ ] Using the documentation below add the company logo and name: "Prototype Inc." to the navigation bar to fulfil the following user story
 
 ```
 As a logo obsessed prototypical business owner
-I need to see my prototype logo on the website navbar
+I need to see my prototype logo and company name on the website navigation bar
 In order to be able to sleep at night
 ```
 
-For this task you will probaly need to do some research using the [bootstrap documentation for navbars](https://getbootstrap.com/components/#navbar). You may also want to look into how the [html <img> tag works](https://www.w3schools.com/tags/tag_img.asp).
+For this task you should have a look at the bootstrap documentation for navbars [bootstrap documentation for navbars](https://getbootstrap.com/components/#navbar). You may also want to look into how the [html <img> tag works](https://www.w3schools.com/tags/tag_img.asp). 
 
 Kindly our client has provided the following logo for us:
 
@@ -130,5 +130,9 @@ The icon you need to add can be loaded from the following url:
 ```
 https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png
 ```
+
+The client has also asked the we add the company name as a `<h4></h4>` size element.
+
+Good luck!
 
 [Return to previous section](../tasks/task2.md) | [Continue to answers](../tasks/task3.md)
