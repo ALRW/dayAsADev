@@ -9,9 +9,11 @@ I would like to see a description of my prototype business on the websites home 
 In order to understand what a "prototype" business is
 ```
 
-Following the wireframe we will use the useful [bootstrap jumbotron element](https://getbootstrap.com/components/#jumbotron) within bootstraps handy [grid system](https://getbootstrap.com/css/#grid).
+To help us comply with the wireframe we were givene we will use the useful [bootstrap jumbotron element](https://getbootstrap.com/components/#jumbotron) within bootstrap's handy [grid system](https://getbootstrap.com/css/#grid).
 
-The client has also kindly provided us with some text that they would like us to use on the website (in this case feel free to copy and paste the text). Below your closing `</nav>` tag add in your `index.erb` add the following:
+The client has also kindly provided us with some text that they would like us to use on the website (in this case feel free to copy and paste the text). 
+
+Below your closing `</nav>` tag, add the following to your `index.erb`:
 
 ```html
 <div class="container-fluid">
@@ -39,7 +41,7 @@ If you refresh your preview page it should now look like the following:
 
 ![base homepage](../images/baseHomepage.png)
 
-At this point you're probably wondering how is bootstrap making all of our html look so pretty?!! Fear not all will soon be explained.
+At this point you're probably wondering: how is bootstrap making all of our html look so pretty?!! Fear not all will soon be explained.
 
 :twisted_rightwards_arrows:
 
