@@ -119,7 +119,7 @@ $ gem install bundle
 $ bundle install
 ```
 
- - [ ] Add an *it* description to our current tests that sees if our pages *includes* the text within our jumbotron
+ - [ ] Add a new test as an **it** description within our current tests that sees if our pages **includes** the text within our jumbotron
 
 Everything you need should be on this page but if you're looking to do something fancy then feel free to look into the [Rspec testing framework documentation](http://www.rubydoc.info/gems/rspec-expectations/frames)
 
