@@ -27,7 +27,7 @@ Now as with our JQuery library we need to add our `app.js` to the page with the 
 <script src="/javascripts/app.js></script>
 ```
 
-Fantastic we can now start adding Javascript code to our page, which is just as well because it looks like our client has come back with some further requirements.
+Fantastic and it's just in time because it looks like our client has come back with some further requirements.
 
 Adding Functionality to our page
 --------------------------------
@@ -38,12 +38,6 @@ Having seen the initial site the client has been highly impressed and wants to e
 As a prototypical user
 I would like to see plans for a top secret prototype
 So that I can prototype it
-```
-
-```
-As a prototypical user
-I would like to be able to contact the owners of a prototypical site
-In order to ask them questions about their prototypes
 ```
 
 ```
@@ -67,7 +61,7 @@ Handily the client has also provided us with some wireframes of what they believ
 Creating the content
 --------------------
 
-This breaks down our work nicely. However as you may have realised before we can start using javascript to control our view of the page there is some content that we need to deliver for the first 3 user stories.
+This breaks down our work nicely. However as you may have realised before we can start using javascript to control our view of the page there is some content that we need to deliver.
 
 By now the HTML we need to add should be pretty familiar. For the first user story add the following within the `<div class="jumbotron" id="content">...</div>` below the `<div class="about"`.
 
@@ -78,34 +72,13 @@ By now the HTML we need to add should be pretty familiar. For the first user sto
 </div>
 ```
 
-And for the second user story add the following below that:
-
-```html
-<div class="contact hidden">
-  <h2>Contact Us</h2>
-
-  <strong>Via snailmail</strong>
-  <address>
-    Prototype, Inc.<br>
-    1 Prototype Tower <br>
-    London <br>
-    PO00PP
-  </address>
-
-  <strong>Via the interwebs</strong><br>
-  <a href="mailto:#>example@example.com</a>
-
-</div>
-```
-
-And lastly for the third user story add the following within the `<div class="container-fluid">...</div>` after the `<h4>...</h4>` element:
+And add the following within the `<div class="container-fluid">...</div>` after the `<h4>...</h4>` element:
 
 ```html
 <div class="collapse navbar-collapse">
   <ul class="nav navbar-nav">
     <li id="about" class="active"><a href="#">About</a></li>
     <li id="prototype"><a href="#">Prototype</a></li>
-    <li id="contact"><a href="#">Contact</a></li>
   </ul>
 </div>
 ```
@@ -113,3 +86,61 @@ And lastly for the third user story add the following within the `<div class="co
 Now with all of that content added if you refresh the page you should see a very cluttered website that looks a little like the following:
 
 ![Cluttered homepage](../images/clutteredHomepage.png)
+
+Now we can bring it all togather using a little CSS and Javascript. First we need to define a small piece of CSS that can be used to hide our elements. Add the following to your `application.css`.
+
+```css
+.hidden {
+    display: none;
+}
+```
+
+If you save the CSS file and reload the page you should now see that our homepage looks much like before. However, we currently have no way of making the hidden content show itself. Time to get the Javascript written.
+
+Showing and Hiding
+------------------
+
+When trying to work out how to write our code it is often good to first try and ignore the code completely and find a way to articulate each step the you want the program to take.
+
+This is such a good technique that it even has a name: [Rubber Duck Debugging](https://rubberduckdebugging.com/).
+
+So lets try it out here. What are the steps that we need to go through to get to a working solution.
+
+1. When we click on the *Prototypes* tab we want it to become active.
+2. When we click on the *Prototypes* tab we want to see the *prototypes* section content.
+3. When we click on the *Prototypes* tab we want the *About* tab to loose its active status.
+4. When we click on the *Prototypes* tab we want the *about* section to be hidden.
+
+Brilliant now that we have our sequence of events to code lets write that out in Javascript. In your `app.js` add the following:
+
+```javascript
+/* global $ */
+
+$(document).ready(function(){
+
+  $('#prototype').click(function(event){
+    event.preventDefault();
+    $('#prototype').addClass('active');
+    $('.prototype').removeClass('hidden');
+    $('#about').removeClass('active');
+    $('.about').addClass('hidden');
+  });
+
+});
+```
+
+Save the file, reload the page and try to click the prototypes tab. Does it work? 
+
+Now try clicking on the About tab to go back...not so good. We need to add another method to go back to our first tab. Luckily it should just be a reverse of what we've already written. Add this function below the first inside the `$(document).ready(function(){...});`
+
+```javascript
+$('#about').click(function(event){
+  event.preventDefault();
+  $('#about').addClass('active');
+  $('.about').removeClass('hidden');
+  $('#prototype').removeClass('active);
+  $('.prototype').addClass('hidden');
+});
+```
+
+Now if you save and reload your page you should be easily able to flick back and forth between the two tabs. Very nifty!
