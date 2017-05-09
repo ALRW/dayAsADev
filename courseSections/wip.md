@@ -1,9 +1,4 @@
 
-```
-As a prototypical user
-I would like to be able to contact the owners of a prototypical site
-In order to ask them questions about their prototypes
-```
 
 And for the second user story add the following below that:
 

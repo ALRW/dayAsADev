@@ -52,11 +52,10 @@ I only wish to see the content relevant to the tab that I have selected
 So that my mind is not overwhelmed with vast quantities of knowledge
 ```
 
-Handily the client has also provided us with some wireframes of what they believe the site should look like:
+Handily the client has also provided us with a wireframe for our new content.
 
 ![Image WireFrame](../images/imageWireframe.png)
 
-![Contact WireFrame](../images/contactWireframe.png)
 
 Creating the content
 --------------------
@@ -138,9 +137,29 @@ $('#about').click(function(event){
   event.preventDefault();
   $('#about').addClass('active');
   $('.about').removeClass('hidden');
-  $('#prototype').removeClass('active);
+  $('#prototype').removeClass('active');
   $('.prototype').addClass('hidden');
 });
 ```
 
 Now if you save and reload your page you should be easily able to flick back and forth between the two tabs. Very nifty!
+
+Task 6 
+------
+
+Our client has a further requirement for us:
+
+```
+As a prototypical user
+I would like to be able to contact the owners of a prototypical site
+In order to ask them questions about their prototypes
+```
+
+And accompanying wireframe.
+
+![Contact WireFrame](../images/contactWireframe.png)
+
+ - [ ] Create the new contact details tab and add another javascript method that toggles whether it is shown.
+ - [ ] Update the existing methods so that when you click on each tab only its content is shown.
+
+[Return to previous section](./section10.md) | [Continue to the answers](../tasks/task6.md)
