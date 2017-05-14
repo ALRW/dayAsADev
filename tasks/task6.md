@@ -54,6 +54,6 @@ $(document).ready(function(){
 
 The above code works and fulfils our user stories. We now have a nice working website and our client should be mightily pleased but should we? 
 
-> Looking at the above code can you see any issues? Take a moment to think about what might be bad practice about the solution we've just implemented. Remember what we've said about removing repetition. Take a few minutes to grab a piece of paper and in english describe how you think you could improve on this solution.
+> Looking at the above code can you see any issues? Take a moment to think about what might be bad practice about the solution we've just implemented.
 
 [Return to Previous Section](../courseSections/section11.md) | [Continue to next section](../courseSections/section12.md)
