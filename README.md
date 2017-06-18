@@ -1,7 +1,7 @@
 A day as a Developer
 ====================
 
-[Go to course navigation](../navigation.md)
+[Go to course navigation](./navigation.md)
 
 What is this all about?
 ----------------------
