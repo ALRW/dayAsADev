@@ -23,7 +23,9 @@ heroku --version
 You should see something like:
 
 ```
-heroku-toolbelt/3.42.15 (x86_64-linux) ruby/2.2.1
+lbelt/3.43.13 (x86_64-linux) ruby/2.3.0
+heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1
+You have no installed plugins.
 ```
 
 You can interact pretty easily with Heroku from their website but it's more fun to do it from the command line. First things first we need to hook up to our account:
@@ -38,9 +40,13 @@ This will prompt you for the email and password you used to create your Heroku a
 $ heroku create
 ```
 
-If you check back on the Heroku website you should see that your application has been created. You can even visit your new application in a browser by following its unique url:
+If you check back on the Heroku website you should see that your application has been created.
 
-:construction: insert image here :construction:
+![Heroku created](../images/herokuCreated.png)
+
+You can even visit your new application in a browser by following its unique url:
+
+![blank Heroku app](../images/blankHerokuApp.png)
 
 Before we push our application to Heroku we need to tell Heroku how to run our application:
 
@@ -52,10 +58,10 @@ require './server'
 run Sinatra::Application
 ```
 
-If you've been adding, committing and pushing throughout the course today your application should be ready to go. All you need to do to get your application to the cloud is run the following:
+If you've been adding, committing and pushing throughout the course today your application should be ready to go after the `config.ru` is added to git. All you need to do to get your application to the cloud is run the following:
 
 ```
-$ git push heroku mater
+$ git push heroku master
 ```
 
 When the task finishes go back and visit the application url. What do you see?
