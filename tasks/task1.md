@@ -1,5 +1,7 @@
-Task 1 - Answers
-================
+Task 1 - Creating a new route
+=============================
+
+[Go to course navigation](../navigation.md)
 
 To create a new route that returns both of your names you need to add another method to the `server.rb` file like so:
 

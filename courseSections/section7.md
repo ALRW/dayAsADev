@@ -1,6 +1,8 @@
 Section 7 - A Prototype Website
 ==============================
 
+[Go to course navigation](../navigation.md)
+
 You've come a long way already today and now that we've accumulated a large amount of building-block knowledge lets put it to use and actually build ourselves a prototype website. 
 
 To set the scene. A potential client has expressed interest in revamping their business website and wants to see what we are capable of. They have asked us to produce a prototype website for their "prototype" business. Kindly they have also provided us with a few user stories and a number of wireframes to work with. Fantastic.

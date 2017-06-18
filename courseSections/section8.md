@@ -1,6 +1,8 @@
 Section 8 - Finishing the Home Page
 ==================================
 
+[Go to course navigation](../navigation.md)
+
 All we have left to do for our homepage now is the last of our user stories
 
 ```

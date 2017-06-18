@@ -1,6 +1,8 @@
 Task 4 - Testing our page content
 =================================
 
+[Go to course navigation](../navigation.md)
+
 Hopefully you found that pretty simple.
 
 To complete this task you should simply have had to add another test similar to the last one we wrote that checks whether the jumbotron text is included within the page. It should look similar to this:

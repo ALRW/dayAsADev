@@ -1,6 +1,8 @@
 Section 9 - Testing
 ===================
 
+[Go to course navigation](../navigation.md)
+
 Testing is a whole topic in and of itself and there are various different tools, models and approaches. However in this case lets try and simplify things down to the bare bones.
 
 If you look back through the journey we've come on we've already created the bare bones of a functioning website. At each stage we've made some changes and then crucially we've gone back to the webpage, refreshed and *tested* to see that our changes have taken effect. 

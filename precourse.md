@@ -1,6 +1,8 @@
 Precourse
 =========
 
+[Go to course navigation](../navigation.md)
+
 For this course we will be using a number of free services to help reduce the amount of configuration required and to allow you to focus on learning.
 
 Before coming on this course please create a free account on each of the following (the links will take you through to the signup pages)
@@ -30,4 +32,4 @@ Once here click on `SSH and GPG keys` then `New SSH key` call the key "Cloud9" a
 
 Congratulations yo now have everything need to complete the course!
 
-
+[Go to course navigation](../navigation.md)

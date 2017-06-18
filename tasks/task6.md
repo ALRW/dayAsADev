@@ -1,5 +1,7 @@
-Task 6
-======
+Task 6 - Adding JavaScript for all of our elements
+==================================================
+
+[Go to course navigation](../navigation.md)
 
 So first things first, let's create the content that we are going to use. Underneath the `<div class="prototype hidden">...</div>` add the following:
 

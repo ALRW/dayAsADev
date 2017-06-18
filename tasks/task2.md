@@ -1,5 +1,7 @@
-Task 2 - Answers
-===============
+Task 2 - Getting your code to Git
+================================
+
+[Go to course navigation](../navigation.md)
 
 Once you have added something like `I want to learn how to be more like [insert name] awesome developer that I know` to your readme and saved it then running 
 

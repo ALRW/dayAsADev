@@ -1,6 +1,8 @@
 Section 1 - Development Environment
 =============================================
 
+[Go to course navigation](../navigation.md)
+
 Developers generally work closer to the bare bones of the computer than your average user. That means lots of time in the 'command line' and not relying on 'GUI' (Graphical User Interface) tools. However, to get your computer setup for web development is a art in and of itself- especially on Windows.
 
 Fortunately, there are a number of cloud based development environments available that provide almost identical experience but with everything ready for you out of the box. For this course we will be using Cloud9.

@@ -1,6 +1,8 @@
 Step 3 - Responding with HTML
 =============================
 
+[Go to course navigation](../navigation.md)
+
 Admittedly, sending a single string 'Hello world!' to a browser window is not very useful. It is, however, worth it to see how much a web framework does for you. All we had to do in our `server.rb` file was define a **path** (`/`) and a response (`Hello world!`).
 
 The path forms part of the URL to which the browser makes a request - it's the bit that comes after the domain (i.e. `https://prototype-website-[Your username].c9users.io/`). The single slash (`'/'`) denotes the **root path** - i.e. `https://prototype-website-[Your username].c9users.io/[Nothing Here]`

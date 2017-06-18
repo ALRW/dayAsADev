@@ -1,5 +1,7 @@
-Github
-=======
+Section 5 - Github
+==================
+
+[Go to course navigation](../navigation.md)
 
 ![octocat](../images/octocat.png)
 
