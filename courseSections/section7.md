@@ -138,3 +138,7 @@ The client has also asked the we add the company name as a `<h4></h4>` size elem
 Good luck!
 
 [Return to previous section](../tasks/task2.md) | [Continue to answers](../tasks/task3.md)
+
+------------------
+
+Icon made by [Freepik](www.freepik.com) from [www.flaticon.com](www.flaticon.com)

@@ -34,3 +34,7 @@ Answers
  - [Task 4 - Testing our page content](./tasks/task4.md)
  - [Task 5 - Styling the page](./tasks/task5.md)
  - [Task 6 - Adding JavaScript for all of our elements](./tasks/task6.md)
+
+ ---------
+
+<span style="text-align: left">[Acknowledgements](./acknowledgements.md)</span><span style="text-align: right">[License](./LICENSE)</span>
