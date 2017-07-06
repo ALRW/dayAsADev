@@ -52,4 +52,4 @@ Start Developing
 When you're ready click the link to navigate to [Section 0](./courseSections/section0.md).
 
 ---------------
-<span style="text-align: left">[Acknowledgements](./acknowledgements.md)</span><span style="text-align: right">[License](./LICENSE)</span>
+[Acknowledgements](./acknowledgements.md)

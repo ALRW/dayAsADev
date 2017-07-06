@@ -37,4 +37,4 @@ Answers
 
  ---------
 
-<span style="text-align: left">[Acknowledgements](./acknowledgements.md)</span><span style="text-align: right">[License](./LICENSE)</span>
+[Acknowledgements](./acknowledgements.md)
