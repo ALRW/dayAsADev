@@ -3,7 +3,7 @@ Section 0 - Pair Programming
 
 [Go to course navigation](../navigation.md)
 
-Throughout this course you will be working in pairs to try and build a prototype website. Working in pairs is not just something to help us learn on this course its also a fundamental skill used by many developers to improve their code quality, pace of learning and make a few friends along the way.
+Throughout this course you will be working in pairs to try and build a prototype website. Working in pairs is not just something to help us learn on this course it is also a fundamental skill used by many developers to improve their code quality, pace of learning and make a few friends along the way.
 
 ![Pair Programming](../images/pairProgramming.png)
 
