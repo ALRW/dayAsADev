@@ -3,7 +3,7 @@ Section 6 - Pulling code from Github
 
 [Go to course navigation](../navigation.md)
 
-To recap, by now you know how to create a repo locally and push your local code to Github. Now you also need to know how to get your code back from Github. Let's say you and one other develooper work on a website together. You both have local repos and a Github repository that you both have added as a remote called "origin". Your colleague made some changes to the website and pushed them to github. How do you get them? you need to "pull" them:
+To recap, by now you know how to create a repo locally and push your local code to Github. Now you also need to know how to get your code back from Github. Let's say you and one other developer work on a website together. You both have local repos and a Github repository that you both have added as a remote called "origin". Your colleague made some changes to the website and pushed them to github. How do you get them? You need to "pull" them:
 
 ```
 $ git pull origin master
@@ -44,7 +44,7 @@ $ git init
 
 Did you guess? That's right, we need to tell your local environment to use the remote `origin` as the place it can push and pull code from.
 
-In case you don't have the URL for the repository to hand on the repository home-page there is a helpful little button `clone or download` from which you can copy the repositories SSH link.
+In case you don't have the URL for the repository to hand on the repository home-page there is a helpful little button `clone or download` from which you can copy the repositorys SSH link.
 
 ![copy SSH Link](../images/copySSHLink.png)
 
@@ -54,7 +54,7 @@ Then as before:
 $ git remote add origin git@github.com:[username of the person who created the repo]/prototype-website.git
 ```
 
-You should now have your local project linked to the remote repo on github that your pair created. you can check that this is correct by running:
+You should now have your local project linked to the remote repo on github that your pair created. You can check that this is correct by running:
 
 ```
 $ git remote -v
@@ -66,7 +66,7 @@ Now to make the magic happen: if you go back to the command line and run
 $ git pull origin master
 ```
 
-If you open up/refresh the `README.md you should now see the changes you made on Github. Neat!
+If you open up/refresh the `README.md` you should now see the changes you made on Github. Neat!
 
 Time Travelling
 --------------
@@ -108,7 +108,7 @@ You should now see that our changes to the `README.md` have been reinstated. We 
 When and how to commit
 ---------------------
 
-As a final aside it wouldn't be very good if you learned all of this without touching on when and how to use git - *git-etiquete* if you will. 
+As a final aside it wouldn't be very good if you learned all of this without touching on when and how to use git - *git-etiquette* if you will. 
 
 A good rule of thimb is **commit early, commit often**. Whenever you make a meaningful change, make a commit. You don't have to push it to Github straight away: you can make several commits and then push them in one go.
 
@@ -121,7 +121,7 @@ Make a commit when you've done a meaningful piece of work. Ideally, your commit 
  - Added a footer with a few links
  - Added /contact-us page
  
-and so on and so forth (in reality it'll be more detailed and technical. Read [the commit messages of the jQuery project](https://github.com/jquery/jquery/commits/master) to get an idea of what they look like in real life.
+and so on and so forth (in reality it'll be more detailed and technical). Read [the commit messages of the jQuery project](https://github.com/jquery/jquery/commits/master) to get an idea of what they look like in real life.
 
 Task 2 - Switching pairs using git
 ----------------------------------

@@ -3,9 +3,9 @@ Section 11 - Making Things Happen With JavaScript
 
 [Go to course navigation](../navigation.md)
 
-While our website is now an explosion of colour it doesn't yet. We're going to change that now using JavaScript. JavaScript is not just another programming language. Unlike Ruby which runs on the server JavaScript *runs in the browser*. that might not mean much right now, but it's a game changer! It means that we can load code into our pages from various sources - not just our own server - and have it run independently on the client's machine.
+While our website is now an explosion of colour there's nothing dynamic about it. We're going to change that now using JavaScript. JavaScript is not just another programming language. Unlike Ruby which runs on the server JavaScript *runs in the browser*. that might not mean much right now, but it's a game changer! It means that we can load code into our pages from various sources - not just our own server - and have it run independently on the client's machine.
 
-If you think that sounds potentially dnagerous, you are right. A large number of Internet security vulnerabilites involve JavaScript. However, without JavaScript, the web would be a much duller place.
+If you think that sounds potentially dangerous, you are right. A large number of Internet security vulnerabilites involve JavaScript. However, without JavaScript, the web would be a much duller place.
 
 As with our Ruby and CSS code we'll be using a framework to help us along the way. In this instance the popular [JQuery](https://jquery.com/) Library.
 
@@ -17,7 +17,7 @@ Add the following line just before your closing `</body>` element in your `index
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 ```
 
-Loading JQuery into the page wont by itself do anything. For that we need to write our own Javascript to interact with it and the page. Lets begin by creating a folder `public/javascripts` and within that create a file called `app.js`.
+Loading JQuery into the page won't by itself do anything. For that we need to write our own Javascript to interact with it and the page. Let's begin by creating a folder `public/javascript` and within that create a file called `app.js`.
 
 Once complete you should be left with the following file structure:
 
@@ -26,7 +26,7 @@ Once complete you should be left with the following file structure:
 Now as with our JQuery library we need to add our `app.js` to the page with the following line again just before your closing `</body>` element.
 
 ```html
-<script src="/javascripts/app.js></script>
+<script src="/javascript/app.js></script>
 ```
 
 Fantastic and it's just in time because it looks like our client has come back with some further requirements.
@@ -38,19 +38,19 @@ Having seen the initial site the client has been highly impressed and wants to e
 
 ```
 As a prototypical user
-I would like to see plans for a top secret prototype
+I want to see plans for a top secret prototype
 So that I can prototype it
 ```
 
 ```
 As a prototypical user
-I would like to be able to navigate to different pages using tabs in the navigation bar
+I want to be able to navigate to different pages using tabs in the navigation bar
 So that I may better consume information on prototypes
 ```
 
 ```
 As a prototypical user
-I only wish to see the content relevant to the tab that I have selected
+I only want to see the content relevant to the tab that I have selected
 So that my mind is not overwhelmed with vast quantities of knowledge
 ```
 
@@ -79,7 +79,7 @@ And add the following within the `<div class="container-fluid">...</div>` after 
 <div class="collapse navbar-collapse">
   <ul class="nav navbar-nav">
     <li id="about" class="active"><a href="#">About</a></li>
-    <li id="prototype"><a href="#">Prototype</a></li>
+    <li id="prototype"><a href="#">Prototypes</a></li>
   </ul>
 </div>
 ```
@@ -105,14 +105,14 @@ When trying to work out how to write our code it is often good to first try and 
 
 This is such a good technique that it even has a name: [Rubber Duck Debugging](https://rubberduckdebugging.com/).
 
-So lets try it out here. What are the steps that we need to go through to get to a working solution.
+So let's try it out here. What are the steps that we need to go through to get to a working solution.
 
 1. When we click on the *Prototypes* tab we want it to become active.
 2. When we click on the *Prototypes* tab we want to see the *prototypes* section content.
 3. When we click on the *Prototypes* tab we want the *About* tab to loose its active status.
 4. When we click on the *Prototypes* tab we want the *about* section to be hidden.
 
-Brilliant now that we have our sequence of events to code lets write that out in Javascript. In your `app.js` add the following:
+Brilliant now that we have our sequence of events to code let's write that out in Javascript. In your `app.js` add the following:
 
 ```javascript
 /* global $ */

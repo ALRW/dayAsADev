@@ -16,7 +16,7 @@ You will need your usernames and passwords on the day so either make them memora
 Security
 --------
 
-During the course we will be using Cloud9 and Github in conjunctions with eachother. This requires some security configuration, specifically: the two services use [Public Key Crypography](https://en.wikipedia.org/wiki/Public-key_cryptography) to authenticate their interactions. Sadly for us this requires a little bit of configuration.
+During the course we will be using Cloud9 and Github in conjunctions with each other. This requires some security configuration, specifically: the two services use [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) to authenticate their interactions. Sadly for us this requires a little bit of configuration.
 
 On your Cloud9 home-page click on the settings icon and then onto SSH keys. Then copy the contents of the grey box.
 
@@ -30,6 +30,6 @@ Once here click on `SSH and GPG keys` then `New SSH key` call the key "Cloud9" a
 
 ![github ssh](./images/githubSSH.png)
 
-Congratulations yo now have everything need to complete the course!
+Congratulations you now have everything need to complete the course!
 
 [Go to course navigation](./navigation.md)

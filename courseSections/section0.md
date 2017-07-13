@@ -20,7 +20,7 @@ It's absolutely critical that you swap driver and navigator roles frequently - p
 
 Pair programming can be very exhausting as it will often lead to a state of very highly focused concentration. Make sure you take occasional breaks (at least every 90 minutes), and remember that learning how to effectively pair with individuals from all backgrounds and personality types is at least as important as any individual coding skills. 
 
-To prod you into good practices where-ever you see a :twisted_rightwards_arrows: you should think about switching roles.
+To prod you into good practices wherever you see a :twisted_rightwards_arrows: you should think about switching roles.
 
 General Pair Programming Do's and Don'ts
 --------------------------------------

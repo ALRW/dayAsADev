@@ -18,9 +18,9 @@ Once you've add your test and saved the `app_spec.rb` file, running `$rspec` in 
 
 ![rspec tests passing](../images/rspecPass.png)
 
-As you can see even with such a small application the computer is still far more efficient at checking that everything is as it's meant to be in my case completing is checks in 0.2 seconds. We now do not need to manually check these features every time we make a change freeing us to work on new features in a more efficient manner.
+As you can see, even with such a small application, the computer is still far more efficient at checking everything, in my case completing its checks in 0.2 seconds. We now do not need to manually check these features every time we make a change freeing us to work on new features in a more efficient manner.
 
-Now lets give our site a facelift!
+Now let's give our site a facelift!
 
 :twisted_rightwards_arrows:
 

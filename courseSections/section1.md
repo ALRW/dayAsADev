@@ -25,7 +25,7 @@ When your workspace has been created you should see it open in your browser. It 
 
 ![Cloud9 Initial Page](../images/c9InitialReadme.png)
 
-What you are seeing in this image is an **Integrated Development Environment (IDE)**. IDEs are highly complex applications and take a bit of getting used to. Think Microsoft Word, on steroids, exposed to radiation in a secret nuclear incident and having gained super powers...something like that. Regardless, the important thing is that Cloud9 gives us the four critical components of our developement environment:
+What you are seeing in this image is an **Integrated Development Environment (IDE)**. IDEs are highly complex applications and take a bit of getting used to. Think Microsoft Word, on steroids, exposed to radiation in a secret nuclear incident and having gained super powers...something like that. Regardless, the important thing is that Cloud9 gives us the four critical components of our development environment:
 
  - A **file system** to store our source files (code, images, HTML, CSS and others)
  - An **editor** to edit the above mentioned source files
@@ -94,7 +94,7 @@ Hello Ruby
 ```
 You've just written a command-line program: you run it from the command line and it outputs to the command line! 
 
-:twisted_rightwards_arrows: At this point lets do our first switchover (staying on the same laptop) and move onto the next section.
+:twisted_rightwards_arrows: At this point let's do our first switchover (staying on the same laptop) and move onto the next section.
 
 [Previous section](./section0.md) | [Continue to Step 2](./section2.md)
 

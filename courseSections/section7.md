@@ -3,7 +3,7 @@ Section 7 - A Prototype Website
 
 [Go to course navigation](../navigation.md)
 
-You've come a long way already today and now that we've accumulated a large amount of building-block knowledge lets put it to use and actually build ourselves a prototype website. 
+You've come a long way already today and now that we've accumulated a large amount of building-block knowledge let's put it to use and actually build ourselves a prototype website. 
 
 To set the scene. A potential client has expressed interest in revamping their business website and wants to see what we are capable of. They have asked us to produce a prototype website for their "prototype" business. Kindly they have also provided us with a few user stories and a number of wireframes to work with. Fantastic.
 
@@ -11,26 +11,26 @@ To start with.
 
 ```
 As a prototypical business owner
-I need a website
-To communicate my prototypes to the world
+I want a website
+So that I communicate my prototypes to the world
 ```
 
 ```
 As a prototypical user 
-I would like a navigation bar
-In order to navigate around a prototype website
+I want a navigation bar
+So that I can navigate around a prototype website
 ```
 
 ```
 As a logo obsessed prototypical business owner
-I need to see my prototype logo and company name on the website navigation bar
-In order to be able to sleep at night
+I want to see my prototype logo and company name on the website navigation bar
+So that I am able to sleep at night
 ```
 
 ```
 As a detail oriented prototypical user
-I would like to see a description of my prototype business on the websites home page
-In order to understand what a "prototype" business is
+I want to see a description of my prototype business on the website's home page
+So that I can understand what a "prototype" business is
 ```
 
 And an initial wireframe of the page:
@@ -42,7 +42,7 @@ Where do I start?!!
 
 Ok so we have our starting requirements, but maybe you're thinking "*how am I going to get from the simple page with a bit of text to a pristine looking webpage?*" :confused: that is to say, this looks like a rather large jump in task size. This is a common theme for developers so it is worth discussing now. A developer produces the best results when faced with a small narrowly defined piece of work. However, we live in the real world and as this task demonstrates we need to be able to deliver. So mentally we need to break down the work into smaller bite-size chunks that we can easily reason about and therefore complete.
 
-You may have heard developers talk about **Front end** and **Back end** - the terminology may sound a little dodgy but this is an example of this kind of *breaking down* that allows us to reason about seperate parts of the same task. Concretely, you have already done both front-end and back end development. When you created your ruby program:
+You may have heard developers talk about **Front-end** and **Back-end** - the terminology may sound a little dodgy but this is an example of this kind of *breaking down* that allows us to reason about seperate parts of the same task. Concretely, you have already done both front-end and back-end development. When you created your ruby program:
 
 ```ruby
 get '/' do
@@ -51,7 +51,7 @@ end
 ```
 that was you programming the back-end server to perform the task of automatically getting you a particular resource when you asked for it.
 
-the `index.erb` that you created is your front end: the resource that will be returned to you and rendered in your web browser. Developers who work creating content for both the front end and back end are known as a full-stack developers.
+the `index.erb` that you created is your front-end: the resource that will be returned to you and rendered in your web browser. Developers who work creating content for both the front-end and back-end are known as a full-stack developers.
 
 So onto the first user story. To get this prototype website off the ground we need to have a route setup to serve this page for us. Handily we've already done this with the above piece of code. Why reinvent the wheel when we can reuse the work we've already done. If that feels to easy, don't worry that will all change soon!
 
@@ -83,7 +83,7 @@ This addition of the `<link rel="stylesheet" ... >` tells our html template to g
 Navbar
 -----
 
-Now that we have access to bootstrap lets move forward to the next user story.
+Now that we have access to bootstrap let's move forward to the next user story.
 
 Update the `<body> ... </body>` section of your `index.erb` file with the following:
 
@@ -111,7 +111,7 @@ Task 3
 
 :twisted_rightwards_arrows: Now's a good opportunity to switch using git to add, commit, push and pull your changes.
 
-Another thing developers spend a large amount of their time on is reading documentation. We've pulled in the bootstrap framework which gives us access to a whole bag of tools, their documentation is how we learn how to use the toolkit so lets do some research:
+Another thing developers spend a large amount of their time on is reading documentation. We've pulled in the bootstrap framework which gives us access to a whole bag of tools, their documentation is how we learn how to use the toolkit so let's do some research:
 
  - [ ] Using the documentation below add the company logo and name: "Prototype Inc." to the navigation bar to fulfil the following user story
 
@@ -133,7 +133,7 @@ The icon you need to add can be loaded from the following url:
 https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png
 ```
 
-The client has also asked the we add the company name as a `<h4></h4>` size element.
+The client has also asked that we add the company name as a `<h4></h4>` size element.
 
 Good luck!
 

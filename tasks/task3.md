@@ -19,14 +19,14 @@ Looking at the bootstrap documentation we can see that we just need to add a lin
 </body>
 ```
 
-Lets take a minute to talk through a few of the attributes that we are adding here and explain what they do:
+Let's take a minute to talk through a few of the attributes that we are adding here and explain what they do:
 
  - A `class` is simple a descriptive name for a group of html items that all share a similar purpose and/or style.
  - `href` is something that we'll return to but suffice to say the it is the attribute that specifies where the link (the `<a>` tag) points to. 
  - When you include an `alt` attribute you give the browser some text that will display if for whatever reason the person viewing your site is unable to load the image itself.
  - Lastly the `src` attribute tells our `<img>` tag where it can find the image that it is meant to load for us.
 
-All being well if you now save your `index.erb` and refresh your preview you should see a slightly more colourfule navigation bar.
+All being well if you now save your `index.erb` and refresh your preview you should see a slightly more colourful navigation bar.
 
 ![navbar brand](../images/navbarBrand.png)
 

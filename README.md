@@ -6,7 +6,7 @@ A day as a Developer
 What is this all about?
 ----------------------
 
-As a agile team member working in tech you have the fortune/misfortune to work with developers. We try to work using agile methodologies and this includes the concept of the cross-functional team. As [this succinct article](https://www.scrumalliance.org/community/articles/2014/june/success-story-cross-functional-scrum-teams) puts it, this is about the big picture. A team has a goal that it needs to achieve, how it gets there should be the preserve of the team and this should not be hampered by job titles and/or narrow working silos. Having a common level of understanding and a common language across the team can help to break down these silos creating a highly performing team. 
+As an agile team member working in tech you have the fortune/misfortune to work with developers. We try to work using agile methodologies and this includes the concept of the cross-functional team. As [this succinct article](https://www.scrumalliance.org/community/articles/2014/june/success-story-cross-functional-scrum-teams) puts it, this is about the big picture. A team has a goal that it needs to achieve, how it gets there should be the preserve of the team and this should not be hampered by job titles and/or narrow working silos. Having a common level of understanding and a common language across the team can help to break down these silos creating a highly performing team. 
 
 Now when it comes to obscure language and weird acronyms, I have to admit, developers need to shoulder much of the blame. So think of this course as a tortuous apology and, as the quickest way to learn something is to do it, you will now get to spend the next day as a developer.
 
@@ -14,7 +14,7 @@ So how do you "be a developer". The truth is that the job requires a broad range
 
 This course is designed to mimic this process in a structured way. The first half will walk you through key concepts and provide some foundational knowledge. As we move on things will start to get a little harder, there will be fewer explicit answers and you will need to find and provide your own solutions. Hopefully, it will push you out of your comfort zone while teaching you a few new things along the way.
 
-Lets begin!
+Let's begin!
 
 Precourse and Setup
 ------------------
@@ -38,7 +38,7 @@ One of the first problems to overcome as a developer is getting stuck. It's a tr
 
 1. Try to work out what is actually going on. It sounds patronising but if you can describe the problem you have an idea of what's blocking you. Even if it is in vague terms if you then need to seek help you can at the very least describe the problem accurately.
 2. Talk everything through with your pair partner, bounce ideas off each other. Take a quick break and then approach the problem again as though it is the first time you have encountered it.
-3. Throughout the proceeding steps try to gather keywords that relate to the problem like, 'Array' or 'Terminal'.
+3. Throughout the preceding steps try to gather keywords that relate to the problem like, 'Array' or 'Terminal'.
 4. Isolate error keywords. If you have an error message, identify and add these keywords to your results from (3).
 5. Google! Research the problem using your keywords. Also use the keywords to indentify relevant results (i.e. not just the first one).
 6. Other pairs of Developers. Take your well-described, well formatted question to another developer or pair of developers; they may have encountered the same problem and know how to solve it.

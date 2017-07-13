@@ -3,11 +3,11 @@ Section 9 - Testing
 
 [Go to course navigation](../navigation.md)
 
-Testing is a whole topic in and of itself and there are various different tools, models and approaches. However in this case lets try and simplify things down to the bare bones.
+Testing is a whole topic in and of itself and there are various different tools, models and approaches. However in this case let's try and simplify things down to the bare bones.
 
 If you look back through the journey we've come on we've already created the bare bones of a functioning website. At each stage we've made some changes and then crucially we've gone back to the webpage, refreshed and *tested* to see that our changes have taken effect. 
 
-Now as developers you should be thinking, ok that's fine in this limited instance but what happens when this prototype website really takes of and we're adding mountains of functionality. I can manually check the whole website to make sure that my changes have come through and that they haven't broken anything else!
+Now as developers you should be thinking, ok that's fine in this limited instance but what happens when this prototype website really takes off and we're adding mountains of functionality. I can manually check the whole website to make sure that my changes have come through and that they haven't broken anything else!
 
 Luckily in the same way we can tell a computer to show us a webpage we can also get it to do our testing. Maybe that feels a little bit lazy but in this case laziness is good, embrace it!
 
@@ -62,7 +62,7 @@ Your folder structure should look like this afterwards
 
 ![spec folder structure](../images/specFolderStructure.png)
 
-Now lets add an initial test to check that our `server.rb` will respond to us when run
+Now let's add an initial test to check that our `server.rb` will respond to us when run.
 
 In `app_spec.rb` add the following:
 
@@ -94,9 +94,9 @@ $ rspec
 
 What did you see? Is this what you expect?
 
-While there is some initial configuration in the test file we have just created the key to understanding it is seeing that we are *describing* our Prototype App and saying that *it* displays a homepage. The test is *expecting* to see that when we ask for that page we get a [HTTP 200 response](https://httpstatuses.com/200) Essentially telling us that the request has succeeded.
+While there is some initial configuration in the test file we have just created the key to understanding it is seeing that we are *describing* our Prototype App and saying that *it* displays a homepage. The test is *expecting* to see that when we ask for that page we get a [HTTP 200 response](https://httpstatuses.com/200) essentially telling us that the request has succeeded.
 
-Great but lets see if we can go a little bit further and actually test what is on the page we have created in `index.erb`. Add the following test after the `end` of the first `it` block and before the `end` of the `describe` block.
+Great but let's see if we can go a little bit further and actually test what is on the page we have created in `index.erb`. Add the following test after the `end` of the first `it` block and before the `end` of the `describe` block.
 
 ```ruby
 it 'displays the company name: Prototype Inc' do
