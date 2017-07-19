@@ -3,11 +3,11 @@ Section 12 - Refactoring
 
 [Go to course navigation](../navigation.md)
 
-Looking at our implementation of the show-hide logic for moving between tabs there is clearly a large amount of code that is duplicated. But why is this a bad thing? I mean we've tested that it works and we've fulfilled our requirements, surely that should be good enough. Not quite: think about the next time our client asks us to add a tab. It's just a little bit more work that the last time we did it. Now think what would happen if our website had 30 or 40 pages each with their own tab views that now need to be updated. This solution is clumbsy and doesn't lend itself to extension.
+Looking at our implementation of the show-hide logic for moving between tabs there is clearly a large amount of duplicated code. But why is this a bad thing? I mean we've tested that it works and we've fulfilled our requirements, surely that should be good enough? Not quite: think about the next time our client asks us to add a tab. It's just a little bit more work that the last time we did it. Now think what would happen if our website had 30 or 40 pages each with their own tab views that now need to be updated. This solution is clumsy and doesn't lend itself to extension.
 
 So what should we do? 
 
-The simple answer is look for a better solution. A key skill to gain is the ability to spot repetition in code. Repetition is almost always a sign that your current implementation has reached its limits and now you need to abstract the common logic. holding this common logic in one place then provides you with a better, optimised solution to the problem. 
+The simple answer is look for a better solution. A key skill to gain is the ability to spot repetition in code. Repetition is almost always a sign that your current implementation has reached its limits and now you need to abstract the common logic. Holding this common logic in one place then provides you with a better, optimised solution to the problem. 
 
 > Take a moment now to look at the code we've written. Grab a piece of paper and try to describe in English how you might **refactor** this problem to remove the repetition.
 

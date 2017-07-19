@@ -26,7 +26,7 @@ Once complete you should be left with the following file structure:
 Now as with our JQuery library we need to add our `app.js` to the page with the following line again just before your closing `</body>` element.
 
 ```html
-<script src="/javascript/app.js></script>
+<script src="/javascript/app.js"></script>
 ```
 
 Fantastic and it's just in time because it looks like our client has come back with some further requirements.
