@@ -18,7 +18,7 @@ Security
 
 During the course we will be using Cloud9 and Github in conjunctions with each other. This requires some security configuration, specifically: the two services use [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) to authenticate their interactions. Sadly for us this requires a little bit of configuration.
 
-On your Cloud9 home-page click on the settings icon and then onto SSH keys. Then copy the contents of the grey box.
+On your Cloud9 home-page click on the settings icon and then onto SSH keys. Then copy the contents of the grey box. In the case that you have multiple SSH keys shown you should copy the second with a title similar to: **Connect to your private Github repositories**.
 
 ![Cloud 9 SSH](./images/cloud9SSH.png)
 
