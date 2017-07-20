@@ -109,7 +109,7 @@ So let's try it out here. What are the steps that we need to go through to get t
 
 1. When we click on the *Prototypes* tab we want it to become active.
 2. When we click on the *Prototypes* tab we want to see the *prototypes* section content.
-3. When we click on the *Prototypes* tab we want the *About* tab to loose its active status.
+3. When we click on the *Prototypes* tab we want the *About* tab to lose its active status.
 4. When we click on the *Prototypes* tab we want the *about* section to be hidden.
 
 Brilliant now that we have our sequence of events to code let's write that out in Javascript. In your `app.js` add the following:

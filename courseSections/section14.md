@@ -2,7 +2,7 @@ Section 14 - Course Finale!
 ==========================
 [Go to course navigation](../navigation.md)
 
-That's it for the day, congratulations. have a think about what you've accomplished. In the course of a day you've built an application's backend in **Ruby**; created content in **HTML**; styled that content using **CSS**; added a dynamic frontend using **JavaScript** and deployed the resulting prototype to a production environment that can be accessed by anyone anywhere in the world. Not bad for a day's work.
+That's it for the day, congratulations. Have a think about what you've accomplished. In the course of a day you've built an application's backend in **Ruby**; created content in **HTML**; styled that content using **CSS**; added a dynamic frontend using **JavaScript** and deployed the resulting prototype to a production environment that can be accessed by anyone anywhere in the world. Not bad for a day's work.
 
 More importantly, throughout this journey you've also touched almost every aspect of web-development from Git and version control systems to interpreted and compiled languages. Hopefully you now feel in a position to understand any discombobulated phrase that a developer throws your way.
 
@@ -25,7 +25,7 @@ A platform for learning to code with numerous short courses for various language
 
 [Khan Academy](https://www.khanacademy.org/)
 
-Some good basic and intermediate courses on webdevelopment that focus primarily on HTML, CSS and JavaScript.
+Some good basic and intermediate courses on web development that focus primarily on HTML, CSS and JavaScript.
 
 [Udemy](https://www.udemy.com/)
 
@@ -33,7 +33,7 @@ Although it has a freemium model and some low quality content there is a wealth 
 
 [Udacity](https://www.udacity.com/)
 
-A platform for computer science, web developement and machine learning/AI courses. Offers more in depth nano-degrees although after a free trial these can become expensive
+A platform for computer science, web developement and machine learning/AI courses. Offers more in depth nano-degrees although after a free trial these can become expensive.
 
 [Free Code Camp](http://www.freecodecamp.com/)
 
