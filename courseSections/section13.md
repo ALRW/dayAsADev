@@ -66,5 +66,7 @@ $ git push heroku master
 
 When the task finishes go back and visit the application url. What do you see?
 
+:twisted_rightwards_arrows:
+
 [Return to previous section](../courseSections/section12.md) | [Continue to the next section](../courseSections/section14.md)
 
