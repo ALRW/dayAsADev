@@ -66,5 +66,5 @@ $ git push heroku master
 
 When the task finishes go back and visit the application url. What do you see?
 
-[Return to previous section](../courseSections/section12.md) | [Continue to the course Finale](../courseSections/section14.md)
+[Return to previous section](../courseSections/section12.md) | [Continue to the next section](../courseSections/section14.md)
 
