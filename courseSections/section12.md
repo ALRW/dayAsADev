@@ -44,7 +44,7 @@ $(document).ready(function(){
 });
 ```
 
-There are still ways that this code can be improved but for now this should do. Now all we have to do if we're asked to add a new tab is add it to the tabs *array* and then add call our `eventHandler` function when it's clicked. Much simpler! Hopefully, this also illustrates how less code can actually do more for you.
+There are still ways that this code can be improved but for now this should do. Now all we have to do if we're asked to add a new tab is add it to the tabs *array* and then add a call to our `eventHandler` function when it's clicked. Much simpler! Hopefully, this also illustrates how less code can actually do more for you.
 
 Moving on
 ---------
