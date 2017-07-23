@@ -10,8 +10,10 @@ Before coming on this course please create a free account on each of the followi
  - [Cloud9](https://c9.io/signup)
  - [Github](https://github.com/join)
  - [Heroku](https://signup.heroku.com)
+ - [Travis CI](https://travis-ci.org/auth) - This service does not require a new account but requires you to sign in using your Github account and accept Travis' request for permission to access some of the data on your Github account.
 
 You will need your usernames and passwords on the day so either make them memorable or use a [Secure Password Manager](https://www.lastpass.com/)
+
 
 Security
 --------
