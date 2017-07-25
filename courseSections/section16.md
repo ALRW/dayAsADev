@@ -1,4 +1,4 @@
-Section 15 - Course Finale!
+Section 16 - Course Finale!
 ==========================
 [Go to course navigation](../navigation.md)
 

@@ -23,8 +23,9 @@ Course Sections
  - [Section 11 - Making Things Happen With JavaScript](./courseSections/section11.md)
  - [Section 12 - Refactoring](./courseSections/section12.md)
  - [Section 13 - Deployment](./courseSections/section13.md)
- - [Section 14 - Continuous Integration and Continuous Deploytment](./courseSections/section14.md)
- - [Section 15 - Course Finale!](./courseSections/section15.md)
+ - [Section 14 - Continuous Integration and Continuous Delivery](./courseSections/section14.md)
+ - [Section 15 - Continuous Deployment](./courseSections/section15.md)
+ - [Section 16 - Course Finale!](./courseSections/section16.md)
 
 
 Answers

@@ -1,5 +1,5 @@
-Continuous Deployment
-=====================
+Section 15 - Continuous Deployment
+==================================
 
 [Go to course navigation](../navigation.md)
 
@@ -13,3 +13,7 @@ Using Travis to Continuously Deploy
 -----------------------------------
 
 We have integrated Travis into our project to build our code and run our tests. Seperately we also have a deployed application setup on Heroku. Wouldn't it be great if every time we pushed our code to Github Travis ran all our tests, then if they passed that code was automatically pushed to Heroku and then deployed for all the world to see? Thankfully we've been discussing this because 
+
+
+----------------------------------
+[Return to previous section](../courseSections/section14.md) | [Continue to the answers](../tasks/task7.md)
