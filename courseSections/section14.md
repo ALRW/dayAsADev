@@ -1,11 +1,11 @@
 Section 14 - Continuous Integration and Continuous Delivery
-==============================================
+===========================================================
 
 [Go to course navigation](../navigation.md)
 
 The two phrases above, often shortened to CI and CD are currently big buzzwords that are often thrown around but rarely understood or used correctly. Throw in other things such as build pipelines and Integration and Feature tests and things can start to get a bit bewildering but at their heart both are simply good Agile practices that help us to deliver quality features directly to the end-user as fast as possible. So let's try and demystify all of this by creating our own Continuous Delivery pipeline for our Prototype website.
 
-Before we go ahead implementing this let's talk first about Continuous Integration. The good news is that you've been practicing most of the key ideas already. Simply put, it is the practice of *integrating* your code into a shared repository as often as practicable. Each check in to this repository is then verified automatically by an automated build. there are a whole load of benefits to working in this manner but as a developer the key benefits are that each check in is small, quick and easy: if anything does break i is easy to catch ad fix which ultimately means less time fixing bugs and more time adding features. Speaking of which our fantastic Business Analyst has already put together a user story in conjunction with our client.
+Before we go ahead implementing this let's talk first about Continuous Integration. The good news is that you've been practicing most of the key ideas already. Simply put, it is the practice of *integrating* your code into a shared repository as often as practicable. Each check in to this repository is then verified automatically by an automated build. there are a whole load of benefits to working in this manner but as a developer the key benefits are that each check in is small, quick and easy: if anything does break it is easy to catch and fix which ultimately means less time fixing bugs and more time adding features. Speaking of which our fantastic Business Analyst has already put together a user story in conjunction with our client.
 
 ```
 As a prototypical business owner
@@ -13,7 +13,7 @@ I want an automated build pipeline
 So that I detect integration issues as early as possible
 ```
 
-Setting up an automated buld pipeline
+Setting up an automated build pipeline
 -------------------------------------
 
 In the precourse we setup access to a service called [Travis CI](https://travis-ci.org/) which we'll use to automate our CI pipeline.
@@ -53,6 +53,12 @@ script: bundle exec rspec
 
 It's as simple as that.
 
-:twisted_rightwards_arrows: - This time ensure that when you commit and push, you have a browser window open on your logged in Travis home-page. What do you see? Is it what you expected?
+:twisted_rightwards_arrows: This time ensure that when you commit and push, you have a browser window open on your Travis home-page. What do you see?
+
+Hopefully, if everything was connected correctly you ended up with an output that looked similar to the following:
+
+![travis output](../images/travisOutput.png)
+
+Here you can see that after starting up, Travis clones your code, checks the version status of a number of different pieces of software such as the ruby language, runs `bundle install` to pull in all our dependencies and then runs the commands that we specified in our `.travis.yml` i.e. running all our tests. If all of that runs and passes then we have a successful build!
 
 [Return to previous section](../courseSections/section13.md) | [Continue to the course Finale](../courseSections/section15.md)
