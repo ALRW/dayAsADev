@@ -12,7 +12,34 @@ So if we are continuously integrating our code and are happy that it can be used
 Using Travis to Continuously Deploy
 -----------------------------------
 
-We have integrated Travis into our project to build our code and run our tests. Seperately we also have a deployed application setup on Heroku. Wouldn't it be great if every time we pushed our code to Github Travis ran all our tests, then if they passed that code was automatically pushed to Heroku and then deployed for all the world to see? Thankfully we've been discussing this because 
+We have integrated Travis into our project to build our code and run our tests. Seperately we also have a deployed application setup on Heroku. Wouldn't it be great if every time we pushed our code to Github Travis ran all our tests, then if they passed that code was automatically pushed to Heroku and then deployed for all the world to see? 
+
+The first thing we need to be able to do is interact with Travis using the command line. Luckily for us the helpful folks at Travis have created a gem for this exact purpose. Let's add the following into our `Gemfile`:
+
+```ruby
+gem "travis"
+```
+
+and follow that up with a quick:
+
+```
+$ bundle install
+```
+
+Now that we have the Travis CLI (Command line interface) installed we can log into Travis, run the following:
+
+```
+$ travis login
+```
+
+Follow the prompts and enter your credentials to associate Travis with your Github repository. 
+
+At this point we are ready to tell Travis to *Continuously Deploy* our application. Update your `.travis.yml` file to the following:
+
+```yml
+script: bundle exec rspec
+deploy:
+  provider
 
 
 ----------------------------------
