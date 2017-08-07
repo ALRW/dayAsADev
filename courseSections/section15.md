@@ -39,7 +39,30 @@ At this point we are ready to tell Travis to *Continuously Deploy* our applicati
 ```yml
 script: bundle exec rspec
 deploy:
-  provider
+  provider:heroku
+  api_key:
+    secure:
+  app:
+```
+
+Here we are telling Travis to deploy our code to our *provider* Heroku. You will also have noticed that we appear to have a few blank fields defined with no data associated with them.
+
+The `api_key` is where we will define credentials that will allow Travis to identify itself to Heroku as being authorised by us. However, there is a catch: remember that we are pushing our code to Github and that our code, being open-source, is therefore visible to anyone with an internet connection. We therefore need to add an encrypted key that can be passed around and decrypted where needed. To do this automagically run the following command:
+
+```
+$ travis encrypt $(heroku auth:token) -r [Your github repo name here: e.g. ALRW/prototype-website] --add deploy.api_key
+```
+
+If you now open your `.travis.yml` it should look a little like the following:
+
+```yml
+script: bundle exec rspec
+deploy:
+  provider: heroku
+    api_key:
+        secure: WTD1P6b4f9mxV07XO9hiwCPRsE/a8fzBTL1xZjCM3d+xhQBk5r8G2pDO4zShrfZ7V5Ym2b+VA4TIbRienumGaqMcZqlvbxlYy7NU8W0VPGAUV05Y/vxH5Zi1/XEraNiLso1H4uSPsUfRgtG4/hgyQlASmHI4A6oCoOqFbyHDY4uPTigCbURE3xG95K6o0Xuwbikr+ibpnSkXcbLXJrOQF3GUuXv4OCfauRhsvEiDbnjfBgQB/iE9PG7wbKL9mXja+OsMWLfPu/sZHohl9JF2sG8hAve2HeAn8A5KK6YklQMkACvtJOz1l8yJ6waBRubQwTEuRfNUc2YJXoNvU7xtGsu9orO7QgEoc1Ps3K+zNHIMOuFJEbIKcy7+8jD/LQxyXtWUvl54+A5nJpR/jiiCPQvXXJf9QStRg516UzAj0JP9zBmxTuPBn/ghaORQqnZa6pctbcg96ri/0iuO9jqj1O6Tj6KeuVpg/YBF+m/Cjimt5Ussv6+e4MLqKBpHrK76v4UcJe3bArWu2AItQpVd1XD3AXjuZ2kotlOi7FhAmovAW/2LrmlpYYVPP+YPLbSbRtxBfIupxHe4pO3tMOYFmT/NOy2/79pXXz+0YkDLd8ELL9NRM92WkU93DIe3SgMB5rjebfTYxqZP23YcKNFJUyduV5Q+dIgmsG2XNSGvnqI=
+```
+
 
 
 ----------------------------------
