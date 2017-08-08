@@ -64,7 +64,36 @@ deploy:
   app:
 ```
 
+Now that we can easily authenticate with Heroku from Travis we can only need to tell travis the name of our app on Heroku. Update the final line of the `.travis.yml` with the name of your application:
 
+```yml
+app: delicious-pie-39548
+```
+
+> If you're wondering how to find the name, it can be found [here](https://dashboard.heroku.com/apps).
+
+----------------------------------
+
+:twisted_rightwards_arrows: - When you commit and push your code this time watch the progress of the build on Travis. 
+
+Now have a play around: make a small change, say choose a different prototype image or change some of the text on one of our tabs. Commit and push this, once the build completes does it show up when you access your production environment? 
+
+With all of that working, in your `index.erb` amend the `<h2>Home of the World's Best Prototypes</h2>` to a different title. When you commit and push this what happens? What did you expect?
+
+Finally Let's reset all of these changes before we move forward:
+
+in the command line run the following:
+```
+$ git reset --hard @~2
+```
+
+> If you have made more than two commits that you wish to roll-back then replace 2 with that number
+
+When and only when you are happy that you have your project in the correct state run the following:
+
+```
+$ git push -f origin master
+```
 
 ----------------------------------
 [Return to previous section](../courseSections/section14.md) | [Continue to the answers](../tasks/task7.md)
