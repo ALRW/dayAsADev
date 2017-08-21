@@ -5,9 +5,11 @@ Section 15 - Continuous Deployment
 
 So we've setup a Continuous Integration pipeline but how does that help us with the idea of Continuous Delivery and why are we now talking about Continuous Deployment?
 
-In short Continuous Integration is a way for us to produce artifacts that we are confident can be put in front of a user. Think of the life-cycle of a feature. We gather some requirements, build a feature against them and then make what we've built available to the user. Real feedback on this feature will only come at the point that a user is actually interacting with it. If we want to improve our products and features we want to do everything we can to reduce this feedback loop. 
+In short, Continuous Integration is a way for us to produce artifacts that we are confident can be put in front of a user. 
 
-So if we are continuously integrating our code and are happy that it can be used, can we find a way that will enable us to get it to the end user as quickly as possible? The answer is yes, Continuous Delivery: the delivery of features to the user as soon as they are ready. Continuous Deployment is, from a technical perspective, *how* we can achieve this.
+Think of the life-cycle of a feature. We gather some requirements, build a feature against them and then make what we've built available to the user. Real feedback on this feature will only come at the point that a user is actually interacting with it. If we want to improve our products and features we want to do everything we can to reduce this feedback loop. 
+
+Following this line of thinking: if we are continuously integrating our code and are happy that it can be used, can we find a way that will enable us to get it to the end user as quickly as possible? The answer is yes: Continuous Delivery, which is the delivery of features to the user as soon as they are ready. Continuous Deployment is, from a technical perspective, *how* we can achieve this.
 
 Using Travis to Continuously Deploy
 -----------------------------------
@@ -26,7 +28,7 @@ and follow that up with a quick:
 $ bundle install
 ```
 
-Now that we have the Travis CLI (Command line interface) installed we can log into Travis, run the following:
+Now that we have the Travis CLI (Command line interface) installed we can log into Travis. Run the following:
 
 ```
 $ travis login
@@ -39,7 +41,7 @@ At this point we are ready to tell Travis to *Continuously Deploy* our applicati
 ```yml
 script: bundle exec rspec
 deploy:
-  provider:heroku
+  provider: heroku
   api_key:
     secure:
   app:
@@ -47,7 +49,7 @@ deploy:
 
 Here we are telling Travis to deploy our code to our *provider* Heroku. You will also have noticed that we appear to have a few blank fields defined with no data associated with them.
 
-The `api_key` is where we will define credentials that will allow Travis to identify itself to Heroku as being authorised by us. However, there is a catch: remember that we are pushing our code to Github and that our code, being open-source, is therefore visible to anyone with an internet connection. We therefore need to add an encrypted key that can be passed around and decrypted where needed. To do this automagically run the following command:
+The `api_key` is where we will define credentials that will allow Travis to identify itself to Heroku as being authorised by us. However, there is a catch: remember that we are pushing our code to Github and that our code, being open-source, is therefore visible to anyone with an internet connection. We therefore need to add an encrypted key that can be passed around and decrypted where needed. To do this automagically, run the following command:
 
 ```
 $ travis encrypt $(heroku auth:token) -r [Your github repo name here: e.g. ALRW/prototype-website] --add deploy.api_key
@@ -64,36 +66,20 @@ deploy:
   app:
 ```
 
-Now that we can easily authenticate with Heroku from Travis we can only need to tell travis the name of our app on Heroku. Update the final line of the `.travis.yml` with the name of your application:
+Now that we can easily authenticate with Heroku from Travis we only need to tell travis the name of our app on Heroku. Update the final line of the `.travis.yml` with the name of your application (note yours will be different):
+
+> If you're wondering how to find the name, it can be found [here](https://dashboard.heroku.com/apps).
 
 ```yml
 app: delicious-pie-39548
 ```
 
-> If you're wondering how to find the name, it can be found [here](https://dashboard.heroku.com/apps).
-
+Task 7
 ----------------------------------
 
-:twisted_rightwards_arrows: - When you commit and push your code this time watch the progress of the build on Travis. 
+:twisted_rightwards_arrows: - When you commit and push your code this time watch the progress of the build on Travis. If everything is setup correctly you should see that the build succeeds and your code is pushed and deployed to Heroku. However, when you open up your website it looks exactly the same...We haven't made any noticeable changes. Wouldn't it be nice to implment a final feature using everything that we know? Great idea! 
 
-Now have a play around: make a small change, say choose a different prototype image or change some of the text on one of our tabs. Commit and push this, once the build completes does it show up when you access your production environment? 
 
-With all of that working, in your `index.erb` amend the `<h2>Home of the World's Best Prototypes</h2>` to a different title. When you commit and push this what happens? What did you expect?
-
-Finally Let's reset all of these changes before we move forward:
-
-in the command line run the following:
-```
-$ git reset --hard @~2
-```
-
-> If you have made more than two commits that you wish to roll-back then replace 2 with that number
-
-When and only when you are happy that you have your project in the correct state run the following:
-
-```
-$ git push -f origin master
-```
 
 ----------------------------------
 [Return to previous section](../courseSections/section14.md) | [Continue to the answers](../tasks/task7.md)
