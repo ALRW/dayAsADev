@@ -79,7 +79,5 @@ Task 7
 
 :twisted_rightwards_arrows: - When you commit and push your code this time watch the progress of the build on Travis. If everything is setup correctly you should see that the build succeeds and your code is pushed and deployed to Heroku. However, when you open up your website it looks exactly the same...We haven't made any noticeable changes. Wouldn't it be nice to implment a final feature using everything that we know? Great idea! 
 
-
-
 ----------------------------------
-[Return to previous section](../courseSections/section14.md) | [Continue to the answers](../tasks/task7.md)
+[Return to previous section](../courseSections/section14.md) | [Continue to the next section](../courseSections/section16.md)
