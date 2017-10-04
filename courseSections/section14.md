@@ -1,5 +1,5 @@
-Section 14 - Continuous Integration and Continuous Delivery
-===========================================================
+Continuous Integration and Continuous Delivery
+==============================================
 
 [Go to course navigation](../navigation.md)
 

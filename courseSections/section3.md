@@ -1,4 +1,4 @@
-Step 3 - Responding with HTML
+Responding with HTML
 =============================
 
 [Go to course navigation](../navigation.md)
@@ -58,4 +58,4 @@ Hopefully, you should see something like this:
 
 :twisted_rightwards_arrows: You know what to do.
 
-[Previous page](./section2.md) | [Continue to Step 4](./section4.md)
+[Previous page](./section2.md) | [Continue to the next section](./section4.md)

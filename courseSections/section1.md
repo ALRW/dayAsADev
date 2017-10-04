@@ -1,5 +1,5 @@
-Section 1 - Development Environment
-=============================================
+Development Environment
+=======================
 
 [Go to course navigation](../navigation.md)
 
@@ -96,5 +96,5 @@ You've just written a command-line program: you run it from the command line and
 
 :twisted_rightwards_arrows: At this point let's do our first switchover (staying on the same laptop) and move onto the next section.
 
-[Previous section](./section0.md) | [Continue to Step 2](./section2.md)
+[Previous section](./section0.md) | [Continue to the next section](./section2.md)
 

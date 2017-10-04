@@ -1,5 +1,5 @@
-Section 9 - Testing
-===================
+Testing
+=======
 
 [Go to course navigation](../navigation.md)
 

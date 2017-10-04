@@ -1,5 +1,5 @@
-Section 13 - Deployment
-=======================
+Deployment
+==========
 
 [Go to course navigation](../navigation.md)
 

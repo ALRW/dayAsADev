@@ -1,5 +1,5 @@
-Section 5 - Github
-==================
+Github
+=======
 
 [Go to course navigation](../navigation.md)
 
@@ -105,4 +105,4 @@ Our ultimate goal is for your pair partner to have access to the code you have c
 
 Enter the username, name or email address of your pair partner's github account and *voila* they will have access to your repository.
 
-[previous section](./section4.md) | [Continue to Section 6](./section6.md)
+[previous section](./section4.md) | [Continue to the next section](./section6.md)

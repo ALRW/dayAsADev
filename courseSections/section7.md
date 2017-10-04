@@ -1,5 +1,5 @@
-Section 7 - A Prototype Website
-==============================
+A Prototype Website
+===================
 
 [Go to course navigation](../navigation.md)
 

@@ -25,7 +25,8 @@ Course Sections
  - [Section 13 - Deployment](./courseSections/section13.md)
  - [Section 14 - Continuous Integration and Continuous Delivery](./courseSections/section14.md)
  - [Section 15 - Continuous Deployment](./courseSections/section15.md)
- - [Section 16 - Course Finale!](./courseSections/section16.md)
+ - [Section 16 - Changing Requirements, Rotting Code and Test Driven Development](./courseSections/section16.md)
+ - [Section 17 - Course Finale!](./courseSections/section17.md)
 
 
 Answers
@@ -37,7 +38,9 @@ Answers
  - [Task 4 - Testing our page content](./tasks/task4.md)
  - [Task 5 - Styling the page](./tasks/task5.md)
  - [Task 6 - Adding JavaScript for all of our elements](./tasks/task6.md)
+ - [Task 7 - Adding Technical Debt](./tasks/task7.md)
 
- ---------
+
+---------
 
 [Acknowledgements](./acknowledgements.md)

@@ -1,4 +1,4 @@
-Section 6 - Pulling code from Github
+Pulling code from Github
 ====================================
 
 [Go to course navigation](../navigation.md)
@@ -131,5 +131,4 @@ Task 2 - Switching pairs using git
 - [ ] This time when you switch over add a line to your readme saying what you want to learn on this course then `add` and `commit` your changes `push` them up to github then your pair partner should `pull` them down. Good luck!
 
 [Previous Section](./section5.md) | [Continue to the Answers](../tasks/task2.md)
-
 

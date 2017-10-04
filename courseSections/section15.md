@@ -1,5 +1,5 @@
-Section 15 - Continuous Deployment
-==================================
+Continuous Deployment
+=====================
 
 [Go to course navigation](../navigation.md)
 
@@ -74,7 +74,6 @@ Now that we can easily authenticate with Heroku from Travis we only need to tell
 app: delicious-pie-39548
 ```
 
-Task 7
 ----------------------------------
 
 :twisted_rightwards_arrows: - When you commit and push your code this time watch the progress of the build on Travis. If everything is setup correctly you should see that the build succeeds and your code is pushed and deployed to Heroku. However, when you open up your website it looks exactly the same...We haven't made any noticeable changes. Wouldn't it be nice to implment a final feature using everything that we know? Great idea! 

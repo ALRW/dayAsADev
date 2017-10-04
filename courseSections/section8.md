@@ -1,5 +1,5 @@
-Section 8 - Finishing the Home Page
-==================================
+Finishing the Home Page
+=======================
 
 [Go to course navigation](../navigation.md)
 

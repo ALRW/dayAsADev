@@ -1,5 +1,5 @@
-Section 4 - Git and Version Control
-==================================
+Git and Version Control
+=======================
 
 [Go to course navigation](../navigation.md)
 
@@ -91,5 +91,5 @@ This creates our snapshot in time and unlike when we added our files, git now gi
 
 This is what a successful commit message looks like. Git is telling you that it created a commit called "My First Commit" with a number (or hash or SHA) 094d3a5 (yours will be different). 3 files were changed and 33 insertions made (the lines of ruby, HTML and text that we have already written). Now if we ever need to go back to the very beginning we'll be able to `git checkout 094d3a5` to get us back to this point in time.
 
-[Previous section](./section3.md) | [Continue to Section 5](./section5.md)
+[Previous section](./section3.md) | [Continue to the next section](./section5.md)
 

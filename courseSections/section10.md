@@ -1,5 +1,5 @@
-Section 10 - Adding Your Own Style
-================================
+Adding Your Own Style
+======================
 
 [Go to course navigation](../navigation.md)
 

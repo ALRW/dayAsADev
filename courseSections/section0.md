@@ -1,5 +1,5 @@
-Section 0 - Pair Programming
-===========================
+Pair Programming
+================
 
 [Go to course navigation](../navigation.md)
 
@@ -43,4 +43,4 @@ General Pair Programming Do's and Don'ts
  - Be quiet
  - Suffer in silence
 
-[Previous page](../README.md) | [Continue to Section 1](./section1.md)
+[Previous page](../README.md) | [Continue to the next section](./section1.md)

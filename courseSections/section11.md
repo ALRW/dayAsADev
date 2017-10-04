@@ -1,5 +1,5 @@
-Section 11 - Making Things Happen With JavaScript
-=================================================
+Making Things Happen With JavaScript
+====================================
 
 [Go to course navigation](../navigation.md)
 

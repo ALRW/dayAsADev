@@ -1,5 +1,5 @@
-Section 12 - Refactoring
-=======================
+Refactoring
+===========
 
 [Go to course navigation](../navigation.md)
 

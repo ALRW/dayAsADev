@@ -1,5 +1,5 @@
-Section 2 - Welcome to the World Wide Web
-======================================
+Welcome to the World Wide Web
+=============================
 
 [Go to course navigation](../navigation.md)
 
