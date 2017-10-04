@@ -13,7 +13,7 @@ Course Sections
  - [Section 1 - Development Environment](./courseSections/section1.md)
  - [Section 2 - Welcome to the World Wide Web](./courseSections/section2.md)
  - [Section 3 - Responding with HTML](./courseSections/section3.md)
- - [Section 4 - Git and Version Contro](./courseSections/section4.md)
+ - [Section 4 - Git and Version Control](./courseSections/section4.md)
  - [Section 5 - Github](./courseSections/section5.md)
  - [Section 6 - Pulling code from Github](./courseSections/section6.md)
  - [Section 7 - A Prototype Website](./courseSections/section7.md)
