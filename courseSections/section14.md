@@ -32,7 +32,7 @@ Use the following link to navigate to the [Travis homepage](https://travis-ci.or
 
 > Note - this should be the Travis account of the person who has the `prototype-website` repository.
 
-Now click on your github account portrait in the top right hand corver of the page:
+Now click on your github account portrait in the top right hand corner of the page:
 
 ![Travis Profile](../images/travisProfile.png)
 
