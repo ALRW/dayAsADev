@@ -6,7 +6,7 @@ Adding Technical Debt
 Red
 ---
 
-So first thing we want to do is write our test. Following the convention that we've used so far we'll go for a simple test that checks our page for the presence of our image and link in the correct place as so:
+The first thing we want to do is write a test for the first, smallest bit of functionality that we want to add:
 
 ```ruby
 describe 'mailto link' do
@@ -14,11 +14,6 @@ describe 'mailto link' do
   it 'is right justified on the navigation bar' do
     get '/'
     expect(last_response.body).to include "<ul class=\"nav navbar-nav navbar-right\">"
-  end
-
-  it 'displays the mailto link with the correct address' do
-    get '/'
-    expect(last_response.body).to include "<li id=\"mail\"><a href=\"mailto:example@example.com\"><span class=\"glyphicon glyphicon-envelope\"></span></a></li>"
   end
 
 end
@@ -42,7 +37,7 @@ should give us the a large output along with the following status:
 
 ```
 Finished in 0.11304 seconds (files took 0.40698 seconds to load)
-5 examples, 2 failure
+4 examples, 1 failure
 
 Failed examples:
 
@@ -58,7 +53,6 @@ To get this test to pass we need to add our mailto icon to the navbar as specifi
 
 ```html
 <ul class="nav navbar-nav navbar-right">
-  <li id="mail"><a href="mailto:example@example.com"><span class="glyphicon glyphicon-envelope"></span></a></li>
 </ul>
 ```
 
@@ -66,15 +60,52 @@ Ensure that all your changes have been saved and then run your tests hopefully i
 
 ```
 Finished in 0.03435 seconds (files took 0.18052 seconds to load)
+4 examples, 0 failures
+```
+
+Simple!
+
+Refactor
+--------
+
+At this point there are a number of things to consider before we move to refactor. We certainly have a lot of things we know we need to remove but is now the right time? 
+
+The answer is possibly. This is a subjective decision: do you think you're next round of TDD would be helped or hindered by any refactoring at this point? Only you can answer that question. For now we'll make the decision to hold off until our feature is fully implemented and go for another round of Red -> Green -> Refactor.
+
+Red
+---
+
+Let's now add our next failing test:
+
+```ruby
+it 'displays the mailto link with the correct address' do
+  get '/'
+  expect(last_response.body).to include "<li id=\"mail\"><a href=\"mailto:example@example.com\"><span class=\"glyphicon glyphicon-envelope\"></span></a></li>"
+end
+```
+
+Green
+-----
+
+And now to make it pass simply insert the following inbetween our `<ul>...</ul>` tags.
+
+```html
+<li id="mail"><a href="mailto:example@example.com"><span class="glyphicon glyphicon-envelope"></span></a></li>
+```
+
+Fantastic if we run our tests now we should see the following output:
+
+```
+Finished in 0.03821 seconds (files took 0.18052 seconds to load)
 5 examples, 0 failures
 ```
 
 Refactor
 --------
 
-Take a moment to think that throughout this process we haven't even had to open our browser and refresh the page to check whether our feature is actually there. That's been handled by the code (although you can go and check if you don't belive the tests).
+> Before moving forward take a moment to reflect on what we've just done. Throughout this process we haven't even had to open our browser and refresh the page to check whether our feature is actually there. That's been handled by the code (although you can go and check if you don't belive the tests). I don't know about you but it's a lot faster and involves a lot less switching between tabs, windows and screens.
 
-One thing you should see now is that the old prototype tab is still there. We need to refactor this out of existence!
+We're not quite done yet though, the old prototype tab is still there. We need to refactor this out of existence!
 
 Remove all the offending code from your `index.erb` **and** from our `app.js`.
 
