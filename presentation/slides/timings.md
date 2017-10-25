@@ -1,8 +1,8 @@
 ### <span style="color: rgb(135, 184, 61)">Timings</span>
 
-<span style="color: rgb(135, 184, 61)">0900 - Kickoff</span>
+<span style="color: rgb(135, 184, 61)">0930 - Kickoff</span>
 
-<span style="color: rgb(135, 184, 61)">0910 - Learning how to learn</span>
+<span style="color: rgb(135, 184, 61)">0940 - Learning how to learn</span>
 
 <span style="color: rgb(135, 184, 61)">1200 - Standup</span>
 
