@@ -4,4 +4,6 @@
 
 ---?include=presentation/slides/learningToLearn.md
 
+---?include=presentation/slides/link.md
+
 ---?include=presentation/slides/timings.md
