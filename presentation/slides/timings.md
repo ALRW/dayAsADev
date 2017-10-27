@@ -8,7 +8,7 @@
 
 <span style="color: rgb(135, 184, 61)">1230 - Lunch</span>
 
-<span style="color: rgb(135, 184, 61)">1330 - Feedback on blockers</span>
+<span style="color: rgb(135, 184, 61)">1330 - Project announcements</span>
 
 <span style="color: rgb(135, 184, 61)">1630 - Retro</span>
 
