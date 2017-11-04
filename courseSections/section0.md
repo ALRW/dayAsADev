@@ -7,7 +7,7 @@ Throughout this course you will be working in pairs to try and build a prototype
 
 ![Pair Programming](../images/pairProgramming.png)
 
-Pair programming is the process whereby two people actively collaborate on developing code. Used as part of a general teamwork approach it leads to improved code quality, team communication, knowledge share and huge learning gains. Not suprisingly, [Large scale studies of computer science students](http://www.cs.pomona.edu/classes/cs121/supp/williams_prpgm.pdf) have shown greatly improved outcomes when students pair program on coding problems.
+Pair programming is the process whereby two people actively collaborate on developing code. Used as part of a general teamwork approach it leads to improved code quality, team communication, knowledge share and huge learning gains. Not suprisingly, [Large scale studies of computer science students :link:](http://www.cs.pomona.edu/classes/cs121/supp/williams_prpgm.pdf) have shown greatly improved outcomes when students pair program on coding problems.
 
 How to
 ------
@@ -43,4 +43,4 @@ General Pair Programming Do's and Don'ts
  - Be quiet
  - Suffer in silence
 
-[Previous page](../README.md) | [Continue to the next section](./section1.md)
+[:arrow_backward: Previous page](../README.md) | [Continue to the next section :arrow_forward:](./section1.md)

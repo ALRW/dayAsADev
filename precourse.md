@@ -7,18 +7,18 @@ For this course we will be using a number of free services to help reduce the am
 
 Before coming on this course please create a free account on each of the following (the links will take you through to the signup pages)
 
- - [Cloud9](https://c9.io/signup)
- - [Github](https://github.com/join)
- - [Heroku](https://signup.heroku.com)
- - [Travis CI](https://travis-ci.org/auth) - This service does not require a new account but requires you to sign in using your Github account and accept Travis' request for permission to access some of the data on your Github account.
+ - [Cloud9 :link:](https://c9.io/signup)
+ - [Github :link:](https://github.com/join)
+ - [Heroku :link:](https://signup.heroku.com)
+ - [Travis CI :link:](https://travis-ci.org/auth) - This service does not require a new account but requires you to sign in using your Github account and accept Travis' request for permission to access some of the data on your Github account.
 
-You will need your usernames and passwords on the day so either make them memorable or use a [Secure Password Manager](https://www.lastpass.com/)
+You will need your usernames and passwords on the day so either make them memorable or use a [Secure Password Manager :link:](https://www.lastpass.com/)
 
 
 Security
 --------
 
-During the course we will be using Cloud9 and Github in conjunctions with each other. This requires some security configuration, specifically: the two services use [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) to authenticate their interactions. Sadly for us this requires a little bit of configuration.
+During the course we will be using Cloud9 and Github in conjunctions with each other. This requires some security configuration, specifically: the two services use [Public Key Cryptography :link:](https://en.wikipedia.org/wiki/Public-key_cryptography) to authenticate their interactions. Sadly for us this requires a little bit of configuration.
 
 On your Cloud9 home-page click on the settings icon and then onto SSH keys. Then copy the contents of the grey box. In the case that you have multiple SSH keys shown you should copy the second with a title similar to: **Connect to your private Github repositories**.
 
@@ -34,4 +34,5 @@ Once here click on `SSH and GPG keys` then `New SSH key` call the key "Cloud9" a
 
 Congratulations you now have everything need to complete the course!
 
-[Go to course navigation](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+

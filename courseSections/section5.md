@@ -5,9 +5,9 @@ Github
 
 ![octocat](../images/octocat.png)
 
-Making all of these changes on your local computer is great, but we'll need some additional functionality provided by [Github](https://github.com/) to collaborate with other developers.
+Making all of these changes on your local computer is great, but we'll need some additional functionality provided by [Github :link:](https://github.com/) to collaborate with other developers.
 
-Github does three things. Firstly it displays git repos in a visual way, so you can look at them online. Secondly, it serves as a common place for open source projects, so if you're using some open source library, the chances are you can find it on Github. Finally, Github provides a set of tools (forking, issues, etc) to help developers collaborate on projects. If you'd like to see an example Github project, checkout [Bootstrap](https://github.com/twbs/bootstrap). We'll be incorporating this into our project later.
+Github does three things. Firstly it displays git repos in a visual way, so you can look at them online. Secondly, it serves as a common place for open source projects, so if you're using some open source library, the chances are you can find it on Github. Finally, Github provides a set of tools (forking, issues, etc) to help developers collaborate on projects. If you'd like to see an example Github project, checkout [Bootstrap :link:](https://github.com/twbs/bootstrap). We'll be incorporating this into our project later.
 
 Github is Distributed 
 --------------------
@@ -20,7 +20,7 @@ The key feature of git when used in conjunction with Github is the ability to co
 Using Github
 ------------
 
-If you haven't already then signup for a [free Github account](https://github.com/join)
+If you haven't already then signup for a [free Github account :link:](https://github.com/join)
 
 Once you are signed up and signed in click on the green new repository button:
 
@@ -105,4 +105,4 @@ Our ultimate goal is for your pair partner to have access to the code you have c
 
 Enter the username, name or email address of your pair partner's github account and *voila* they will have access to your repository.
 
-[previous section](./section4.md) | [Continue to the next section](./section6.md)
+[:arrow_backward: previous section](./section4.md) | [Continue to the next section :arrow_forward:](./section6.md)

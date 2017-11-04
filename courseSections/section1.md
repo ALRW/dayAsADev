@@ -12,7 +12,7 @@ Getting Started
 
 Choose who is going to be the driver and the navigator to begin with and follow the steps below on the drivers laptop.
 
-1. [Navigate to the Cloud9 account you created earlier](https://c9.io/)
+1. [Navigate to the Cloud9 account you created earlier :link:](https://c9.io/)
 2. Choose `Create a new workspace`
 3. Call your workspace `prototype-website`
 4. Choose a Hosted workspace and make it Pubic
@@ -37,7 +37,7 @@ What you are seeing in this image is an **Integrated Development Environment (ID
 
 You'll notice that a single file has been created for you already - `README.md`. It's a convention of all good projects to have a README file that explains what the project is for and provides information about how to install and run the program.
 
-If you double click the file in the tree view, it will open for editing in the main pane. The file has a `.md` extension, which means it is intended to be written in **Markdown** a popular syntax for lightly styling text files. Markdown is ubiquitous on **Github** [and here is a useful guide to it](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). For now though, let's just create a basic placeholder for our information.
+If you double click the file in the tree view, it will open for editing in the main pane. The file has a `.md` extension, which means it is intended to be written in **Markdown** a popular syntax for lightly styling text files. Markdown is ubiquitous on **Github** [and here is a useful guide to it :link:](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). For now though, let's just create a basic placeholder for our information.
 
 Delete the contents of the file and replace them with the following (those are equal signs under the title):
 
@@ -53,7 +53,7 @@ Make sure you save the file. Switch to the preview tab: has it been updated with
 Introducing Ruby
 ---------------
 
-Ruby is a [programming language](http://www.webopedia.com/TERM/P/programming_language.html). That is to say that it is a formal computer language designed to communicate instructions to a machine, particularly a computer. It is also interpreted. As an aside: languages broadly fall into two catagories: interpreted and compiled. Interpreted languages are read by a program and converted into machine code when they are run whereas compiled langagues are converted into machine code by a compiler. This produces a file that can then be run. This may sound like an exercise in semantics but the point is that different languages have different properties that make them particularly suited to certain tasks.
+Ruby is a [programming language :link:](http://www.webopedia.com/TERM/P/programming_language.html). That is to say that it is a formal computer language designed to communicate instructions to a machine, particularly a computer. It is also interpreted. As an aside: languages broadly fall into two catagories: interpreted and compiled. Interpreted languages are read by a program and converted into machine code when they are run whereas compiled langagues are converted into machine code by a compiler. This produces a file that can then be run. This may sound like an exercise in semantics but the point is that different languages have different properties that make them particularly suited to certain tasks.
 
 Ruby as a language is perfect for our needs and importantly it comes pre-installed on your Cloud9 workspace. To test this, go to the command line and type (don't include the `$`)
 
@@ -96,5 +96,5 @@ You've just written a command-line program: you run it from the command line and
 
 :twisted_rightwards_arrows: At this point let's do our first switchover (staying on the same laptop) and move onto the next section.
 
-[Previous section](./section0.md) | [Continue to the next section](./section2.md)
+[:arrow_backward: Previous section](./section0.md) | [Continue to the next section :arrow_forward:](./section2.md)
 

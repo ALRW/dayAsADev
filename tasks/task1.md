@@ -24,4 +24,4 @@ You should now be able to visit `https://prototype-website-[Your username].c9use
 
 Good job! :twisted_rightwards_arrows:
 
-[Back to section 2](../courseSections/section2.md) | [Continue to Section 3](../courseSections/section3.md)
+[:arrow_backward: Back to section 2](../courseSections/section2.md) | [Continue to Section 3 :arrow_forward:](../courseSections/section3.md)

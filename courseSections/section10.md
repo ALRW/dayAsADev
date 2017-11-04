@@ -43,7 +43,7 @@ The CSS we just added tells the browser to render the body of our page - i.e eve
 
 > Have a think about the many tasks that you do repetitively day in day out - could any of these be automated? If so how? If you can answer those questions maybe there's a startup in the making!
 
-If you would like to know more about DRY and other key principles that guide software development then have a read of this article on the aptly named [Giant Robots Smashing into Other Giant Robots Blog](https://robots.thoughtbot.com/back-to-basics-solid).
+If you would like to know more about DRY and other key principles that guide software development then have a read of this article on the aptly named [Giant Robots Smashing into Other Giant Robots Blog :link:](https://robots.thoughtbot.com/back-to-basics-solid).
 
 Creating our own CSS
 --------------------
@@ -89,7 +89,7 @@ That's probably not the most exciting change you've ever seen (if you can even s
 }
 ```
 
-> Why do you think we've described the jumbotron using `.jumbotron` in our css file? If you're struggling then maybe [this will help](https://www.w3schools.com/cssref/sel_class.asp).
+> Why do you think we've described the jumbotron using `.jumbotron` in our css file? If you're struggling then maybe [this will help :link:](https://www.w3schools.com/cssref/sel_class.asp).
 
 Now if you refresh your browser you should see a nicely outlined jumbotron more centrally positioned on our homepage with text in *Black Coral*. Exciting stuff!!!
 
@@ -100,6 +100,6 @@ Task 5
 
  - [ ] Our work on the current user story is not complete. Our navbar is still looking distinctly "off brand". Style the navbar to bring it inline with the rest of our site and the colour palette. Feel free to go rogue and change the colors and values we've used in our CSS so far. The goal is consitency, but do add a bit of your own flare if you'd like.
 
- - [ ] *Bonus Task* - Add a custom font and update the `application.css` to style our `<h2></h2>` element to use it. [Google fonts is a great source](https://fonts.google.com/)
+ - [ ] *Bonus Task* - Add a custom font and update the `application.css` to style our `<h2></h2>` element to use it. [Google fonts is a great source :link:](https://fonts.google.com/)
 
-[Return to previous section](../courseSections/section9.md) | [Continue to the Answers](../tasks/task5.md)
+[:arrow_backward: Return to previous section](../courseSections/section9.md) | [Continue to the Answers :arrow_forward:](../tasks/task5.md)

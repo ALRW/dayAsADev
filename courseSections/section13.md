@@ -12,9 +12,9 @@ As you can imagine any client would be understandably a little annoyed if their 
 Deploying to Heroku
 -------------------
 
-We're going to deploy our application the [Heroku](https://www.heroku.com/). Heroku is a massive PaaS provider that offers free hosting for small projects. You should already have an account setup as part of the pre-course but if not head [there now](https://www.heroku.com/) and set one up. Make sure to note the email and password you used, you'll need them in a second.
+We're going to deploy our application the [Heroku :link:](https://www.heroku.com/). Heroku is a massive PaaS provider that offers free hosting for small projects. You should already have an account setup as part of the pre-course but if not head [there now :link:](https://www.heroku.com/) and set one up. Make sure to note the email and password you used, you'll need them in a second.
 
-Heroku provides a suite of tools for interacting with it from the command line, called the [Heroku Toolbelt](https://devcenter.heroku.com/articles/heroku-cli). Enter the following to check it's installed:
+Heroku provides a suite of tools for interacting with it from the command line, called the [Heroku Toolbelt :link:](https://devcenter.heroku.com/articles/heroku-cli). Enter the following to check it's installed:
 
 ```
 heroku --version
@@ -68,5 +68,5 @@ When the task finishes go back and visit the application url. What do you see?
 
 :twisted_rightwards_arrows:
 
-[Return to previous section](../courseSections/section12.md) | [Continue to the next section](../courseSections/section14.md)
+[:arrow_backward: Return to previous section](../courseSections/section12.md) | [Continue to the next section :arrow_forward:](../courseSections/section14.md)
 

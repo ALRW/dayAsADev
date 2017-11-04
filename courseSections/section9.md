@@ -94,7 +94,7 @@ $ rspec
 
 What did you see? Is this what you expect?
 
-While there is some initial configuration in the test file we have just created the key to understanding it is seeing that we are *describing* our Prototype App and saying that *it* displays a homepage. The test is *expecting* to see that when we ask for that page we get a [HTTP 200 response](https://httpstatuses.com/200) essentially telling us that the request has succeeded.
+While there is some initial configuration in the test file we have just created the key to understanding it is seeing that we are *describing* our Prototype App and saying that *it* displays a homepage. The test is *expecting* to see that when we ask for that page we get a [HTTP 200 response :link:](https://httpstatuses.com/200) essentially telling us that the request has succeeded.
 
 Great but let's see if we can go a little bit further and actually test what is on the page we have created in `index.erb`. Add the following test after the `end` of the first `it` block and before the `end` of the `describe` block.
 
@@ -123,6 +123,6 @@ $ bundle install
 
  - [ ] Add a new test as an **it** description within our current tests that sees if our pages **includes** the text within our jumbotron
 
-Everything you need should be on this page but if you're looking to do something fancy then feel free to look into the [Rspec testing framework documentation](http://www.rubydoc.info/gems/rspec-expectations/frames)
+Everything you need should be on this page but if you're looking to do something fancy then feel free to look into the [Rspec testing framework documentation :link:](http://www.rubydoc.info/gems/rspec-expectations/frames)
 
-[Previous Section](./section8.md) | [Continue to the Answers](../tasks/task4.md)
+[:arrow_backward: Previous Section](./section8.md) | [Continue to the Answers :arrow_forward:](../tasks/task4.md)

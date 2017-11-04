@@ -11,7 +11,7 @@ I would like to see a description of my prototype business on the websites home 
 In order to understand what a "prototype" business is
 ```
 
-To help us comply with the wireframe we were givene we will use the useful [bootstrap jumbotron element](https://getbootstrap.com/components/#jumbotron) within bootstrap's handy [grid system](https://getbootstrap.com/css/#grid).
+To help us comply with the wireframe we were givene we will use the useful [bootstrap jumbotron element :link:](https://getbootstrap.com/components/#jumbotron) within bootstrap's handy [grid system :link:](https://getbootstrap.com/css/#grid).
 
 The client has also kindly provided us with some text that they would like us to use on the website (in this case feel free to copy and paste the text). 
 
@@ -49,4 +49,4 @@ At this point you're probably wondering: how is bootstrap making all of our html
 
 :twisted_rightwards_arrows:
 
-[Return to previous section](../tasks/task3.md) | [Continue to next section](../courseSections/section9.md)
+[:arrow_backward: Return to previous section](../tasks/task3.md) | [Continue to next section :arrow_forward:](../courseSections/section9.md)

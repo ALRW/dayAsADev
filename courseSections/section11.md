@@ -7,7 +7,7 @@ While our website is now an explosion of colour there's nothing dynamic about it
 
 If you think that sounds potentially dangerous, you are right. A large number of Internet security vulnerabilites involve JavaScript. However, without JavaScript, the web would be a much duller place.
 
-As with our Ruby and CSS code we'll be using a framework to help us along the way. In this instance the popular [JQuery](https://jquery.com/) Library.
+As with our Ruby and CSS code we'll be using a framework to help us along the way. In this instance the popular [JQuery :link:](https://jquery.com/) Library.
 
 As with our other frameworks we need to tell our application to load JQuery so that it's ready for our use.
 
@@ -103,7 +103,7 @@ Showing and Hiding
 
 When trying to work out how to write our code it is often good to first try and ignore the code completely and find a way to articulate each step the you want the program to take.
 
-This is such a good technique that it even has a name: [Rubber Duck Debugging](https://rubberduckdebugging.com/).
+This is such a good technique that it even has a name: [Rubber Duck Debugging :link:](https://rubberduckdebugging.com/).
 
 So let's try it out here. What are the steps that we need to go through to get to a working solution.
 
@@ -164,4 +164,4 @@ And accompanying wireframe.
  - [ ] Create the new contact details tab and add another javascript method that toggles whether it is shown.
  - [ ] Update the existing methods so that when you click on each tab only its content is shown.
 
-[Return to previous section](./section10.md) | [Continue to the answers](../tasks/task6.md)
+[:arrow_backward: Return to previous section](./section10.md) | [Continue to the answers :arrow_forward:](../tasks/task6.md)

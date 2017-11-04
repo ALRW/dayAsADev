@@ -58,4 +58,4 @@ The above code works and fulfils our user stories. We now have a nice working we
 
 > Looking at the above code can you see any issues? Take a moment to think about what might be bad practice about the solution we've just implemented.
 
-[Return to Previous Section](../courseSections/section11.md) | [Continue to next section](../courseSections/section12.md)
+[:arrow_backward: Return to Previous Section](../courseSections/section11.md) | [Continue to next section :arrow_forward:](../courseSections/section12.md)

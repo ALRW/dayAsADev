@@ -18,7 +18,7 @@ So that I detect integration issues as early as possible
 Setting up an automated build pipeline
 -------------------------------------
 
-In the precourse we setup access to a service called [Travis CI](https://travis-ci.org/) which we'll use to automate our CI pipeline.
+In the precourse we setup access to a service called [Travis CI :link:](https://travis-ci.org/) which we'll use to automate our CI pipeline.
 
 But first, what is Travis and what exactly will it do for us? 
 
@@ -28,7 +28,7 @@ With a good set of tests, we can have multiple developers, potentially all over 
 
 So without further ado let's setup travis to run our tests every time we push some new code:
 
-Use the following link to navigate to the [Travis homepage](https://travis-ci.org) and login using your github account.
+Use the following link to navigate to the [Travis homepage :link:](https://travis-ci.org) and login using your github account.
 
 > Note - this should be the Travis account of the person who has the `prototype-website` repository.
 
@@ -63,4 +63,4 @@ Hopefully, if everything was connected correctly you ended up with an output tha
 
 Here you can see that after starting up, Travis clones your code, checks the version status of a number of different pieces of software such as the ruby language, runs `bundle install` to pull in all our dependencies and then runs the commands that we specified in our `.travis.yml` i.e. running all our tests. If all of that runs and passes then we have a successful build!
 
-[Return to previous section](../courseSections/section13.md) | [Continue to the next section](../courseSections/section15.md)
+[:arrow_backward: Return to previous section](../courseSections/section13.md) | [Continue to the next section :arrow_forward:](../courseSections/section15.md)

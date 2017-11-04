@@ -79,13 +79,13 @@ To see all the commits that have been made in the past use the command `$ git lo
 
 ```
 commit 743d0c7b48698192a367892aeb67f947937e4e81
-Author: Andrew Werner <awerner1@googlemail.com>
+Author: Andrew <123456@gmail.com>
 Date:   Tue Mar 21 17:22:27 2017 +0000
 
     Updated the readme
 
 commit 094d3a55c05f25623d4f7d3db570e7070bf09d32
-Author: Andrew <awerner1@googlemail.com>
+Author: Andrew <123456@gmail.com>
 Date:   Mon Mar 20 16:39:52 2017 +0000
 
     My First Commit
@@ -121,7 +121,7 @@ Make a commit when you've done a meaningful piece of work. Ideally, your commit 
  - Added a footer with a few links
  - Added /contact-us page
  
-and so on and so forth (in reality it'll be more detailed and technical). Read [the commit messages of the jQuery project](https://github.com/jquery/jquery/commits/master) to get an idea of what they look like in real life.
+and so on and so forth (in reality it'll be more detailed and technical). Read [the commit messages of the jQuery project :link:](https://github.com/jquery/jquery/commits/master) to get an idea of what they look like in real life.
 
 Task 2 - Switching pairs using git
 ----------------------------------
@@ -130,5 +130,5 @@ Task 2 - Switching pairs using git
 
 - [ ] This time when you switch over add a line to your readme saying what you want to learn on this course then `add` and `commit` your changes `push` them up to github then your pair partner should `pull` them down. Good luck!
 
-[Previous Section](./section5.md) | [Continue to the Answers](../tasks/task2.md)
+[:arrow_backward: Previous Section](./section5.md) | [Continue to the Answers :arrow_forward:](../tasks/task2.md)
 

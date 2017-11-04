@@ -53,4 +53,4 @@ You'll be glad to hear that our client has decided that the website is ready to 
 
 :twisted_rightwards_arrows: commit and push your code, switch over your driver and navigator and we'll move onto looking at deployment.
 
-[Return to previous section](../tasks/task6.md) | [Continue to next section](../courseSections/section13.md)
+[:arrow_backward: Return to previous section](../tasks/task6.md) | [Continue to next section :arrow_forward:](../courseSections/section13.md)

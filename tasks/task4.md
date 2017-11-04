@@ -24,4 +24,4 @@ Now let's give our site a facelift!
 
 :twisted_rightwards_arrows:
 
-[Return to Previous Section](../courseSections/section9.md) | [Continue to next section](../courseSections/section10.md)
+[:arrow_backward: Return to Previous Section](../courseSections/section9.md) | [Continue to next section :arrow_forward:](../courseSections/section10.md)

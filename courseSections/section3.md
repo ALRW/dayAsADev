@@ -58,4 +58,4 @@ Hopefully, you should see something like this:
 
 :twisted_rightwards_arrows: You know what to do.
 
-[Previous page](./section2.md) | [Continue to the next section](./section4.md)
+[:arrow_backward: Previous page](./section2.md) | [Continue to the next section :arrow_forward:](./section4.md)

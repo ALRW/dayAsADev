@@ -58,7 +58,7 @@ So onto the first user story. To get this prototype website off the ground we ne
 Adding a front-end framework
 ----------------------------
 
-We now want to move on to updating the content. You may remember that we've been using the framework (just a fancy way of saying someone elses code) **Sinatra** to help with our back-end. Well now we are going to do the same with our front-end using a framework called [Bootstrap](https://getbootstrap.com/) to help structure our page and make it look pretty.
+We now want to move on to updating the content. You may remember that we've been using the framework (just a fancy way of saying someone elses code) **Sinatra** to help with our back-end. Well now we are going to do the same with our front-end using a framework called [Bootstrap :link:](https://getbootstrap.com/) to help structure our page and make it look pretty.
 
 As you may also remember the first thing we need to do is tell our program that it needs to incorporate this framework. 
 
@@ -121,7 +121,7 @@ I need to see my prototype logo and company name on the website navigation bar
 In order to be able to sleep at night
 ```
 
-For this task you should have a look at the bootstrap documentation for navbars [bootstrap documentation for navbars](https://getbootstrap.com/components/#navbar). You may also want to look into how the [html <img> tag works](https://www.w3schools.com/tags/tag_img.asp). 
+For this task you should have a look at the bootstrap documentation for navbars [bootstrap documentation for navbars :link:](https://getbootstrap.com/components/#navbar). You may also want to look into how the [html <img> tag works :link:](https://www.w3schools.com/tags/tag_img.asp). 
 
 Kindly our client has provided the following logo for us:
 
@@ -137,8 +137,8 @@ The client has also asked that we add the company name as a `<h4></h4>` size ele
 
 Good luck!
 
-[Return to previous section](../tasks/task2.md) | [Continue to answers](../tasks/task3.md)
+[:arrow_backward: Return to previous section](../tasks/task2.md) | [Continue to answers :arrow_forward:](../tasks/task3.md)
 
 ------------------
 
-Icon made by [Freepik](www.freepik.com) from [www.flaticon.com](www.flaticon.com)
+Icon made by [Freepik :link:](www.freepik.com) from [www.flaticon.com :link:](www.flaticon.com)

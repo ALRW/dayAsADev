@@ -37,7 +37,7 @@ Test Driven Development
 
 Earlier in this course we delved into testing. However, the tests we wrote were authored after the fact. On a site as small as this that is a forgivable sin but think about the *coverage* of the tests we do have, do you have confidence that we could run our tests and know that everything we had previously implemented was working as required?
 
-[Test Driven Development](http://www.extremeprogramming.org/rules/testfirst.html) (TDD) is a methodology for forceing ourselves to write well tested and easily testable code. At a high level it follows the iterative process shown below often shortened to the phrase: *red, green, refactor*.
+[Test Driven Development :link:](http://www.extremeprogramming.org/rules/testfirst.html) (TDD) is a methodology for forceing ourselves to write well tested and easily testable code. At a high level it follows the iterative process shown below often shortened to the phrase: *red, green, refactor*.
 
 ![TDD](../images/tdd.png)
 
@@ -50,13 +50,13 @@ Final task
 
 Now that we have covered all of the above it just remains for you to try and implement this new requirement using a TDD approach. Remember to make sure you clean up anything that could be regarded as technical debt.
 
-If you want to go all out on the tests consider looking at the [rspec documentation](http://rspec.info/documentation/3.6/rspec-core/) although you should already have covered everything needed to test this feature.
+If you want to go all out on the tests consider looking at the [rspec documentation :link:](http://rspec.info/documentation/3.6/rspec-core/) although you should already have covered everything needed to test this feature.
 
-If you go down the route of testing what HTML you are returning on the page then you may want to search [Stack Overflow](https://stackoverflow.com) for how to escape quotes in ruby.
+If you go down the route of testing what HTML you are returning on the page then you may want to search [Stack Overflow :link:](https://stackoverflow.com) for how to escape quotes in ruby.
 
-For the image `mailto` link feel free to use anything you want but as a simple starting point consider looking at the [Bootstrap glyphicons](https://getbootstrap.com/docs/3.3/components/).
+For the image `mailto` link feel free to use anything you want but as a simple starting point consider looking at the [Bootstrap glyphicons :link:](https://getbootstrap.com/docs/3.3/components/).
 
 Good luck!
 
 ----------------------------------
-[Return to previous section](../courseSections/section14.md) | [Continue to the answers](../tasks/task7.md)
+[:arrow_backward: Return to previous section](../courseSections/section14.md) | [Continue to the answers :arrow_forward:](../tasks/task7.md)

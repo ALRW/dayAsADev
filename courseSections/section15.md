@@ -68,7 +68,7 @@ deploy:
 
 Now that we can easily authenticate with Heroku from Travis we only need to tell travis the name of our app on Heroku. Update the final line of the `.travis.yml` with the name of your application (note yours will be different):
 
-> If you're wondering how to find the name, it can be found [here](https://dashboard.heroku.com/apps).
+> If you're wondering how to find the name, it can be found [here :link:](https://dashboard.heroku.com/apps).
 
 ```yml
 app: delicious-pie-39548
@@ -79,4 +79,4 @@ app: delicious-pie-39548
 :twisted_rightwards_arrows: - When you commit and push your code this time watch the progress of the build on Travis. If everything is setup correctly you should see that the build succeeds and your code is pushed and deployed to Heroku. However, when you open up your website it looks exactly the same...We haven't made any noticeable changes. Wouldn't it be nice to implment a final feature using everything that we know? Great idea! 
 
 ----------------------------------
-[Return to previous section](../courseSections/section14.md) | [Continue to the next section](../courseSections/section16.md)
+[:arrow_backward: Return to previous section](../courseSections/section14.md) | [Continue to the next section :arrow_forward:](../courseSections/section16.md)
