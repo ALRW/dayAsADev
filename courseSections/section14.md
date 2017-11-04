@@ -1,7 +1,7 @@
 Continuous Integration and Continuous Delivery
 ==============================================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 The two phrases above, often shortened to CI and CD are currently big buzzwords that are often thrown around but rarely understood or used correctly. Throw in other things, such as, build pipelines, Integration Acceptance and Feature tests and things can start to get a bit bewildering but at their heart both are simply good Agile practices that help us to deliver quality features directly to the end-user as fast as possible. So let's try and demystify all of this by creating our own Continuous Delivery pipeline for our Prototype website.
 

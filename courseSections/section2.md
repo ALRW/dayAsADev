@@ -1,7 +1,7 @@
 Welcome to the World Wide Web
 =============================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 A website is a program that receives requests and sends responses over the Internet. But that's a lot easier said than done. Fortunately, it's also so utterly fundamental that the heavy lifting is already done for us by something else; something we call a **web framework**. Most programming languages have a number of web frameworks to choose from and Ruby is no exceptioin. Today we are going to use a framework called [Sinatra](http://www.sinatrarb.com/).
 

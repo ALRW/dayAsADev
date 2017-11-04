@@ -1,7 +1,7 @@
 A Prototype Website
 ===================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 You've come a long way already today and now that we've accumulated a large amount of building-block knowledge let's put it to use and actually build ourselves a prototype website. 
 

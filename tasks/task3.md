@@ -1,7 +1,7 @@
 Task 3 - Adding an icon to the Navbar
 =====================================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 Looking at the bootstrap documentation we can see that we just need to add a link `<a>` html tag with a `class="navbar-brand"` around an `<img>` tag. Using the Url provided in the previous section in the `src"..."` attribute we should end up with the following in our body section:
 

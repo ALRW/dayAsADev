@@ -1,7 +1,7 @@
 Pulling code from Github
 ====================================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 To recap, by now you know how to create a repo locally and push your local code to Github. Now you also need to know how to get your code back from Github. Let's say you and one other developer work on a website together. You both have local repos and a Github repository that you both have added as a remote called "origin". Your colleague made some changes to the website and pushed them to github. How do you get them? You need to "pull" them:
 

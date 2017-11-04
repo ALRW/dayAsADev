@@ -1,7 +1,7 @@
 Pair Programming
 ================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 Throughout this course you will be working in pairs to try and build a prototype website. Working in pairs is not just something to help us learn on this course it is also a fundamental skill used by many developers to improve their code quality, pace of learning and make a few friends along the way.
 

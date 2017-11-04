@@ -1,7 +1,7 @@
 Git and Version Control
 =======================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 So we have the beginnings of our website but before we jump into creating an all singing all dancing web application there is one other aspect of our workflow that needs to be covered: **version control**.
 

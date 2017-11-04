@@ -1,7 +1,7 @@
 Task 2 - Getting your code to Git
 ================================
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 Once you have added something like `I want to learn how to be more like [insert name] awesome developer that I know` to your readme and saved it then running 
 

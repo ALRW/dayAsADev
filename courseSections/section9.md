@@ -1,7 +1,7 @@
 Testing
 =======
 
-[Go to course navigation](../navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 Testing is a whole topic in and of itself and there are various different tools, models and approaches. However in this case let's try and simplify things down to the bare bones.
 

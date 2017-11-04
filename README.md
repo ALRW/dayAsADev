@@ -1,7 +1,7 @@
 A day as a Developer
 ====================
 
-[Go to course navigation](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 What is this all about?
 ----------------------
@@ -49,7 +49,7 @@ One of the first problems to overcome as a developer is getting stuck. It's a tr
 Start Developing
 ----------------
 
-When you're ready click the link to navigate to [:arrow_forward:the first section](./courseSections/section0.md).
+When you're ready click the link to navigate to [the first section :arrow_forward:](./courseSections/section0.md).
 
 ---------------
 [Acknowledgements](./acknowledgements.md)

@@ -1,7 +1,7 @@
 Precourse
 =========
 
-[Go to course navigation](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
 
 For this course we will be using a number of free services to help reduce the amount of configuration required and to allow you to focus on learning.
 
