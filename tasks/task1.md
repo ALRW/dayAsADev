@@ -17,7 +17,7 @@ Putting in your own names as required.
 Make sure you save the upated file. If you have your ruby process running then stop it by pressing `Ctrl-c` in the command-line . Startup the process again (or for the first time) with the newly updated ruby file by running:
 
 ```
-$ ruby server.rb
+$ ruby server.rb -p $PORT -o $IP
 ```
 
 You should now be able to visit `https://prototype-website-[Your username].c9users.io/names` and hopefully both of your names will be displayed for all to see!
