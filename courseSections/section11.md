@@ -1,7 +1,7 @@
 Making Things Happen With JavaScript
 ====================================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 While our website is now an explosion of colour there's nothing dynamic about it. We're going to change that now using JavaScript. JavaScript is not just another programming language. Unlike Ruby which runs on the server JavaScript *runs in the browser*. that might not mean much right now, but it's a game changer! It means that we can load code into our pages from various sources - not just our own server - and have it run independently on the client's machine.
 

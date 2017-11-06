@@ -1,7 +1,7 @@
 Task 5 - Styling the page.
 ==========================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 The first part of this task should be a relatively simple one and we should just be able to re-use some of the styling we created for our `.jumbotron`.
 

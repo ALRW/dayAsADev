@@ -1,7 +1,7 @@
 Task 4 - Testing our page content
 =================================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 Hopefully you found that pretty simple.
 

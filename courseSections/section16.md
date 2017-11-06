@@ -1,7 +1,7 @@
 Changing Requirements, Rotting Code and Test Driven Development!
 ==================================================================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 For this final section we're going air a few aspects of developer dirty laundry and look at how we can possibly try and mitigate them.
 

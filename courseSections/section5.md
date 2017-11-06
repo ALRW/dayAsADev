@@ -1,7 +1,7 @@
 Github
 =======
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 ![octocat](../images/octocat.png)
 

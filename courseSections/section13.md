@@ -1,7 +1,7 @@
 Deployment
 ==========
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 One of the great benefits that we've already seen with Cloud9 is that the website we've created is already online. The URL we visit is available to the whole world and anyone can visit our great prototype site. However, this is really only intended for development and testing. If you don't interact with your workspace in Cloud9 for 2 days it will be shut down along with any running processes (i.e. your server). Your won't lose any work - you just won't be able to access the application from outside of Cloud9 until you log in and restart your server. Anyone trying to access your application will see something like this:
 

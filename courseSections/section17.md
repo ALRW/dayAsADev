@@ -1,7 +1,7 @@
 Course Finale!
 ==========================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 That's it for the day, congratulations. Have a think about what you've accomplished. In the course of a day you've built an application's backend in **Ruby**; created content in **HTML**; styled that content using **CSS**; added a dynamic frontend using **JavaScript** and deployed the resulting prototype to a production environment that can be accessed by anyone anywhere in the world. Not bad for a day's work.
 

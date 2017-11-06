@@ -1,7 +1,7 @@
 Responding with HTML
 =============================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 Admittedly, sending a single string 'Hello world!' to a browser window is not very useful. It is, however, worth it to see how much a web framework does for you. All we had to do in our `server.rb` file was define a **path** (`/`) and a response (`Hello world!`).
 

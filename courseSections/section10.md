@@ -1,7 +1,7 @@
 Adding Your Own Style
 ======================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 Previously we added some content using the Bootstrap framework and some of you were hopefully wondering what was being provided behind the scenes and how our website was already looking a little...styled? To put everything into perspective: so far we've written a little Ruby (telling our computer what to do and what to check for), a little HTML (decribing the structure of the content we want for our page) and now we come to CSS.
 

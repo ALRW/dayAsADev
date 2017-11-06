@@ -1,7 +1,7 @@
 Refactoring
 ===========
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 Looking at our implementation of the show-hide logic for moving between tabs there is clearly a large amount of duplicated code. But why is this a bad thing? I mean we've tested that it works and we've fulfilled our requirements, surely that should be good enough? Not quite: think about the next time our client asks us to add a tab. It's just a little bit more work that the last time we did it. Now think what would happen if our website had 30 or 40 pages each with their own tab views that now need to be updated. This solution is clumsy and doesn't lend itself to extension.
 

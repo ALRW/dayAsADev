@@ -1,7 +1,7 @@
 Task 6 - Adding JavaScript for all of our elements
 ==================================================
 
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
 So first things first, let's create the content that we are going to use. Underneath the `<div class="prototype hidden">...</div>` add the following:
 
