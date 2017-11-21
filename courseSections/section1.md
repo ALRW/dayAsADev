@@ -60,7 +60,7 @@ Ruby as a language is perfect for our needs and importantly it comes pre-install
 ```
 $ ruby -v
 ```
-(...then hit return to enter it.) and you should see something like this:
+(...then hit return to enter it) and you should see something like this:
 
 ```
 ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin15]
