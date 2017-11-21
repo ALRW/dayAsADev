@@ -21,7 +21,7 @@ Try it. You will need to stop and restart your program after making the changes.
 
 > Why is it necessary to stop and restart the program? It may or may not be obvious - but it's good to ask yourself these questions.
 
-Did it work? It should have. But it's not very pretty and HTML pages can get *very long*, so this approach is not going to scale very well. Ideally, we want to separate the HTML into its own file so it's easier to maintain. Again, this is so fundamental it's already built into Sinatra.
+Did it work? It should have. But it's not very pretty and HTML pages can get *very long*, so this approach is not going to scale very well. Ideally, we want to separate the HTML into its own file so it's easier to maintain. Again, this is so fundamental that it's already built into Sinatra.
 
 Create a new folder in your workspace called `views`. Create a new file inside the `views` folder called `index.erb` with the following content:
 

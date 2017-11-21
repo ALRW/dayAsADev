@@ -66,7 +66,7 @@ $ ruby -v
 ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin15]
 ```
 
-> We'll use the `$` sign to represent the command line prompt and to differentiate commands you should enter from output you should see.
+> We'll use the `$` sign to represent the command line prompt and to differentiate commands you should enter from the output you should see.
 
 This tells us the currently installed version of Ruby (which we requested by passing the `-v` to the `ruby` command).
 

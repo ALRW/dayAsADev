@@ -3,7 +3,7 @@ Welcome to the World Wide Web
 
 [:globe_with_meridians: Go to course navigation :globe_with_meridians:](../navigation.md)
 
-A website is a program that receives requests and sends responses over the Internet. But that's a lot easier said than done. Fortunately, it's also so utterly fundamental that the heavy lifting is already done for us by something else; something we call a **web framework**. Most programming languages have a number of web frameworks to choose from and Ruby is no exceptioin. Today we are going to use a framework called [Sinatra :link:](http://www.sinatrarb.com/).
+A website is a program that receives requests and sends responses over the Internet. But that's a lot easier said than done. Fortunately, it's also so utterly fundamental that the heavy lifting is already done for us by something else; something we call a **web framework**. Most programming languages have a number of web frameworks to choose from and Ruby is no exception. Today we are going to use a framework called [Sinatra :link:](http://www.sinatrarb.com/).
 
 Creating the server
 ------------------
@@ -49,18 +49,18 @@ Lets try running it again:
 $ ruby server.rb -p $PORT -o $IP
 ```
 
-Don't worry about what the `-p $PORT -o $IP` bit means at this stage - it's just something Cloud9 requires. Your program should now be running and sending output to the command line. Cloud9 should have opened a browser tab with the URL of your website similar to: `https://prototype-website-[Your username].c9users.io/`. That's a real, live URL. Try opening it from another window, or from your phone. Cool huh?
+Don't worry about what the `-p $PORT -o $IP` bit means at this stage - it's just something Cloud9 requires. Your program should now be running and sending output to the command line. Cloud9 should have opened a browser tab with the URL of your website similar to: `https://prototype-website-[Your username].c9users.io/`. That's a real, live URL. Try opening it from another window, or from your phone. Cool, huh?
 
 > If you made your workspace private instead of public, you'll have to sign in to visit the URL on another browser.
 
 To stop the program running, press `Ctrl + C` in the command window.
 
-:twisted_rightwards_arrows: Now that we've completed another small step its time to switch over again!
+:twisted_rightwards_arrows: Now that we've completed another small step it's time to switch over again!
 
 Task 1
 ------
 
-- [ ] Now the gloves come off...a little. Expanding on what we've just done try to create a route called `'/names'` that when visited returns both of your names.
+- [ ] Now the gloves come off...a little. Expanding on what we've just done try to create a route called `'/names'` that, when visited, returns both of your names.
 
 
 [:arrow_backward: Previous page](./section1.md) | [Continue to the answers :arrow_forward:](../tasks/task1.md)
