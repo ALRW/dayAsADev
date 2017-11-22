@@ -15,7 +15,7 @@ Choose who is going to be the driver and the navigator to begin with and follow 
 1. [Navigate to the Cloud9 account you created earlier :link:](https://c9.io/)
 2. Choose `Create a new workspace`
 3. Call your workspace `prototype-website`
-4. Choose a Hosted workspace and make it Pubic
+4. Choose a Hosted workspace and make it Public
 5. Choose `Blank` as a template
 6. Create the workspace (This may take a minute or two)
 
