@@ -145,4 +145,6 @@ As you can see we're getting to the stage now where in our current state further
 
 Push your code up to Github watch the build progress through Travis CI and all being well deploy automatically to Heroku. Impressive stuff.
 
+----------------
+
 [:arrow_backward: Return to previous section](../courseSections/section16.md) | [Continue to the next section :arrow_forward:](../courseSections/section17.md)

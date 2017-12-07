@@ -53,5 +53,6 @@ Now when we refresh the page we should see that we have everything required by t
 
 :twisted_rightwards_arrows: Good job. Lets switch over and get building the rest of our page.
 
-[:arrow_backward: Return to previous page](../courseSections/section7.md) | [Continue to next section :arrow_forward:](../courseSections/section8.md)
+--------
 
+[:arrow_backward: Return to previous page](../courseSections/section7.md) | [Continue to next section :arrow_forward:](../courseSections/section8.md)

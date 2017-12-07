@@ -63,4 +63,6 @@ Hopefully, if everything was connected correctly you ended up with an output tha
 
 Here you can see that after starting up, Travis clones your code, checks the version status of a number of different pieces of software such as the ruby language, runs `bundle install` to pull in all our dependencies and then runs the commands that we specified in our `.travis.yml` i.e. running all our tests. If all of that runs and passes then we have a successful build!
 
+------------
+
 [:arrow_backward: Return to previous section](../courseSections/section13.md) | [Continue to the next section :arrow_forward:](../courseSections/section15.md)

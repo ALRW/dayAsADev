@@ -9,7 +9,7 @@ To recap, by now you know how to create a repo locally and push your local code 
 $ git pull origin master
 ```
 
-Running this command tells git to get all the latest commits from origin and copy them into your local repository. Try pulling the changes in Cloud9 now. Nothing will happen because there are no remote changes.
+Running this command tells git to get all the latest commits from origin and copy them into your local repository. Try pulling the changes in CodeAnywhere now. Nothing will happen because there are no remote changes.
 
 Let's make a remote change. We'll use github UI for this but normally this would happen because someone else pushed new code.
 
@@ -30,7 +30,7 @@ The Best Prototype Website Ever
 
 Add a commit message and then click on `Commit changes`
 
-Excellent. We have now made changes on the Github computer. Now on your laptop (this should be the laptop that has no code written on it yet) go to your Cloud9 account and follow the steps in [section 1 from **Getting Started** to **Updating the README**](./section1.md). When you get the the final step please delete the automatically generated README.md.
+Excellent. We have now made changes on the Github computer. Now on your laptop (this should be the laptop that has no code written on it yet) go to your CodeAnywhere account and follow the steps in [section 1 from **Getting Started** to **Updating the README**](./section1.md).
 
 This should give you a blank project. Now rather than doing all of that work again we would like to fast forward to the same point that your github repository is at.
 
@@ -79,13 +79,13 @@ To see all the commits that have been made in the past use the command `$ git lo
 
 ```
 commit 743d0c7b48698192a367892aeb67f947937e4e81
-Author: Andrew <123456@gmail.com>
+Author: John <123456@gmail.com>
 Date:   Tue Mar 21 17:22:27 2017 +0000
 
     Updated the readme
 
 commit 094d3a55c05f25623d4f7d3db570e7070bf09d32
-Author: Andrew <123456@gmail.com>
+Author: John <123456@gmail.com>
 Date:   Mon Mar 20 16:39:52 2017 +0000
 
     My First Commit
@@ -129,6 +129,8 @@ Task 2 - Switching pairs using git
 :twisted_rightwards_arrows: Now that you know the basics we can integrate git into our workflow
 
 - [ ] This time when you switch over add a line to your readme saying what you want to learn on this course then `add` and `commit` your changes `push` them up to github then your pair partner should `pull` them down. Good luck!
+
+----------
 
 [:arrow_backward: Previous Section](./section5.md) | [Continue to the Answers :arrow_forward:](../tasks/task2.md)
 

@@ -105,4 +105,6 @@ Our ultimate goal is for your pair partner to have access to the code you have c
 
 Enter the username, name or email address of your pair partner's github account and *voila* they will have access to your repository.
 
+----------
+
 [:arrow_backward: previous section](./section4.md) | [Continue to the next section :arrow_forward:](./section6.md)

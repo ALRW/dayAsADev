@@ -50,4 +50,6 @@ For the rest of this course whenever you see the :twisted_rightwards_arrows: you
 
 Otherwise if everything is good lets get building!
 
+--------
+
 [:arrow_backward: Return to previous section](../courseSections/section6.md) | [Continue to Section 7 :arrow_forward:](../courseSections/section7.md)

@@ -5,12 +5,14 @@ Responding with HTML
 
 Admittedly, sending a single string 'Hello world!' to a browser window is not very useful. It is, however, worth it to see how much a web framework does for you. All we had to do in our `server.rb` file was define a **path** (`/`) and a response (`Hello world!`).
 
-The path forms part of the URL to which the browser makes a request - it's the bit that comes after the domain (i.e. `https://prototype-website-[Your username].c9users.io/`). The single slash (`'/'`) denotes the **root path** - i.e. `https://prototype-website-[Your username].c9users.io/[Nothing Here]`
+The path forms part of the URL to which the browser makes a request - it's the bit that comes after the domain (i.e. `https://prototypeWebsite-[Your username].codeanyapp.com/`). The single slash (`'/'`) denotes the **root path** - i.e. `https://prototypeWebsite-[Your username].codeanyapp.com/[Nothing Here]`
 
 Rather than return a single string, let's respond with some HTML. HTML (Hyper Text Markup Language) is the language of the web and it is used to define the *structure* and *content* of a 'page'. Since HTML is just text, you might be tempted to do this:
 
 ```ruby
 require 'sinatra'
+set :bind, '0.0.0.0'
+set :port, 3000
 
 get '/' do
   '<html><body><h1>Hello World</h1></body></html>'
@@ -38,10 +40,12 @@ Create a new folder in your workspace called `views`. Create a new file inside t
 </html>
 ```
 
-Now change the `server.rb` to the following:
+Now change the `server.rb` file to the following:
 
 ```ruby
 require 'sinatra'
+set :bind, '0.0.0.0'
+set :port, 3000
 
 get '/' do
   erb :index
@@ -56,6 +60,9 @@ Hopefully, you should see something like this:
 
 ![This is what it should look like](../images/indexErb.png)
 
+--------
+
 :twisted_rightwards_arrows: You know what to do.
 
+--------
 [:arrow_backward: Previous page](./section2.md) | [Continue to the next section :arrow_forward:](./section4.md)

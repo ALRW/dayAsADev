@@ -5,34 +5,33 @@ Precourse
 
 For this course we will be using a number of free services to help reduce the amount of configuration required and to allow you to focus on learning.
 
-Before coming on this course please create a free account on each of the following (the links will take you through to the signup pages)
+Before coming on this course please create a free account for Github and Heroku(the links will take you through to the signup pages)
 
- - [Cloud9 :link:](https://c9.io/signup)
  - [Github :link:](https://github.com/join)
  - [Heroku :link:](https://signup.heroku.com)
- - [Travis CI :link:](https://travis-ci.org/auth) - This service does not require a new account but requires you to sign in using your Github account and accept Travis' request for permission to access some of the data on your Github account.
 
-You will need your usernames and passwords on the day so either make them memorable or use a [Secure Password Manager :link:](https://www.lastpass.com/)
+Once you have these accounts you can then signup to the following services using your Github account. In both cases you will be taken through to Github to authorise access.
 
+- [CodeAnywhere :link:](https://codeanywhere.com/signup)
+
+![CodeAnywhere Signup](./images/codeAnywhereSignup.png)
+
+- [Travis CI :link:](https://travis-ci.org/auth)
+
+![Travis Signup](./images/travisSignup.png)
 
 Security
 --------
 
-During the course we will be using Cloud9 and Github in conjunctions with each other. This requires some security configuration, specifically: the two services use [Public Key Cryptography :link:](https://en.wikipedia.org/wiki/Public-key_cryptography) to authenticate their interactions. Sadly for us this requires a little bit of configuration.
+Security is not a dirty word, mostly. Given that we've just signed up to a load of services some of which use our credentials from another service it could be worth considering setting up two-factor authentication on your Github account.
 
-On your Cloud9 home-page click on the settings icon and then onto SSH keys. Then copy the contents of the grey box. In the case that you have multiple SSH keys shown you should copy the second with a title similar to: **Connect to your private Github repositories**.
+Additionally, you will need your usernames and passwords for Github and Heroku on the day so either make them memorable or use a [Secure Password Manager :link:](https://www.lastpass.com/). And as a bit of further inculcation into the developer world here is xkcd's advice on passwords:
 
-![Cloud 9 SSH](./images/cloud9SSH.png)
+![xkcd](https://imgs.xkcd.com/comics/password_strength.png)
 
-Then on Github go Click on your account in the top right hand corner and then settings:
+--------
 
-![github settings](./images/githubSettings.png)
+Now enough admin! Take a minute to pat yourself on the back: you now have everything need to complete the course!
 
-Once here click on `SSH and GPG keys` then `New SSH key` call the key "Cloud9" and then paste the key into the text area labelled "Key". Finally click `Add SSH key`. 
-
-![github ssh](./images/githubSSH.png)
-
-Congratulations you now have everything need to complete the course!
-
-[:globe_with_meridians: Go to course navigation :globe_with_meridians:](./navigation.md)
+[:school: Return to the homepage :school:](./README.md)
 

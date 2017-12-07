@@ -99,7 +99,7 @@ Update the `<body> ... </body>` section of your `index.erb` file with the follow
 Remember to save your file and then if you need to, start up your sever again using the commands below, or otherwise just refresh the page.
 
 ```
-$ ruby server.rb -p $PORT -o $IP
+$ ruby server.rb
 ```
 
 Hopefully when you preview your masterpiece you should see the following rather unexciting page.
@@ -136,6 +136,8 @@ https://raw.githubusercontent.com/ALRW/dayAsADev/master/images/glyphicon.png
 The client has also asked that we add the company name as a `<h4></h4>` size element.
 
 Good luck!
+
+------------------
 
 [:arrow_backward: Return to previous section](../tasks/task2.md) | [Continue to answers :arrow_forward:](../tasks/task3.md)
 

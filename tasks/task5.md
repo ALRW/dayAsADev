@@ -44,4 +44,6 @@ Now when you save and refresh you should see your text wrapped in all the glory 
 
 :twisted_rightwards_arrows: Commit your code and switch back over. Now lets see what else our mysterious client would like us to do!
 
+--------
+
 [:arrow_backward: return to previous section](../courseSections/section10.md) | [Continue to next Section :arrow_forward:](../courseSections/section11.md)

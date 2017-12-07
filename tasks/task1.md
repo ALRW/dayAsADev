@@ -12,15 +12,16 @@ get '/names' do
 end
 ```
 
-Putting in your own names as required.
+> Replace the square brackets and their contents with your names
 
 Make sure you save the upated file. If you have your ruby process running then stop it by pressing `Ctrl-c` in the command-line . Startup the process again (or for the first time) with the newly updated ruby file by running:
 
 ```
-$ ruby server.rb -p $PORT -o $IP
+$ ruby server.rb
 ```
 
-You should now be able to visit `https://prototype-website-[Your username].c9users.io/names` and hopefully both of your names will be displayed for all to see!
+You should now be able to visit `https://[application name, in our case prototypeWebsite]-[Your username].codeanyapp.com`
+ and hopefully both of your names will be displayed for all to see!
 
 Good job! :twisted_rightwards_arrows:
 

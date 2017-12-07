@@ -25,7 +25,7 @@ $ git --version
 which should give you
 
 ```
-git version 2.10.2
+git version 1.9.1
 ```
 
 Setting up your first git repository
@@ -38,10 +38,13 @@ The first thing we need to do is tell git to make our current directory a *git r
 ```
 $ git init
 ```
+
 You should see the following:
+
 ```
-Initialized empty Git repository in /home/ubuntu/workspace/.git/
+Reinitialized existing Git repository in /home/cabox/workspace/.git/
 ```
+
 We now have an initialised repository - something that only has to be done once for every repository. This repository is really just a folder that has all its files *under version control*. When you run `git init`, git created a hidden directory called `.git` (with a dot in front) that it uses to track all changes to the files in the directory. Now that we're setup we can actually start tracking the work we've done so far.
 
 Adding Committing and Status
@@ -72,7 +75,7 @@ So, you'd tell git to only add chapter one to the staging area. The staging area
 So let's go ahead and do that - adding everything that we've done so far:
 
 ```
-$ git add README.md server.rb views/index.erb 
+$ git add README.md hello.rb server.rb views/index.erb 
 ```
 
 Even though there is no output from git after you tell it to add a file, unless you see an error message you can assume it went well.
@@ -89,7 +92,8 @@ This creates our snapshot in time and unlike when we added our files, git now gi
 
 ![git commit](../images/gitCommit.png)
 
-This is what a successful commit message looks like. Git is telling you that it created a commit called "My First Commit" with a number (or hash or SHA) 094d3a5 (yours will be different). 3 files were changed and 33 insertions made (the lines of ruby, HTML and text that we have already written). Now if we ever need to go back to the very beginning we'll be able to `git checkout 094d3a5` to get us back to this point in time.
+This is what a successful commit message looks like. Git is telling you that it created a commit called "My First Commit" with a number (or hash or SHA) 094d3a5 (yours will be different). 3 files were changed and 33 insertions made (the lines of ruby, HTML and text that we have already written). Now if we ever need to go back to the very beginning we'll be able to `git checkout c11a464` to get us back to this point in time.
+
+---------
 
 [:arrow_backward: Previous section](./section3.md) | [Continue to the next section :arrow_forward:](./section5.md)
-

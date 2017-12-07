@@ -125,4 +125,6 @@ $ bundle install
 
 Everything you need should be on this page but if you're looking to do something fancy then feel free to look into the [Rspec testing framework documentation :link:](http://www.rubydoc.info/gems/rspec-expectations/frames)
 
+----------
+
 [:arrow_backward: Previous Section](./section8.md) | [Continue to the Answers :arrow_forward:](../tasks/task4.md)

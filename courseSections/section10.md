@@ -48,7 +48,7 @@ If you would like to know more about DRY and other key principles that guide sof
 Creating our own CSS
 --------------------
 
-Remove the inline style that we added in the last step so that you are left with `<body> ... </body>`. Now create a `public` folder in your Cloud9 workspace and then add a `css` folder inside `public`. Finally create a file called `application.css` inside the `css` folder. At the end your file tree should look a little like this:
+Remove the inline style that we added in the last step so that you are left with `<body> ... </body>`. Now create a `public` folder in your CodeAnywhere workspace and then add a `css` folder inside `public`. Finally create a file called `application.css` inside the `css` folder. At the end your file tree should look a little like this:
 
 ![file tree](../images/fileTree.png)
 
@@ -101,5 +101,7 @@ Task 5
  - [ ] Our work on the current user story is not complete. Our navbar is still looking distinctly "off brand". Style the navbar to bring it inline with the rest of our site and the colour palette. Feel free to go rogue and change the colors and values we've used in our CSS so far. The goal is consitency, but do add a bit of your own flare if you'd like.
 
  - [ ] *Bonus Task* - Add a custom font and update the `application.css` to style our `<h2></h2>` element to use it. [Google fonts is a great source :link:](https://fonts.google.com/)
+
+--------------
 
 [:arrow_backward: Return to previous section](../courseSections/section9.md) | [Continue to the Answers :arrow_forward:](../tasks/task5.md)

@@ -13,6 +13,9 @@ Open the file in the editor and add the following content:
 
 ```ruby
 require 'sinatra' 
+set :bind, '0.0.0.0'
+set :port, 3000
+
 get '/' do
   'Hello World!'
 end
@@ -46,14 +49,16 @@ You should see a few lines of output and a confirmation that a certain number of
 Lets try running it again:
 
 ```
-$ ruby server.rb -p $PORT -o $IP
+$ ruby server.rb
 ```
 
-Don't worry about what the `-p $PORT -o $IP` bit means at this stage - it's just something Cloud9 requires. Your program should now be running and sending output to the command line. Cloud9 should have opened a browser tab with the URL of your website similar to: `https://prototype-website-[Your username].c9users.io/`. That's a real, live URL. Try opening it from another window, or from your phone. Cool, huh?
+Your program should now be running and sending output to the command line. As a slight diversion the line `set :port, 3000` has told our application to run on the port that is reserved for [Hyper Text Transfer Protocol Secure (HTTPS)](https://en.wikipedia.org/wiki/HTTPS). This means that if you now open another tab in your browser you can now visit your application using it's public `https` url which should look like the following:
 
-> If you made your workspace private instead of public, you'll have to sign in to visit the URL on another browser.
+`https://[application name, in our case prototypeWebsite]-[Your username].codeanyapp.com`
 
-To stop the program running, press `Ctrl + C` in the command window.
+You can also find url specifiec on the information page that opened when you first started your container on CodeAnywhere. More excitingly: that's a real, live URL. Try opening it from another window, or from your phone. Cool, huh?
+
+To stop the program running at any time, press `Ctrl + C` in the command window.
 
 :twisted_rightwards_arrows: Now that we've completed another small step it's time to switch over again!
 
@@ -62,5 +67,6 @@ Task 1
 
 - [ ] Now the gloves come off...a little. Expanding on what we've just done try to create a route called `'/names'` that, when visited, returns both of your names.
 
+------
 
 [:arrow_backward: Previous page](./section1.md) | [Continue to the answers :arrow_forward:](../tasks/task1.md)

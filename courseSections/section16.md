@@ -59,4 +59,5 @@ For the image `mailto` link feel free to use anything you want but as a simple s
 Good luck!
 
 ----------------------------------
+
 [:arrow_backward: Return to previous section](../courseSections/section14.md) | [Continue to the answers :arrow_forward:](../tasks/task7.md)

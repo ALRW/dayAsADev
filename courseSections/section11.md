@@ -164,4 +164,6 @@ And accompanying wireframe.
  - [ ] Create the new contact details tab and add another javascript method that toggles whether it is shown.
  - [ ] Update the existing methods so that when you click on each tab only its content is shown.
 
+-------------
+
 [:arrow_backward: Return to previous section](./section10.md) | [Continue to the answers :arrow_forward:](../tasks/task6.md)

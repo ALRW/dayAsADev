@@ -49,4 +49,6 @@ At this point you're probably wondering: how is bootstrap making all of our html
 
 :twisted_rightwards_arrows:
 
+----------
+
 [:arrow_backward: Return to previous section](../tasks/task3.md) | [Continue to next section :arrow_forward:](../courseSections/section9.md)

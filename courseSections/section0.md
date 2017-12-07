@@ -43,4 +43,6 @@ General Pair Programming Do's and Don'ts
  - Be quiet
  - Suffer in silence
 
+------------
+
 [:arrow_backward: Previous page](../README.md) | [Continue to the next section :arrow_forward:](./section1.md)
