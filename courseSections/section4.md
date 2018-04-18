@@ -16,7 +16,7 @@ Using Git to version control your own code
 
 The most common version control system used by web developers is git. With git you get all of the benefits of controlling various versions of your code and the ability to handle distributed work among teams. While there are a number of other examples of version control software out there, git is the largest and most popular and it's what we're going to use on this course.
 
-Luckily for us Cloud9 comes with git installed but, just to check, type the following into the command line:
+Luckily for us CodeAnywhere comes with git installed but, just to check, type the following into the command line:
 
 ```
 $ git --version

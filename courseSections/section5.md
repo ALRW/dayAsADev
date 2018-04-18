@@ -34,9 +34,9 @@ You should see the following:
 
 ![Empty repo](../images/emptyRepo.png)
 
-This means that you have a remote repository but it's empty. Github also shows us the steps required for a new repository and for an existing one. Since we already have a repository setup for our application in Cloud9 we only have two steps to do.
+This means that you have a remote repository but it's empty. Github also shows us the steps required for a new repository and for an existing one. Since we already have a repository setup for our application in CodeAnywhere we only have two steps to do.
 
-The first one is to connect our two repositories together. Right now you have two git repositories: one on Cloud9 and one on github but they don't know of each other. So, we need to connect them first.
+The first one is to connect our two repositories together. Right now you have two git repositories: one on CodeAnywhere and one on github but they don't know of each other. So, we need to connect them first.
 
 Connecting two repositories is done by creating something called a *remote*. This is simply a record in a local repository that it's linked to another one. Let's take a look at the current list of the remotes for your local git repo. Run the following in the command line:
 
@@ -63,7 +63,7 @@ Awesome! Now your local repository knows that it's *linked* to another repositor
 Pushing your code
 ---------------
 
-Back in Cloud 9 go to the command line and run the following:
+Back in CodeAnywhere go to the command line and run the following:
 
 ```
 $ git push -u origin master

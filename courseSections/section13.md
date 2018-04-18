@@ -7,7 +7,7 @@ One of the great benefits that we've already seen with CodeAnywhere is that the 
 
 ![CodeAnywhere non running](../images/nonRunning.png)
 
-As you can imagine any client would be understandably a little annoyed if their brand new website ceased to work after only two days. What we need to do now is **deploy** the application to a **production environment**. Once upon a time that was no triivial matter. It might have required server teams, network teams, thousands of poundsworth of hardware and required weeks of planning. However, with the advent of cloud computing and Platform as a Service (PaaS), you can now set up a production environment in about 5 minutes and deploy to it in about 30 seconds.
+As you can imagine any client would be understandably a little annoyed if their brand new website ceased to work after only two days. What we need to do now is **deploy** the application to a **production environment**. Once upon a time that was no trivial matter. It might have required server teams, network teams, thousands of poundsworth of hardware and required weeks of planning. However, with the advent of cloud computing and Platform as a Service (PaaS), you can now set up a production environment in about 5 minutes and deploy to it in about 30 seconds.
 
 Deploying to Heroku
 -------------------

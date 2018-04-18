@@ -62,7 +62,7 @@ We now want to move on to updating the content. You may remember that we've been
 
 As you may also remember the first thing we need to do is tell our program that it needs to incorporate this framework. 
 
-Open up your `index.erb` in Cloud9 and update it to look like this:
+Open up your `index.erb` in CodeAnywhere and update it to look like this:
 
 ```html
 <!DOCTYPE html>
