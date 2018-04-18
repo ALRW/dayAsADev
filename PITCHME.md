@@ -17,3 +17,5 @@
 ---?include=presentation/slides/link.md
 
 ---?image=presentation/images/schedule.png&size=auto 90% 90%
+
+---?image=presentation/images/CICD.png&size=auto 90% 90%
