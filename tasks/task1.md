@@ -20,7 +20,7 @@ Make sure you save the upated file. If you have your ruby process running then s
 $ ruby server.rb
 ```
 
-You should now be able to visit `https://[application name, in our case prototypeWebsite]-[Your username].codeanyapp.com`
+You should now be able to visit `https://[application name, in our case prototypeWebsite]-[Your username].codeanyapp.com/names`
  and hopefully both of your names will be displayed for all to see!
 
 Good job! :twisted_rightwards_arrows:
