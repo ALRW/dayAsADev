@@ -6,7 +6,7 @@ A day as a Developer
 What is this all about?
 ----------------------
 
-As an agile team member working in tech you have the fortune/misfortune to work with developers. We try to work using agile methodologies and this includes the concept of the cross-functional team. As [this succinct article :link:](https://www.scrumalliance.org/community/articles/2014/june/success-story-cross-functional-scrum-teams) puts it, this is about the big picture. A team has a goal that it needs to achieve, how it gets there should be the preserve of the team and this should not be hampered by job titles and/or narrow working silos. Having a common level of understanding and a common language across the team can help to break down these silos creating a highly performing team. 
+As an agile team member working in tech you have the fortune/misfortune to work with developers. We try to work using agile methodologies and this includes the concept of the cross-functional team. This is about the big picture. A team has a goal that it needs to achieve, how it gets there should be the preserve of the team and this should not be hampered by job titles and/or narrow working silos. Having a common level of understanding and a common language across the team can help to break down these silos creating a highly performing team. 
 
 Now when it comes to obscure language and weird acronyms, I have to admit, developers need to shoulder much of the blame. So think of this course as a tortuous apology and, as the quickest way to learn something is to do it, you will now get to spend the next day as a developer.
 
